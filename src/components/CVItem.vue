@@ -1,0 +1,155 @@
+<script lang="ts" setup>
+import {
+  computed,
+  type ComputedRef,
+  onMounted,
+  ref,
+  type Ref,
+  type ShallowRef,
+  useTemplateRef,
+} from 'vue'
+import CVIcon from './CVIcon.vue'
+
+const props = defineProps<{
+  icon: string
+  title: string
+  icon_colour: string
+  expanded?: boolean
+  level?: string
+}>()
+
+const colour: ComputedRef<string> = computed(() => {
+  if (props.icon_colour) {
+    return props.icon_colour
+  }
+  return 'transparent'
+})
+const icon_size: ComputedRef<string> = computed(() => {
+  return props.level === 'two' ? 'medium' : 'large'
+})
+const state: Ref<string, string> = ref('not-expanded')
+const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
+
+onMounted(() => {
+  if (props.expanded) {
+    expander()
+  }
+})
+
+function expander() {
+  if (content_div.value) {
+    if (state.value === 'expanded') {
+      state.value = 'not-expanded'
+      content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
+      setTimeout(() => {
+        if (content_div.value) {
+          content_div.value.style.maxHeight = '0'
+        }
+      }, 100)
+
+      content_div.value.style.margin = '0'
+    } else {
+      state.value = 'expanded'
+      content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
+      content_div.value.style.margin = '5px 10px'
+      setTimeout(() => {
+        if (content_div.value) {
+          content_div.value.style.maxHeight = 'none'
+        }
+      }, 400)
+    }
+  }
+}
+</script>
+
+<template>
+  <div :class="level" class="item" @click.prevent.stop="expander">
+    <div v-if="icon != 'none'" class="item_icon">
+      <CVIcon :icon="icon" :size="icon_size" />
+    </div>
+    <div class="header">
+      <h3>{{ title }}</h3>
+    </div>
+    <div ref="content" :class="[state]" class="content">
+      <slot></slot>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.item {
+  margin-top: 0;
+  position: relative;
+  border-top: var(--color-border) solid 1px;
+  line-height: 1.6;
+}
+
+.item.two {
+  margin-left: 37px;
+  width: auto;
+}
+
+.header {
+  min-height: 56.5px;
+  background-color: var(--color-background-soft);
+  padding-left: 10px;
+}
+
+.two .header {
+  min-height: 37px;
+}
+
+.header:hover {
+  background-color: var(--color-background-mute);
+}
+
+.item_icon {
+  position: absolute;
+  left: -59px;
+  padding-top: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 3px;
+  background-color: v-bind(colour);
+  border: var(--color-border) solid 2px;
+  color: white;
+}
+
+.two .item_icon {
+  left: -37px;
+  padding-top: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: EurostileExt, Inter, sans-serif;
+  margin-bottom: 0.4rem;
+  color: var(--color-heading);
+  padding-top: 10px;
+}
+
+.two h3 {
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+.content {
+  margin: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition:
+    max-height 0.4s linear,
+    margin 0.1s ease-in 0.41s;
+  line-height: 1.1;
+}
+
+.expanded {
+  transition:
+    max-height 0.4s linear,
+    margin 0.1s linear;
+}
+</style>
