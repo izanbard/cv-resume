@@ -1,9 +1,11 @@
 <script lang="ts" setup>
-import CvItem from '@/components/CVItem.vue'
 import CVContacts from '@/components/CVContacts.vue'
-import CVSkill from '@/components/CVSkill.vue'
+import CVHistoryItem from '@/components/CVHistoryItem.vue'
+import CvItem from '@/components/CVItem.vue'
 import CVListItem from '@/components/CVListItem.vue'
+import CVSkill from '@/components/CVSkill.vue'
 import CVText from '@/components/CVText.vue'
+import CVTimeline from '@/components/CVTimeline.vue'
 </script>
 
 <template>
@@ -80,9 +82,10 @@ import CVText from '@/components/CVText.vue'
         </CVSkill>
         <CVSkill title="Partnership and Relationship Building">
           <CVText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris
-            quis turpis arcu. Proin orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat
-            volutpat. Fusce consectetur volutpat leo, ac convallis lorem. Fusce id malesuada lorem,
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus.
+            Mauris quis turpis arcu. Proin orci mi, varius a nibh vitae, vestibulum maximus mi.
+            Aliquam erat volutpat. Fusce consectetur volutpat leo, ac convallis lorem. Fusce id
+            malesuada lorem,
           </CVText>
         </CVSkill>
         <CVSkill title="Business Planning and Budgeting">
@@ -144,7 +147,31 @@ import CVText from '@/components/CVText.vue'
         </CVSkill>
       </CvItem>
     </CvItem>
-    <CvItem icon="history" icon_colour="midnightblue" title="Work History"></CvItem>
+    <CvItem icon="history" icon_colour="midnightblue" title="Work History">
+      <CVTimeline />
+      <CVHistoryItem end="Mar 2008" icon="army.png" start="Aug 1998" title="British Army">
+      </CVHistoryItem>
+      <CVHistoryItem end="Mar 2008" icon="army.png" start="Aug 1998" title="British Army Officer">
+        <CVText>
+          Royal Signals Officers are the army's technical leaders, both commanding highly capable
+          technical soldiers and shaping technology policy and procurement. Throughout my career as
+          a Royal Signals Officer I completed duties in both sides of the role.
+        </CVText>
+        <CVText>
+          In command, I presided over units of upto 200 soldiers providing telephony and office
+          services in the field and in barracks. I was a recruit training instructor for technical
+          apprentices. I was deployed to various location worldwide including an exchange to the New
+          Zealand Army.
+        </CVText>
+        <CVText>
+          In a technical capacity I procure urgently needed operational equipment for troops in
+          Bosnia, Kosovo, Iraq and Afghanistan. I managed a global reachback communications network
+          connecting UK military HQs with governmental command and other NATO allies. I was
+          appointed as the Army's competent authority on Electronic Warfare, supervising all Army
+          projects, research and development and supporting our industry partners.
+        </CVText>
+      </CVHistoryItem>
+    </CvItem>
     <CvItem icon="school" icon_colour="slategray" title="Education"></CvItem>
     <CvItem icon="volunteer_activism" icon_colour="navy" title="Volunteering"></CvItem>
     <CvItem icon="link" icon_colour="darkslategray" title="Links"></CvItem>
@@ -154,7 +181,7 @@ import CVText from '@/components/CVText.vue'
       title="Hobbies and Interests"
     ></CvItem>
     <CvItem icon="sports" icon_colour="peru" title="Referees"></CvItem>
-    <CvItem icon="file_save" icon_colour="crimson" title="PDF Download" :no_print="true"></CvItem>
+    <CvItem :no_print="true" icon="file_save" icon_colour="crimson" title="PDF Download"></CvItem>
   </main>
 </template>
 
