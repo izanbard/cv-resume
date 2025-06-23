@@ -7,13 +7,13 @@ onMounted(() => {
 
   window.addEventListener('keyup', function (ev) {
     keyhistory += ev.key
-    if (keyhistory.endsWith('party')) {
-      document.body.classList.add('party')
+    if (keyhistory.endsWith('easter')) {
+      document.body.classList.add('easter')
     } else {
-      document.body.classList.remove('party')
+      document.body.classList.remove('easter')
     }
-    if (keyhistory.length > 5) {
-      keyhistory = keyhistory.slice(-5)
+    if (keyhistory.length > 6) {
+      keyhistory = keyhistory.slice(-6)
     }
   })
 })
@@ -40,6 +40,9 @@ header {
   display: grid;
   grid-template-columns: 200px auto;
   align-items: center;
+  @media print {
+    border: 0;
+  }
 }
 
 .header_image {
@@ -49,7 +52,7 @@ header {
 }
 
 h1 {
-  font-family: EurostileExt, Inter, sans-serif;
+  font-family: "Eurostile Extended", Inter, sans-serif;
   font-variant-caps: small-caps;
   font-synthesis-weight: auto;
   font-weight: bolder;

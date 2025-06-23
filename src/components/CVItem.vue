@@ -16,6 +16,7 @@ const props = defineProps<{
   icon_colour: string
   expanded?: boolean
   level?: string
+  no_print?: boolean
 }>()
 
 const colour: ComputedRef<string> = computed(() => {
@@ -63,7 +64,7 @@ function expander() {
 </script>
 
 <template>
-  <div :class="level" class="item" @click.prevent.stop="expander">
+  <div :class="{level, no_print}" class="item"  @click.prevent.stop="expander">
     <div v-if="icon != 'none'" class="item_icon">
       <CVIcon :icon="icon" :size="icon_size" />
     </div>
@@ -87,12 +88,18 @@ function expander() {
 .item.two {
   margin-left: 37px;
   width: auto;
+  @media print {
+    margin-left: 0;
+  }
 }
 
 .header {
   min-height: 56.5px;
   background-color: var(--color-background-soft);
   padding-left: 10px;
+  @media print {
+    padding: 0;
+  }
 }
 
 .two .header {
@@ -113,6 +120,9 @@ function expander() {
   background-color: v-bind(colour);
   border: var(--color-border) solid 2px;
   color: white;
+  @media print {
+    display: none;
+  }
 }
 
 .two .item_icon {
@@ -126,7 +136,7 @@ function expander() {
 h3 {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: EurostileExt, Inter, sans-serif;
+  font-family: "Eurostile Extended", Inter, sans-serif;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
   padding-top: 10px;
@@ -145,11 +155,20 @@ h3 {
     max-height 0.4s linear,
     margin 0.1s ease-in 0.41s;
   line-height: 1.1;
+  @media print {
+    max-height: none;
+    margin: 5px 10px;
+  }
 }
 
 .expanded {
   transition:
     max-height 0.4s linear,
     margin 0.1s linear;
+}
+.no_print{
+  @media print {
+    display: none;
+  }
 }
 </style>

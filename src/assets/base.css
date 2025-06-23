@@ -62,8 +62,8 @@
   src: url('./fonts/eurostile.TTF');
 }
 @font-face {
-  font-family: EurostileExt;
-  src: url('./fonts/Eurostile Extended Regular.ttf');
+  font-family: "Eurostile Extended";
+  src: url('./fonts/EurostileExtendedBlack.ttf');
 }
 body {
   min-height: 100vh;
@@ -80,6 +80,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body.party {
-  background: var(--color-background-mute) url(images/party.png);
+body.easter {
+  background: var(--color-background-mute) url(images/easter.png);
 }

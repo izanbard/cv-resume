@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import CVText from '@/components/CVText.vue'
+
 defineProps<{
   title: string
 }>()
@@ -6,8 +8,7 @@ defineProps<{
 
 <template>
   <div class="content">
-    <span class="title">{{ title }}. </span>
-    <slot></slot>
+    <CVText><span class="title">{{ title }}. </span><slot></slot></CVText>
   </div>
 </template>
 
@@ -24,6 +25,8 @@ defineProps<{
 
 .content {
   margin-left: 10px;
-  margin-bottom: 10px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 </style>
