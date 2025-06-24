@@ -52,7 +52,7 @@ header {
 }
 
 h1 {
-  font-family: "Eurostile Extended", Inter, sans-serif;
+  font-family: 'Eurostile Extended', Inter, sans-serif;
   font-variant-caps: small-caps;
   font-synthesis-weight: auto;
   font-weight: bolder;

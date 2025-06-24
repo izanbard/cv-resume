@@ -8,7 +8,9 @@ defineProps<{
 
 <template>
   <div class="content">
-    <CVText><span class="title">{{ title }}. </span><slot></slot></CVText>
+    <CVText>
+      <span class="title">{{ title }}. </span><slot></slot>
+    </CVText>
   </div>
 </template>
 

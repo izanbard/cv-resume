@@ -26,7 +26,7 @@ defineProps<{
 h3 {
   font-size: 16px;
   font-weight: bold;
-  font-family: "Eurostile Extended", Inter, sans-serif;
+  font-family: 'Eurostile Extended', Inter, sans-serif;
   color: var(--color-heading);
 }
 </style>

@@ -1,13 +1,5 @@
 <script lang="ts" setup>
-import {
-  computed,
-  type ComputedRef,
-  onMounted,
-  ref,
-  type Ref,
-  type ShallowRef,
-  useTemplateRef,
-} from 'vue'
+import { computed, type ComputedRef, onMounted, ref, type Ref, type ShallowRef, useTemplateRef } from 'vue'
 import CVIcon from './CVIcon.vue'
 
 const props = defineProps<{

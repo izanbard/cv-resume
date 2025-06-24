@@ -8,48 +8,72 @@ defineProps<{
   start: string
   title: string
 }>()
-const more=ref("More...")
-const item_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
+const more = ref('More...')
+const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
 const show_more = ref(true)
-const max_height = ref(60)
-onMounted(()=>{
-  if (item_div.value && item_div.value.scrollHeight <= max_height.value) {
-    show_more.value = false
+const max_height = ref(50)
+
+onMounted(() => {
+  resize()
+  if (content_div.value) {
+    new ResizeObserver(resize).observe(content_div.value)
   }
 })
+
+function resize() {
+  show_more.value = !(content_div.value && content_div.value.scrollHeight <= max_height.value) || more.value === '...Less'
+}
+
 function getImageUrl(name: string) {
   return new URL('../assets/images/' + name, import.meta.url).pathname
 }
+
 function expand() {
-  if (item_div.value) {
-    if (more.value === "More...") {
-      more.value = "...Less"
-      item_div.value.style.maxHeight = item_div.value.scrollHeight+'px'
-      item_div.value.style.overflow = 'visible'
+  if (content_div.value) {
+    if (more.value === 'More...') {
+      more.value = '...Less'
+      content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
     } else {
-      more.value = "More..."
-      item_div.value.style.maxHeight = max_height.value+'px'
-      item_div.value.style.overflow = 'hidden'
+      more.value = 'More...'
+      content_div.value.style.maxHeight = max_height.value + 'px'
     }
   }
 }
 </script>
 
 <template>
-  <div class="item" >
-    <img class="icon" :alt="title" :src="getImageUrl(icon)" />
-    <div class="header">
-      <h3>{{ title }}: </h3>
-      <span class="start">{{ start }}</span> - <span class="end">{{ end }}</span>
+  <div class="item">
+    <div class="item-expander">
+      <img :alt="title" :src="getImageUrl(icon)" class="icon" />
+      <div class="header">
+        <h3>{{ title }}</h3>
+      </div>
+      <div class="sub-header">
+        <span class="start">{{ start }}</span> - <span class="end">{{ end }}</span>
+      </div>
+      <div ref="content" class="content">
+        <CVText>
+          <slot></slot>
+        </CVText>
+      </div>
     </div>
-    <div class="content" ref="content">
-      <CVText><slot></slot></CVText>
+    <div v-if="show_more" class="more" @click.stop="expand()">
+      <span class="more_span">{{ more }}</span>
     </div>
-    <div v-if="show_more" class="more" @click.stop="expand()"><span class="more_span">{{ more }}</span></div>
   </div>
 </template>
 
 <style scoped>
+.header {
+  text-wrap: nowrap;
+}
+.sub-header {
+  margin-bottom: 5px;
+}
+.item-expander {
+  overflow: hidden;
+}
+
 h3 {
   font-size: 16px;
   font-weight: bold;
@@ -73,38 +97,44 @@ h3 {
   padding-top: 5px;
   border-top: 1px solid var(--color-border);
   clear: both;
+  overflow: hidden;
 }
+
 .icon {
-  height: 80px;
+  width: 94px;
   display: inline;
-  float:left;
+  float: left;
   margin: 0 5px;
   margin-bottom: 5px;
 }
+
 .more {
   @media print {
     display: none;
   }
+
   text-align: center;
   font-size: 10px;
   font-weight: bold;
   font-family: 'Eurostile Extended', Inter, sans-serif;
   color: hsla(160, 100%, 37%, 1);
+  margin-left: 94px;
 }
+
 .more_span {
   transition: all 0.4s;
 }
+
 .more_span:hover {
   background-color: hsla(160, 100%, 37%, 0.2);
 }
-.content{
-  max-height: v-bind(max_height+'px');
-  overflow: hidden;
+
+.content {
+  max-height: v-bind(max_height + 'px');
   transition: max-height 0.4s linear;
   @media print {
     max-height: none !important;
     overflow: visible !important;
   }
-
 }
 </style>
