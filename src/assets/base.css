@@ -96,6 +96,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*noinspection CssUnknownTarget*/
 body.easter {
-  background: var(--color-background-mute) url(images/easter.png);
+  background: var(--color-background-mute) url(/images/easter.png);
 }

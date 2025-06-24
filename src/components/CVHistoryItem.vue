@@ -25,7 +25,7 @@ function resize() {
 }
 
 function getImageUrl(name: string) {
-  return new URL('../assets/images/' + name, import.meta.url).pathname
+  return new URL('/images/' + name, import.meta.url).pathname
 }
 
 function expand() {

@@ -5,7 +5,7 @@
     <img
       alt="Work History summarised over 25-years showing which companies Gordy has worked for using their logos"
       class="content"
-      src="@/assets/images/timeline.png"
+      src="/images/timeline.png"
     />
   </div>
 </template>

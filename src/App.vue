@@ -21,7 +21,7 @@ onMounted(() => {
 
 <template>
   <header>
-    <img alt="Gordy Wills looking fly" class="header_image" src="@/assets/images/headshot.png" />
+    <img alt="Gordy Wills looking fly" class="header_image" src="/images/headshot.png" />
     <h1>Gordon Peter Wills</h1>
   </header>
   <CVResume />
