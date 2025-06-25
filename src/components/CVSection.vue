@@ -1,7 +1,20 @@
 <script lang="ts" setup>
-defineProps<{
-  title: string
+import { computed } from 'vue'
+
+const props = defineProps<{
+  title: string,
+  size?: string
 }>()
+const size_lookup: Record<string, number> = {
+  large: 18,
+  medium: 15,
+  small: 12,
+}
+
+const text_size = computed(() => {
+  return props.size && props.size in size_lookup ? size_lookup[props.size] : 18;
+})
+
 </script>
 
 <template>
@@ -24,7 +37,7 @@ defineProps<{
 }
 
 h3 {
-  font-size: 16px;
+  font-size: v-bind(text_size+'px');
   font-weight: bold;
   font-family: 'Eurostile Extended', Inter, sans-serif;
   color: var(--color-heading);

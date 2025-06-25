@@ -14,25 +14,25 @@ defineProps<{
     <div v-if="tel">
       <p>
         <CVIcon icon="call" size="small" />
-        : {{ tel }}
+        : <a :href="'tel:' + tel">{{ tel }}</a>
       </p>
     </div>
     <div v-if="email">
       <p>
         <CVIcon icon="mail" size="small" />
-        : <a :href="'mailto:' + email" @click.stop>{{ email }}</a>
+        : <a :href="'mailto:' + email">{{ email }}</a>
       </p>
     </div>
     <div v-if="web">
       <p>
         <CVIcon icon="link" size="small" />
-        : <a :href="web" target="_blank" @click.stop>{{ web }}</a>
+        : <a :href="web" target="_blank">{{ web }}</a>
       </p>
     </div>
     <div v-if="ledIn">
       <p>
         <CVIcon icon="person" size="small" />
-        : <a :href="ledIn" target="_blank" @click.stop>{{ ledIn }}</a>
+        : <a :href="ledIn" target="_blank">{{ ledIn }}</a>
       </p>
     </div>
   </div>

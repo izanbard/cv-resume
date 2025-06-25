@@ -56,11 +56,11 @@ function expander() {
 </script>
 
 <template>
-  <div :class="[level, no_print ? 'no_print' : '']" class="item" @click.prevent.stop="expander">
-    <div v-if="icon != 'none'" class="item_icon">
+  <div :class="[level, no_print ? 'no_print' : '']" class="item" >
+    <div v-if="icon != 'none'" class="item_icon" @click.stop="expander">
       <CVIcon :icon="icon" :size="icon_size" />
     </div>
-    <div class="header">
+    <div class="header" @click.stop="expander">
       <h3>{{ title }}</h3>
     </div>
     <div ref="content" :class="[state]" class="content">
@@ -75,6 +75,7 @@ function expander() {
   position: relative;
   border-top: var(--color-border) solid 1px;
   line-height: 1.6;
+
 }
 
 /*noinspection CssUnusedSymbol*/
@@ -93,6 +94,7 @@ function expander() {
   @media print {
     padding: 0;
   }
+  cursor: pointer;
 }
 
 .two .header {
@@ -116,6 +118,7 @@ function expander() {
   @media print {
     display: none;
   }
+  cursor: pointer;
 }
 
 .two .item_icon {

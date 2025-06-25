@@ -21,8 +21,7 @@ defineProps<{
 
 .title::before {
   content: '\2022';
-  left: 10px;
-  position: absolute;
+  padding-right: 6px;
 }
 
 .content {

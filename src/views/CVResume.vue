@@ -2,24 +2,24 @@
 import CVContacts from '@/components/CVContacts.vue'
 import CVDownload from '@/components/CVDownload.vue'
 import CVHistoryItem from '@/components/CVHistoryItem.vue'
-import CvItem from '@/components/CVItem.vue'
+import CVItem from '@/components/CVItem.vue'
 import CVListItem from '@/components/CVListItem.vue'
-import CVSkill from '@/components/CVSkill.vue'
+import CVSection from '@/components/CVSection.vue'
 import CVText from '@/components/CVText.vue'
 import CVTimeline from '@/components/CVTimeline.vue'
 </script>
 
 <template>
   <main>
-    <CvItem :expanded="true" icon="info" icon_colour="slateblue" title="Contact Details">
+    <CVItem :expanded="true" icon="info" icon_colour="slateblue" title="Contact Details">
       <CVContacts
         email="gordy.wills@gmail.com"
         led-in="https://www.linkedin.com/in/gordywills/"
         tel="+44 7710 416 608"
         web="https://gordywills.com/"
       />
-    </CvItem>
-    <CvItem icon="article" icon_colour="darkolivegreen" title="Introduction">
+    </CVItem>
+    <CVItem icon="article" icon_colour="darkolivegreen" title="Introduction">
       <CVText>I lead teams that get hard things done.</CVText>
       <CVText>
         While I briefly ventured into TV production, technology has always been central to my career, from my time as an
@@ -44,10 +44,10 @@ import CVTimeline from '@/components/CVTimeline.vue'
         I am also a human, I enjoy long distance hiking, tackling a crossword and engaging with cerebral computer games. My
         wonderful partner inspires me everyday.
       </CVText>
-    </CvItem>
-    <CvItem icon="person_celebrate" icon_colour="saddlebrown" title="Skills">
-      <CvItem icon="mindfulness" icon_colour="cornflowerblue" level="two" title="Business Skills">
-        <CVSkill title="Leadership">
+    </CVItem>
+    <CVItem icon="person_celebrate" icon_colour="darkgoldenrod" title="Skills">
+      <CVItem icon="mindfulness" icon_colour="cornflowerblue" level="two" title="Business Skills">
+        <CVSection title="Leadership" size="medium">
           <CVListItem title="Agile">
             From Scrummaster of a single team to leading an engineering department of 5 Scrum teams, I have the experience to
             manage the processes that back up Agile. Focusing on quality, I work to empower the front line decision makers to
@@ -73,78 +73,78 @@ import CVTimeline from '@/components/CVTimeline.vue'
             experience in many different contexts. I am familiar with PRINCE2, Gantt Chart, Balanced Scorecard, ITIL, Critical
             Path, and latterly Scrum and Kanban methodologies for managing projects.
           </CVListItem>
-        </CVSkill>
-        <CVSkill title="Partnership and Relationship Building">
+        </CvSection>
+        <CVSection title="Partnership and Relationship Building" size="medium">
           <CVText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
             orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
             convallis lorem. Fusce id malesuada lorem,
           </CVText>
-        </CVSkill>
-        <CVSkill title="Business Planning and Budgeting">
+        </CvSection>
+        <CVSection title="Business Planning and Budgeting" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Strategic and Operational Goal setting">
+        </CvSection>
+        <CVSection title="Strategic and Operational Goal setting" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Recruitment">
+        </CvSection>
+        <CVSection title="Recruitment" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Culture Creation">
+        </CvSection>
+        <CVSection title="Culture Creation" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Agile Thinking, Behaviour and Coaching">
+        </CvSection>
+        <CVSection title="Agile Thinking, Behaviour and Coaching" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-      </CvItem>
-      <CvItem icon="data_object" icon_colour="darkgoldenrod" level="two" title="Technical Skills">
-        <CVSkill title="System Architecture">
+        </CvSection>
+      </CVItem>
+      <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
+        <CVSection title="System Architecture" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Systems Integaration">
+        </CVSection>
+        <CVSection title="Systems Integaration" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="DevOps Patterns">
+        </CvSection>
+        <CVSection title="DevOps Patterns" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Site Reliability Engineering">
+        </CvSection>
+        <CVSection title="Site Reliability Engineering" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Software Engineering">
+        </CvSection>
+        <CVSection title="Software Engineering" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-        <CVSkill title="Infrastructure and Networking">
+        </CvSection>
+        <CVSection title="Infrastructure and Networking" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CVSkill>
-      </CvItem>
-    </CvItem>
-    <CvItem icon="history" icon_colour="midnightblue" title="Work History">
-      <CvItem title="Overview Infographic" icon="history" icon_colour="midnightblue" level="two" :expanded="true"
-        ><CVTimeline
-      /></CvItem>
-      <CvItem title="Details" icon="history" icon_colour="midnightblue" level="two">
+        </CvSection>
+      </CVItem>
+    </CVItem>
+    <CVItem icon="history" icon_colour="midnightblue" title="Work History">
+      <CVSection title="Overview" size="large">
+        <CVTimeline/>
+      </CVSection>
+      <CVSection title="Details" size="large">
         <CVHistoryItem title="Hd of Integration, IGS Ltd" end="Dec 2024" icon="igs.png" start="Nov 2022"> </CVHistoryItem>
         <CVHistoryItem title="Hd of Software, IGS Ltd" end="Nov 2022" icon="igs.png" start="Oct 2019"> </CVHistoryItem>
 
@@ -271,9 +271,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
             all Army projects, research and development and supporting our industry partners.
           </CVText>
         </CVHistoryItem>
-      </CvItem>
-    </CvItem>
-    <CvItem icon="school" icon_colour="slategray" title="Education">
+      </CVSection>
+    </CVItem>
+    <CVItem icon="school" icon_colour="slategray" title="Education">
       <CVHistoryItem title="Royal Military Academy Sandhurst" end="Jul 1999" icon="rmas.webp" start="Aug 1998"></CVHistoryItem>
       <CVHistoryItem
         title="University of Warwick, Dept of Computer Science"
@@ -287,9 +287,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
         icon="dyrms.png"
         start="Sep 1988"
       ></CVHistoryItem>
-    </CvItem>
-    <CvItem icon="volunteer_activism" icon_colour="navy" title="Volunteering">
-      <CVHistoryItem title="REACT Disaster Responce" end="Present" icon="react.png" start="Jun 2020">
+    </CVItem>
+    <CVItem icon="volunteer_activism" icon_colour="navy" title="Volunteering">
+      <CVHistoryItem title="REACT Disaster Response" end="Present" icon="react.png" start="Jun 2020">
         <CVText>
           Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy emergency
           response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer responder able to
@@ -303,19 +303,18 @@ import CVTimeline from '@/components/CVTimeline.vue'
           bring my full range of skills and experience to help people in the aftermath of a disaster.
         </CVText>
       </CVHistoryItem>
-    </CvItem>
-
-    <CvItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CvItem>
-    <CvItem icon="sports" icon_colour="peru" title="Referees"></CvItem>
-    <CvItem icon="link" icon_colour="darkslategray" title="Links"></CvItem>
-    <CvItem :no_print="true" icon="file_save" icon_colour="crimson" title="Download">
+    </CVItem>
+    <CVItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CVItem>
+    <CVItem icon="sports" icon_colour="peru" title="Referees"></CVItem>
+    <CVItem icon="link" icon_colour="darkslategray" title="Links"></CVItem>
+    <CVItem :no_print="true" icon="file_save" icon_colour="crimson" title="Download">
       <Suspense>
-        <CVDownload file-name="gordon-peter-wills_cv-resume_one-page.pdf" display-name="One Page CV"/>
+        <CVDownload file-name="gordon-peter-wills_cv-resume_one-page.pdf" display-name="One Page CV" />
       </Suspense>
       <Suspense>
-        <CVDownload file-name="gordon-peter-wills_cv-resume.pdf" display-name="Full CV"/>
+        <CVDownload file-name="gordon-peter-wills_cv-resume.pdf" display-name="Full CV" />
       </Suspense>
-    </CvItem>
+    </CVItem>
   </main>
 </template>
 

@@ -57,8 +57,8 @@ function expand() {
         </CVText>
       </div>
     </div>
-    <div v-if="show_more" class="more" @click.stop="expand()">
-      <span class="more_span">{{ more }}</span>
+    <div v-if="show_more" class="more" >
+      <span class="more_span" @click.stop="expand()">{{ more }}</span>
     </div>
   </div>
 </template>
@@ -75,7 +75,7 @@ function expand() {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   font-family: 'Eurostile Extended', Inter, sans-serif;
   color: var(--color-heading);
@@ -118,11 +118,12 @@ h3 {
   font-weight: bold;
   font-family: 'Eurostile Extended', Inter, sans-serif;
   color: hsla(160, 100%, 37%, 1);
-  margin-left: 94px;
+  margin-left: 90%;
 }
 
 .more_span {
   transition: all 0.4s;
+  cursor: ns-resize;
 }
 
 .more_span:hover {
