@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import CVContacts from '@/components/CVContacts.vue'
+import CVDownload from '@/components/CVDownload.vue'
 import CVHistoryItem from '@/components/CVHistoryItem.vue'
 import CvItem from '@/components/CVItem.vue'
 import CVListItem from '@/components/CVListItem.vue'
@@ -303,10 +304,18 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVText>
       </CVHistoryItem>
     </CvItem>
-    <CvItem icon="link" icon_colour="darkslategray" title="Links"></CvItem>
+
     <CvItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CvItem>
     <CvItem icon="sports" icon_colour="peru" title="Referees"></CvItem>
-    <CvItem :no_print="true" icon="file_save" icon_colour="crimson" title="PDF Download"> </CvItem>
+    <CvItem icon="link" icon_colour="darkslategray" title="Links"></CvItem>
+    <CvItem :no_print="true" icon="file_save" icon_colour="crimson" title="Download">
+      <Suspense>
+        <CVDownload file-name="gordon-peter-wills_cv-resume_one-page.pdf" display-name="One Page CV"/>
+      </Suspense>
+      <Suspense>
+        <CVDownload file-name="gordon-peter-wills_cv-resume.pdf" display-name="Full CV"/>
+      </Suspense>
+    </CvItem>
   </main>
 </template>
 
