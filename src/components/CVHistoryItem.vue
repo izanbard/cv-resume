@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import CVText from '@/components/CVText.vue'
 import { onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
+import { getImageUrl } from '@/assets/helper.ts'
 
 defineProps<{
   end: string
@@ -22,10 +23,6 @@ onMounted(() => {
 
 function resize() {
   show_more.value = !(content_div.value && content_div.value.scrollHeight <= max_height.value) || more.value === '...Less'
-}
-
-function getImageUrl(name: string) {
-  return new URL('/images/' + name, import.meta.url).pathname
 }
 
 function expand() {
@@ -57,7 +54,7 @@ function expand() {
         </CVText>
       </div>
     </div>
-    <div v-if="show_more" class="more" >
+    <div v-if="show_more" class="more">
       <span class="more_span" @click.stop="expand()">{{ more }}</span>
     </div>
   </div>
@@ -95,7 +92,7 @@ h3 {
 .item {
   margin-top: 10px;
   padding-top: 5px;
-  border-top: 1px solid var(--color-border);
+
   clear: both;
   overflow: hidden;
 }

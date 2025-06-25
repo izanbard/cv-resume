@@ -56,7 +56,7 @@ function expander() {
 </script>
 
 <template>
-  <div :class="[level, no_print ? 'no_print' : '']" class="item" >
+  <div :class="[level, no_print ? 'no_print' : '']" class="item">
     <div v-if="icon != 'none'" class="item_icon" @click.stop="expander">
       <CVIcon :icon="icon" :size="icon_size" />
     </div>
@@ -75,7 +75,6 @@ function expander() {
   position: relative;
   border-top: var(--color-border) solid 1px;
   line-height: 1.6;
-
 }
 
 /*noinspection CssUnusedSymbol*/
@@ -84,6 +83,7 @@ function expander() {
   width: auto;
   @media print {
     margin-left: 0;
+    border: 0;
   }
 }
 

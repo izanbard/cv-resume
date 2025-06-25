@@ -3,10 +3,12 @@ import CVContacts from '@/components/CVContacts.vue'
 import CVDownload from '@/components/CVDownload.vue'
 import CVHistoryItem from '@/components/CVHistoryItem.vue'
 import CVItem from '@/components/CVItem.vue'
+import CVLink from '@/components/CVLink.vue'
 import CVListItem from '@/components/CVListItem.vue'
 import CVSection from '@/components/CVSection.vue'
 import CVText from '@/components/CVText.vue'
 import CVTimeline from '@/components/CVTimeline.vue'
+import CVReferee from '@/components/CVReferee.vue'
 </script>
 
 <template>
@@ -73,39 +75,39 @@ import CVTimeline from '@/components/CVTimeline.vue'
             experience in many different contexts. I am familiar with PRINCE2, Gantt Chart, Balanced Scorecard, ITIL, Critical
             Path, and latterly Scrum and Kanban methodologies for managing projects.
           </CVListItem>
-        </CvSection>
+        </CVSection>
         <CVSection title="Partnership and Relationship Building" size="medium">
           <CVText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
             orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
             convallis lorem. Fusce id malesuada lorem,
           </CVText>
-        </CvSection>
+        </CVSection>
         <CVSection title="Business Planning and Budgeting" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Strategic and Operational Goal setting" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Recruitment" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Culture Creation" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Agile Thinking, Behaviour and Coaching" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
         <CVSection title="System Architecture" size="medium">
@@ -117,32 +119,32 @@ import CVTimeline from '@/components/CVTimeline.vue'
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="DevOps Patterns" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Site Reliability Engineering" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Software Engineering" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
         <CVSection title="Infrastructure and Networking" size="medium">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
-        </CvSection>
+        </CVSection>
       </CVItem>
     </CVItem>
-    <CVItem icon="history" icon_colour="midnightblue" title="Work History">
+    <CVItem icon="history" icon_colour="navy" title="Work History">
       <CVSection title="Overview" size="large">
-        <CVTimeline/>
+        <CVTimeline />
       </CVSection>
       <CVSection title="Details" size="large">
         <CVHistoryItem title="Hd of Integration, IGS Ltd" end="Dec 2024" icon="igs.png" start="Nov 2022"> </CVHistoryItem>
@@ -274,39 +276,97 @@ import CVTimeline from '@/components/CVTimeline.vue'
       </CVSection>
     </CVItem>
     <CVItem icon="school" icon_colour="slategray" title="Education">
-      <CVHistoryItem title="Royal Military Academy Sandhurst" end="Jul 1999" icon="rmas.webp" start="Aug 1998"></CVHistoryItem>
-      <CVHistoryItem
-        title="University of Warwick, Dept of Computer Science"
-        end="Jul 1998"
-        icon="warwick.png"
-        start="Sep 1995"
-      ></CVHistoryItem>
-      <CVHistoryItem
-        title="Duke of York's Royal Military School"
-        end="Jul 1995"
-        icon="dyrms.png"
-        start="Sep 1988"
-      ></CVHistoryItem>
+      <CVSection>
+        <CVHistoryItem
+          title="Royal Military Academy Sandhurst"
+          end="Jul 1999"
+          icon="rmas.webp"
+          start="Aug 1998"
+        ></CVHistoryItem>
+        <CVHistoryItem
+          title="University of Warwick, Dept of Computer Science"
+          end="Jul 1998"
+          icon="warwick.png"
+          start="Sep 1995"
+        >
+        </CVHistoryItem>
+        <CVHistoryItem title="Duke of York's Royal Military School" end="Jul 1995" icon="dyrms.png" start="Sep 1988">
+        </CVHistoryItem>
+      </CVSection>
     </CVItem>
-    <CVItem icon="volunteer_activism" icon_colour="navy" title="Volunteering">
-      <CVHistoryItem title="REACT Disaster Response" end="Present" icon="react.png" start="Jun 2020">
-        <CVText>
-          Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy emergency
-          response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer responder able to
-          bring my full range of skills and experience to help people in the aftermath of a disaster.
-        </CVText>
-      </CVHistoryItem>
-      <CVHistoryItem title="Team Rubicon UK" end="Jun 2020" icon="tr.png" start="Apr 2014">
-        <CVText>
-          Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy emergency
-          response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer responder able to
-          bring my full range of skills and experience to help people in the aftermath of a disaster.
-        </CVText>
-      </CVHistoryItem>
+    <CVItem icon="volunteer_activism" icon_colour="maroon" title="Volunteering">
+      <CVSection>
+        <CVHistoryItem title="REACT Disaster Response" end="Present" icon="react.png" start="Jun 2020">
+          <CVText>
+            Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy
+            emergency response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer
+            responder able to bring my full range of skills and experience to help people in the aftermath of a disaster.
+          </CVText>
+        </CVHistoryItem>
+        <CVHistoryItem title="Team Rubicon UK" end="Jun 2020" icon="tr.png" start="Apr 2014">
+          <CVText>
+            Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy
+            emergency response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer
+            responder able to bring my full range of skills and experience to help people in the aftermath of a disaster.
+          </CVText>
+        </CVHistoryItem>
+      </CVSection>
     </CVItem>
     <CVItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CVItem>
-    <CVItem icon="sports" icon_colour="peru" title="Referees"></CVItem>
-    <CVItem icon="link" icon_colour="darkslategray" title="Links"></CVItem>
+    <CVItem icon="sports" icon_colour="peru" title="Referees">
+      <CVReferee picture="david.jpeg" name="David Farquhar FRGS">
+        <template #context>Friend and CEO at Intelligent Growth Solutions, Northface Ventures and Workplace Systems</template>
+        <template #description
+          >David has been a serial entrepreneur for over 3 decades, focused on delivering shareholder value, most recently
+          through driving the rapid growth of vertical farm manufacturer Intelligent Growth Solutions, from R&D start-up to
+          global leader.
+        </template>
+      </CVReferee>
+      <CVReferee picture="vinca.jpeg" name="Dr Vinca Russell">
+        <template #context>Product Manager and peer at Intelligent Growth Solutions</template>
+        <template #description
+          >Vinca is an innovative and highly competent product manager with a background in science, mathematical modelling,
+          and the maritime industry. Happiest when challenged by work, she loves to find out what makes people tick to get the
+          most out of diverse multi-disciplinary teams.</template
+        >
+      </CVReferee>
+      <CVReferee picture="greg.jpeg" name="Greg Stevens">
+        <template #context>Architect and peer at Intelligent Growth Solutions</template>
+        <template #description
+          >Greg has been a software engineer for 14 years, creating solutions in medtech and agritech. He is passionate about
+          leading teams that deliver systems that work even when other things are failing.</template
+        >
+      </CVReferee>
+    </CVItem>
+    <CVItem :no_print="true" icon="link" icon_colour="darkslategray" title="Links">
+      <CVSection title="Repos">
+        <CVLink link="https://github.com/izanbard/" title="GitHub" icon="gh.svg">
+          My GitHub Profile - note most of my repos are private.
+        </CVLink>
+        <CVLink link="https://bitbucket.org/gordywills/" title="Bitbucket" icon="bb.webp">
+          My Bitbucket Profile - note most of my repos are private.
+        </CVLink>
+      </CVSection>
+      <CVSection title="Podcasts">
+        <CVLink
+          title="How Aye Built This"
+          link="https://open.spotify.com/episode/0USJGs46wBwuGN9O4XOCZa?si=4TAOJXdiSn6VKBEzvd4krg"
+          icon="spotify.png"
+        >
+          Liam Wilson and I talk all things vertical farming, software engineering, data science an loads more. How Aye Built
+          This is about people in the Scottish technology sector and what they are building.
+        </CVLink>
+        <CVLink title="Edinburgh Science Festival" link="https://vimeo.com/572166371#t=22m18s" icon="vimeo.png">
+          In 2021 the festival was online only, this webinar sees Dr Hannah Rudman, Dominic Gammon and me getting together to
+          talk aquaponics and hydroponics and investigating when a farm is not a farm.
+        </CVLink>
+      </CVSection>
+      <CVSection title="Credits">
+        <CVLink title="IMDB" link="https://www.imdb.com/name/nm3047429" icon="imdb.webp">
+          My IMDB page from those productions that added credits.
+        </CVLink>
+      </CVSection>
+    </CVItem>
     <CVItem :no_print="true" icon="file_save" icon_colour="crimson" title="Download">
       <Suspense>
         <CVDownload file-name="gordon-peter-wills_cv-resume_one-page.pdf" display-name="One Page CV" />
