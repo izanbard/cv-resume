@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import CVListItem from '@/components/CVListItem.vue'
 defineProps<{
-  outcome_title ?: string,
-  aside_title ?: string,
+  outcome_title?: string
+  aside_title?: string
 }>()
 </script>
 
@@ -11,6 +11,4 @@ defineProps<{
   <CVListItem v-if="aside_title" :title="aside_title"><slot name="aside"></slot></CVListItem>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

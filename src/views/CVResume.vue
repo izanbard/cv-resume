@@ -50,7 +50,7 @@ import CVQualification from '@/components/CVQualification.vue'
     </CVItem>
     <CVItem icon="person_celebrate" icon_colour="darkgoldenrod" title="Skills">
       <CVItem icon="mindfulness" icon_colour="cornflowerblue" level="two" title="Business Skills">
-        <CVSection title="Leadership" size="medium">
+        <CVSection size="medium" title="Leadership">
           <CVListItem title="Agile">
             From Scrummaster of a single team to leading an engineering department of 5 Scrum teams, I have the experience to
             manage the processes that back up Agile. Focusing on quality, I work to empower the front line decision makers to
@@ -77,66 +77,66 @@ import CVQualification from '@/components/CVQualification.vue'
             Path, and latterly Scrum and Kanban methodologies for managing projects.
           </CVListItem>
         </CVSection>
-        <CVSection title="Partnership and Relationship Building" size="medium">
+        <CVSection size="medium" title="Partnership and Relationship Building">
           <CVText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
             orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
             convallis lorem. Fusce id malesuada lorem,
           </CVText>
         </CVSection>
-        <CVSection title="Business Planning and Budgeting" size="medium">
+        <CVSection size="medium" title="Business Planning and Budgeting">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Strategic and Operational Goal setting" size="medium">
+        <CVSection size="medium" title="Strategic and Operational Goal setting">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Recruitment" size="medium">
+        <CVSection size="medium" title="Recruitment">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Culture Creation" size="medium">
+        <CVSection size="medium" title="Culture Creation">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Agile Thinking, Behaviour and Coaching" size="medium">
+        <CVSection size="medium" title="Agile Thinking, Behaviour and Coaching">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
-        <CVSection title="System Architecture" size="medium">
+        <CVSection size="medium" title="System Architecture">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Systems Integaration" size="medium">
+        <CVSection size="medium" title="Systems Integaration">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="DevOps Patterns" size="medium">
+        <CVSection size="medium" title="DevOps Patterns">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Site Reliability Engineering" size="medium">
+        <CVSection size="medium" title="Site Reliability Engineering">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Software Engineering" size="medium">
+        <CVSection size="medium" title="Software Engineering">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
         </CVSection>
-        <CVSection title="Infrastructure and Networking" size="medium">
+        <CVSection size="medium" title="Infrastructure and Networking">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
@@ -144,15 +144,13 @@ import CVQualification from '@/components/CVQualification.vue'
       </CVItem>
     </CVItem>
     <CVItem icon="history" icon_colour="navy" title="Work History">
-      <CVSection title="Overview" size="large">
+      <CVSection size="large" title="Overview">
         <CVTimeline />
       </CVSection>
-      <CVSection title="Details" size="large">
-        <CVHistoryItem title="Hd of Integration, IGS Ltd" end="Dec 2024" icon="igs.png" start="Nov 2022">
-        </CVHistoryItem>
-        <CVHistoryItem title="Hd of Software, IGS Ltd" end="Nov 2022" icon="igs.png" start="Oct 2019">
-        </CVHistoryItem>
-        <CVHistoryItem title="Software Team Architect, IGS Ltd" end="Oct 2019" icon="igs.png" start="Jul 2019">
+      <CVSection size="large" title="Details">
+        <CVHistoryItem end="Dec 2024" icon="igs.png" start="Nov 2022" title="Hd of Integration, IGS Ltd"></CVHistoryItem>
+        <CVHistoryItem end="Nov 2022" icon="igs.png" start="Oct 2019" title="Hd of Software, IGS Ltd"></CVHistoryItem>
+        <CVHistoryItem end="Oct 2019" icon="igs.png" start="Jul 2019" title="Software Team Architect, IGS Ltd">
         </CVHistoryItem>
         <CVHistoryItem end="Jul 2019" icon="sensyne.png" start="Jul 2018" title="Head of Software Engineering, Sensyne Health">
           <CVText>
@@ -279,67 +277,73 @@ import CVQualification from '@/components/CVQualification.vue'
     </CVItem>
     <CVItem icon="school" icon_colour="slategray" title="Education">
       <CVSection>
-        <CVHistoryItem
-          title="Royal Military Academy Sandhurst"
-          end="Jul 1999"
-          icon="rmas.webp"
-          start="Aug 1998">
-<CVQualification outcome_title="Qualification" aside_title="Trained In">
-  <template #outcome>
-      Commissioned in to Royal Corps of Signals
-  </template>
-  <template #aside>
-    Leadership, Communication Skills, Military Analysis (History), Soldiering
-  </template>
-</CVQualification>
-        </CVHistoryItem>
-        <CVHistoryItem
-          title="University of Warwick, Dept of Computer Science"
-          end="Jul 1998"
-          icon="warwick.png"
-          start="Sep 1995">
-          <CVQualification outcome_title="Qualification" aside_title="Clubs and Societies">
-            <template #outcome>
-              2:2 Bachelor of Science with Honours, Computer Science
-            </template>
-            <template #aside>
-              Warwick Aikido Club, DCS technical group, SU Stage crew
-            </template>
+        <CVHistoryItem end="Jul 1999" icon="rmas.webp" start="Aug 1998" title="Royal Military Academy Sandhurst">
+          <CVQualification aside_title="Trained In" outcome_title="Qualification">
+            <template #outcome> Commissioned in to Royal Corps of Signals</template>
+            <template #aside> Leadership, Communication Skills, Military Analysis (History), Soldiering</template>
           </CVQualification>
         </CVHistoryItem>
-        <CVHistoryItem title="Duke of York's Royal Military School" end="Jul 1995" icon="dyrms.png" start="Sep 1988">
-          <CVQualification outcome_title="Qualifications" aside_title="Appointments">
+        <CVHistoryItem
+          end="Jul 1998"
+          icon="warwick.png"
+          start="Sep 1995"
+          title="University of Warwick, Dept of Computer Science"
+        >
+          <CVQualification aside_title="Clubs and Societies" outcome_title="Qualification">
+            <template #outcome>2:2 Bachelor of Science with Honours, Computer Science</template>
+            <template #aside>Warwick Aikido Club, DCS technical group, SU Stage crew</template>
+          </CVQualification>
+        </CVHistoryItem>
+        <CVHistoryItem end="Jul 1995" icon="dyrms.png" start="Sep 1988" title="Duke of York's Royal Military School">
+          <CVQualification aside_title="Appointments" outcome_title="Qualifications">
             <template #outcome>
-              4 A-Levels: Maths(B), Chemistry(B), Physics(B), Biology(D), 1 AS-Level: General Studies(D), 11 GCSEs (including English and Maths)
+              4 A-Levels: Maths(B), Chemistry(B), Physics(B), Biology(D), 1 AS-Level: General Studies(D), 11 GCSEs (including
+              English and Maths)
             </template>
-            <template #aside>
-              Head Boy (Boy RSM), School Prefect and Head of House
-            </template>
+            <template #aside>Head Boy (Boy RSM), School Prefect and Head of House</template>
           </CVQualification>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
     <CVItem icon="volunteer_activism" icon_colour="maroon" title="Volunteering">
       <CVSection>
-        <CVHistoryItem title="REACT Disaster Response" end="Present" icon="react.png" start="Jun 2020">
+        <CVHistoryItem end="Present" icon="react-logo.png" start="Mar 2020" title="REACT Disaster Response">
           <CVText>
-            Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy
-            emergency response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer
-            responder able to bring my full range of skills and experience to help people in the aftermath of a disaster.
+            REACT started as an operation of Team Rubicon UK in response to the COVID-19 pandemic. It has since become is own
+            organisation focusing on domestic and international response, but also delving in to international development in
+            the areas of preparedness and water safety.
+          </CVText>
+          <CVText>
+            During the pandemic I was responsible for establishing and managing the National Volunteer Coordination Centre on
+            behalf of the Department for Culture Media and Sport. We kept a register of all significant volunteer organisations
+            and materiel donations and ensured that they were directed to the Local Council Dater Manager in most need. I also
+            supervised the response teams that were running the UK's temporary mortuary system and the admin teams setting up
+            the back offices for the Nightingale Hospitals.
+          </CVText>
+          <CVText>
+            After the initial response was over I took part in 3 COVID-19 surge testing operations. Delivering door to door PCR
+            testing kits in vulnerable neighbourhoods in Birmingham, High Wycombe and Solihull.
           </CVText>
         </CVHistoryItem>
-        <CVHistoryItem title="Team Rubicon UK" end="Jun 2020" icon="tr.png" start="Apr 2014">
+        <CVHistoryItem end="Jun 2020" icon="tr.png" start="Apr 2014" title="Team Rubicon UK">
           <CVText>
-            Team Rubicon unites the skills and experiences of military veterans with first responders to rapidly deploy
-            emergency response teams in the UK and around the world. As a greyshirt member of the team I am a volunteer
-            responder able to bring my full range of skills and experience to help people in the aftermath of a disaster.
+            Team Rubicon UK was an international diaster response organisation that united the skills and experiences of
+            military veterans with first responders to deploy emergency response teams in the UK and around the world. As a
+            volunteer responder I was able to bring my full range of skills and experience to help people in the aftermath of a
+            disaster.
           </CVText>
+          <CVText>
+            I deployed to the Philippines in response to a minor earthquake and rebuilt school and medical facilities serving
+            the poorest communities in Cebu City. I ran the UK based HQ supervising response operations in: the British Virgin
+            Islands, Barbados and Turks and Caicos after Hurricanes Irma and Maria; and Sri Lanka after Cyclone Mora
+          </CVText>
+          <CVText> Team Rubicon UK was a franchise of Team Rubicon USA, that franchise ended in June 2020. </CVText>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
     <CVItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CVItem>
     <CVItem icon="sports" icon_colour="peru" title="Referees">
-      <CVReferee picture="david.jpeg" name="David Farquhar FRGS">
+      <CVReferee name="David Farquhar FRGS" picture="david.jpeg">
         <template #context>
           Friend and CEO at Intelligent Growth Solutions, Northface Ventures and Workplace Systems
         </template>
@@ -349,20 +353,16 @@ import CVQualification from '@/components/CVQualification.vue'
           global leader.
         </template>
       </CVReferee>
-      <CVReferee picture="vinca.jpeg" name="Dr Vinca Russell">
-        <template #context>
-          Product Manager and peer at Intelligent Growth Solutions
-        </template>
+      <CVReferee name="Dr Vinca Russell" picture="vinca.jpeg">
+        <template #context> Product Manager and peer at Intelligent Growth Solutions</template>
         <template #description>
-          Vinca is an innovative and highly competent product manager with a background in science, mathematical modelling,
-          and the maritime industry. Happiest when challenged by work, she loves to find out what makes people tick to get the
-          most out of diverse multi-disciplinary teams.
+          Vinca is an innovative and highly competent product manager with a background in science, mathematical modelling, and
+          the maritime industry. Happiest when challenged by work, she loves to find out what makes people tick to get the most
+          out of diverse multi-disciplinary teams.
         </template>
       </CVReferee>
-      <CVReferee picture="greg.jpeg" name="Greg Stevens">
-        <template #context>
-          Architect and peer at Intelligent Growth Solutions
-        </template>
+      <CVReferee name="Greg Stevens" picture="greg.jpeg">
+        <template #context> Architect and peer at Intelligent Growth Solutions</template>
         <template #description>
           Greg has been a software engineer for 14 years, creating solutions in medtech and agritech. He is passionate about
           leading teams that deliver systems that work even when other things are failing.
@@ -371,38 +371,39 @@ import CVQualification from '@/components/CVQualification.vue'
     </CVItem>
     <CVItem :no_print="true" icon="link" icon_colour="darkslategray" title="Links">
       <CVSection title="Repos">
-        <CVLink link="https://github.com/izanbard/" title="GitHub" icon="gh.svg">
+        <CVLink icon="gh.svg" link="https://github.com/izanbard/" title="GitHub">
           My GitHub Profile - note most of my repos are private.
         </CVLink>
-        <CVLink link="https://bitbucket.org/gordywills/" title="Bitbucket" icon="bb.webp">
+        <CVLink icon="bb.webp" link="https://bitbucket.org/gordywills/" title="Bitbucket">
           My Bitbucket Profile - note most of my repos are private.
         </CVLink>
       </CVSection>
       <CVSection title="Podcasts">
         <CVLink
-          title="How Aye Built This"
+          icon="spotify.png"
           link="https://open.spotify.com/episode/0USJGs46wBwuGN9O4XOCZa?si=4TAOJXdiSn6VKBEzvd4krg"
-          icon="spotify.png">
+          title="How Aye Built This"
+        >
           Liam Wilson and I talk all things vertical farming, software engineering, data science an loads more. How Aye Built
           This is about people in the Scottish technology sector and what they are building.
         </CVLink>
-        <CVLink title="Edinburgh Science Festival" link="https://vimeo.com/572166371#t=22m18s" icon="vimeo.png">
+        <CVLink icon="vimeo.png" link="https://vimeo.com/572166371#t=22m18s" title="Edinburgh Science Festival">
           In 2021 the festival was online only, this webinar sees Dr Hannah Rudman, Dominic Gammon and me getting together to
           talk aquaponics and hydroponics and investigating when a farm is not a farm.
         </CVLink>
       </CVSection>
       <CVSection title="Credits">
-        <CVLink title="IMDB" link="https://www.imdb.com/name/nm3047429" icon="imdb.webp">
+        <CVLink icon="imdb.webp" link="https://www.imdb.com/name/nm3047429" title="IMDB">
           My IMDB page from those productions that added credits.
         </CVLink>
       </CVSection>
     </CVItem>
     <CVItem :no_print="true" icon="file_save" icon_colour="crimson" title="Download">
       <Suspense>
-        <CVDownload file-name="gordon-peter-wills_cv-resume_one-page.pdf" display-name="One Page CV" />
+        <CVDownload display-name="One Page CV" file-name="gordon-peter-wills_cv-resume_one-page.pdf" />
       </Suspense>
       <Suspense>
-        <CVDownload file-name="gordon-peter-wills_cv-resume.pdf" display-name="Full CV" />
+        <CVDownload display-name="Full CV" file-name="gordon-peter-wills_cv-resume.pdf" />
       </Suspense>
     </CVItem>
   </main>
