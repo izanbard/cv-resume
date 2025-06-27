@@ -9,6 +9,7 @@ import CVSection from '@/components/CVSection.vue'
 import CVText from '@/components/CVText.vue'
 import CVTimeline from '@/components/CVTimeline.vue'
 import CVReferee from '@/components/CVReferee.vue'
+import CVQualification from '@/components/CVQualification.vue'
 </script>
 
 <template>
@@ -147,9 +148,10 @@ import CVReferee from '@/components/CVReferee.vue'
         <CVTimeline />
       </CVSection>
       <CVSection title="Details" size="large">
-        <CVHistoryItem title="Hd of Integration, IGS Ltd" end="Dec 2024" icon="igs.png" start="Nov 2022"> </CVHistoryItem>
-        <CVHistoryItem title="Hd of Software, IGS Ltd" end="Nov 2022" icon="igs.png" start="Oct 2019"> </CVHistoryItem>
-
+        <CVHistoryItem title="Hd of Integration, IGS Ltd" end="Dec 2024" icon="igs.png" start="Nov 2022">
+        </CVHistoryItem>
+        <CVHistoryItem title="Hd of Software, IGS Ltd" end="Nov 2022" icon="igs.png" start="Oct 2019">
+        </CVHistoryItem>
         <CVHistoryItem title="Software Team Architect, IGS Ltd" end="Oct 2019" icon="igs.png" start="Jul 2019">
         </CVHistoryItem>
         <CVHistoryItem end="Jul 2019" icon="sensyne.png" start="Jul 2018" title="Head of Software Engineering, Sensyne Health">
@@ -281,16 +283,39 @@ import CVReferee from '@/components/CVReferee.vue'
           title="Royal Military Academy Sandhurst"
           end="Jul 1999"
           icon="rmas.webp"
-          start="Aug 1998"
-        ></CVHistoryItem>
+          start="Aug 1998">
+<CVQualification outcome_title="Qualification" aside_title="Trained In">
+  <template #outcome>
+      Commissioned in to Royal Corps of Signals
+  </template>
+  <template #aside>
+    Leadership, Communication Skills, Military Analysis (History), Soldiering
+  </template>
+</CVQualification>
+        </CVHistoryItem>
         <CVHistoryItem
           title="University of Warwick, Dept of Computer Science"
           end="Jul 1998"
           icon="warwick.png"
-          start="Sep 1995"
-        >
+          start="Sep 1995">
+          <CVQualification outcome_title="Qualification" aside_title="Clubs and Societies">
+            <template #outcome>
+              2:2 Bachelor of Science with Honours, Computer Science
+            </template>
+            <template #aside>
+              Warwick Aikido Club, DCS technical group, SU Stage crew
+            </template>
+          </CVQualification>
         </CVHistoryItem>
         <CVHistoryItem title="Duke of York's Royal Military School" end="Jul 1995" icon="dyrms.png" start="Sep 1988">
+          <CVQualification outcome_title="Qualifications" aside_title="Appointments">
+            <template #outcome>
+              4 A-Levels: Maths(B), Chemistry(B), Physics(B), Biology(D), 1 AS-Level: General Studies(D), 11 GCSEs (including English and Maths)
+            </template>
+            <template #aside>
+              Head Boy (Boy RSM), School Prefect and Head of House
+            </template>
+          </CVQualification>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
@@ -315,27 +340,33 @@ import CVReferee from '@/components/CVReferee.vue'
     <CVItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CVItem>
     <CVItem icon="sports" icon_colour="peru" title="Referees">
       <CVReferee picture="david.jpeg" name="David Farquhar FRGS">
-        <template #context>Friend and CEO at Intelligent Growth Solutions, Northface Ventures and Workplace Systems</template>
-        <template #description
-          >David has been a serial entrepreneur for over 3 decades, focused on delivering shareholder value, most recently
+        <template #context>
+          Friend and CEO at Intelligent Growth Solutions, Northface Ventures and Workplace Systems
+        </template>
+        <template #description>
+          David has been a serial entrepreneur for over 3 decades, focused on delivering shareholder value, most recently
           through driving the rapid growth of vertical farm manufacturer Intelligent Growth Solutions, from R&D start-up to
           global leader.
         </template>
       </CVReferee>
       <CVReferee picture="vinca.jpeg" name="Dr Vinca Russell">
-        <template #context>Product Manager and peer at Intelligent Growth Solutions</template>
-        <template #description
-          >Vinca is an innovative and highly competent product manager with a background in science, mathematical modelling,
+        <template #context>
+          Product Manager and peer at Intelligent Growth Solutions
+        </template>
+        <template #description>
+          Vinca is an innovative and highly competent product manager with a background in science, mathematical modelling,
           and the maritime industry. Happiest when challenged by work, she loves to find out what makes people tick to get the
-          most out of diverse multi-disciplinary teams.</template
-        >
+          most out of diverse multi-disciplinary teams.
+        </template>
       </CVReferee>
       <CVReferee picture="greg.jpeg" name="Greg Stevens">
-        <template #context>Architect and peer at Intelligent Growth Solutions</template>
-        <template #description
-          >Greg has been a software engineer for 14 years, creating solutions in medtech and agritech. He is passionate about
-          leading teams that deliver systems that work even when other things are failing.</template
-        >
+        <template #context>
+          Architect and peer at Intelligent Growth Solutions
+        </template>
+        <template #description>
+          Greg has been a software engineer for 14 years, creating solutions in medtech and agritech. He is passionate about
+          leading teams that deliver systems that work even when other things are failing.
+        </template>
       </CVReferee>
     </CVItem>
     <CVItem :no_print="true" icon="link" icon_colour="darkslategray" title="Links">
@@ -351,8 +382,7 @@ import CVReferee from '@/components/CVReferee.vue'
         <CVLink
           title="How Aye Built This"
           link="https://open.spotify.com/episode/0USJGs46wBwuGN9O4XOCZa?si=4TAOJXdiSn6VKBEzvd4krg"
-          icon="spotify.png"
-        >
+          icon="spotify.png">
           Liam Wilson and I talk all things vertical farming, software engineering, data science an loads more. How Aye Built
           This is about people in the Scottish technology sector and what they are building.
         </CVLink>

@@ -95,6 +95,9 @@ h3 {
 
   clear: both;
   overflow: hidden;
+  @media print {
+    break-inside: avoid;
+  }
 }
 
 .icon {
