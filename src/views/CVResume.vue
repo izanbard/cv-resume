@@ -148,9 +148,81 @@ import CVQualification from '@/components/CVQualification.vue'
         <CVTimeline />
       </CVSection>
       <CVSection size="large" title="Details">
-        <CVHistoryItem end="Dec 2024" icon="igs.png" start="Nov 2022" title="Hd of Integration, IGS Ltd"></CVHistoryItem>
-        <CVHistoryItem end="Nov 2022" icon="igs.png" start="Oct 2019" title="Hd of Software, IGS Ltd"></CVHistoryItem>
-        <CVHistoryItem end="Oct 2019" icon="igs.png" start="Jul 2019" title="Software Team Architect, IGS Ltd">
+        <CVHistoryItem :expanded="true" end="Dec 2024" icon="igs.png" start="Nov 2022" title="Head of Integration, IGS Ltd">
+          <CVText>
+            Having selected and trained my replacement team manager, she took on the role of Head of Software. I took the
+            opportunity to focus on the technical aspects of how IGS products fit in to the wider customer environment.
+            Specifically how the product interoperates with the remainder of our customers business and their factory. The key
+            was to understand the customer perspective allowing them to use our product to solve their business problems
+            without exposing (or burdening them with) our internal business logic. The technical solutions is a combination of
+            working with well established factory management software, exposing a well designed set of software APIs and
+            clearly defining the hardware touchpoints.
+          </CVText>
+          <CVText>
+            Whilst initially this was a theoretical exercise, once I had established a framework, I created a prototype
+            co-ordinator to prove the designed process and touch points. I was able to use this prototype to validate
+            assumptions with clients and ultimately to present requirements to our customer's technology partners when
+            designing the full factory. I was also able to learn BPMN which was both exciting and a really useful communication
+            tool.
+          </CVText>
+          <CVText>
+            Latterly this role was focused on partner and supplier selection and management, balanced with building internal
+            relationships to keep hardware and software in line with each other and the overall product vision.
+          </CVText>
+        </CVHistoryItem>
+        <CVHistoryItem :expanded="true" end="Nov 2022" icon="igs.png" start="Oct 2019" title="Head of Software, IGS Ltd">
+          <CVText>
+            After having built the core of the team, I was asked to take on the team management role. Alongside a few of the
+            Northface Ventures team who had also come on board this was a great opportunity to build a culture of success,
+            excitement and commitment with them.
+          </CVText>
+          <CVText>
+            My role expanded to include the development of process and unity in the team. I was still responsible for
+            recruitment and for the business aspects of running the department, but now also the line management of the
+            individuals; our working agreements and practices; the quality and productivity of our output. Despite the
+            lockdowns of 2020-2022 we grew the team from 12 to over 40 and produced software that was fit for purpose and
+            running all of the companies experimental products.
+          </CVText>
+          <CVText>
+            The lockdowns however were hard. We were still early in the development of our cultural norms - I don't think we
+            had established enough trust in the brand new team to be able to become suddenly a remote team (not sure we ever
+            did). We certainly had not developed the relationships across the other department that we needed to seamlessly
+            flow software, hardware and data in to a single slick product. During this period it took all my strength of
+            character to keep the team together and deliver solutions; and a lot of patience as we had to rework those
+            solutions regularly.
+          </CVText>
+          <CVText>
+            As we came out of the other end though we had weathered the storm as a business. Once the crew got back in to the
+            office and there were more face to face interactions the cohesion strengthened and I was able to devolve greater
+            rseponsibility and autonomy in to the team.
+          </CVText>
+        </CVHistoryItem>
+        <CVHistoryItem
+          :expanded="true"
+          end="Oct 2019"
+          icon="igs.png"
+          start="Jul 2019"
+          title="Software Team Architect, IGS Ltd"
+        >
+          <CVText>
+            Intelligent Growth Solutions are a start up at the cutting edge of Vertical Farming technology; automating many of
+            the processes; using low voltage systems to make them more energy efficient; ensuring only the most beneficial
+            light frequencies are used by the LEDs.
+          </CVText>
+          <CVText>
+            My role was to build a software team and culture ready to take on complex requirements. The Farm Management
+            Software must manage all aspects of scheduling, coordination and planning to control multiple independent recipes
+            running in the same machine to different timelines.
+          </CVText>
+          <CVText>
+            During this period we were still very much in startup mode (I was employee number 11). To that end whilst my focus
+            was on designing and recruiting a software team, I also had to create the recruiting and remuneration policies for
+            the whole company. In designing the software team I worked with the still forming executive team, the board of
+            investors and the founders; contributing to the business plan, creating departmental budgets and goals, and working
+            out the headcount and structure of the organisation. I aided the Product Management team in understanding what the
+            real product would be, setting some boundaries early on and helping define product requirements in both hardware
+            and software.
+          </CVText>
         </CVHistoryItem>
         <CVHistoryItem end="Jul 2019" icon="sensyne.png" start="Jul 2018" title="Head of Software Engineering, Sensyne Health">
           <CVText>
@@ -190,7 +262,12 @@ import CVQualification from '@/components/CVQualification.vue'
             corporate culture of working together to deliver product.
           </CVText>
         </CVHistoryItem>
-        <CVHistoryItem end="Aug 2016" icon="workplace.png" start="Apr 2014" title="Product Dev Mgr, Workplace Systems">
+        <CVHistoryItem
+          end="Aug 2016"
+          icon="workplace.png"
+          start="Apr 2014"
+          title="Prod Development Manager, Workplace Systems"
+        >
           <CVText>
             I led a team of 30+ software and QA engineers to deliver the flagship enterprise level application from Workplace
             Systems. This role coincided with a period of rapid growth after having repositioned ourselves in the market.
@@ -211,7 +288,12 @@ import CVQualification from '@/components/CVQualification.vue'
             their nascent adoption of Scrum.
           </CVText>
         </CVHistoryItem>
-        <CVHistoryItem end="Apr 2014" icon="workplace.png" start="Mar 2013" title="Software Delivery Mgr, Workplace Systems">
+        <CVHistoryItem
+          end="Apr 2014"
+          icon="workplace.png"
+          start="Mar 2013"
+          title="Software Delivery Manager, Workplace Systems"
+        >
           <CVText>
             I was the scrummaster for 2 scrum teams while we worked out how to do scrum. Due to a change of senior management,
             this was a time of turnaround and transformation at Workplace Systems; we moved from being a services company with
@@ -240,7 +322,7 @@ import CVQualification from '@/components/CVQualification.vue'
             consolidating our version control and ticketing systems.
           </CVText>
         </CVHistoryItem>
-        <CVHistoryItem end="Oct 2011" icon="tv.png" start="Mar 2008" title="Asst Producer/Location Mgr, Film and TV">
+        <CVHistoryItem end="Oct 2011" icon="tv.png" start="Mar 2008" title="Assistant Producer/Location Mgr, Film and TV">
           <CVText>
             I worked mostly in documentary making and comedy shows. The short contract nature of the work, meant building teams
             very quickly to be able to deliver high quality from day 1. I worked for many production companies including Tiger
@@ -307,7 +389,7 @@ import CVQualification from '@/components/CVQualification.vue'
     </CVItem>
     <CVItem icon="volunteer_activism" icon_colour="maroon" title="Volunteering">
       <CVSection>
-        <CVHistoryItem end="Present" icon="react-logo.png" start="Mar 2020" title="REACT Disaster Response">
+        <CVHistoryItem end="Present" icon="react-logo.png" start="Apr 2020" title="REACT Disaster Response">
           <CVText>
             REACT started as an operation of Team Rubicon UK in response to the COVID-19 pandemic. It has since become is own
             organisation focusing on domestic and international response, but also delving in to international development in

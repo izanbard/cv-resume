@@ -3,11 +3,12 @@ import CVText from '@/components/CVText.vue'
 import { onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
 import { getImageUrl } from '@/assets/helper.ts'
 
-defineProps<{
+const props = defineProps<{
   end: string
   icon: string
   start: string
   title: string
+  expanded?: boolean
 }>()
 const more = ref('More...')
 const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
@@ -18,6 +19,9 @@ onMounted(() => {
   resize()
   if (content_div.value) {
     new ResizeObserver(resize).observe(content_div.value)
+  }
+  if (props.expanded && show_more.value) {
+    expand()
   }
 })
 
