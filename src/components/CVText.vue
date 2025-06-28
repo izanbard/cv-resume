@@ -7,7 +7,7 @@
 <style scoped>
 p {
   &:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 }
 </style>
