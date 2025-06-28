@@ -1,4 +1,4 @@
 function getImageUrl(name: string) {
-  return new URL('/images/' + name, import.meta.url).href
+  return'/images/' + name
 }
 export { getImageUrl }
