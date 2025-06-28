@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import CVText from '@/components/CVText.vue'
 import { onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
-import { getImageUrl } from '@/assets/helper.ts'
 
 const props = defineProps<{
   end: string
@@ -45,7 +44,7 @@ function expand() {
 <template>
   <div class="item">
     <div class="item-expander">
-      <img :alt="title" :src="getImageUrl(icon)" class="icon" />
+      <img :alt="title" :src="'/images/'+icon" class="icon" />
       <div class="header">
         <h3>{{ title }}</h3>
       </div>
