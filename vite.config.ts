@@ -7,6 +7,7 @@ import Unocss from 'vite-plugin-vue-inspector'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.NODE_ENV === 'pages' ? '/cv-resume/' : '/',
   plugins: [
     vue(),
     vueDevTools({
