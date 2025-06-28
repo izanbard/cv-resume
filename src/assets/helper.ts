@@ -1,4 +1,4 @@
 function getImageUrl(name: string) {
-  return'/images/' + name
+  return 'images/' + name
 }
 export { getImageUrl }
