@@ -1,18 +1,18 @@
-import puppeteer from 'puppeteer';
-import express from 'express';
-import path from 'path';
+import puppeteer from 'puppeteer'
+import express from 'express'
+import path from 'path'
 
-const app = express();
-app.use(express.static('dist'));
-const server = app.listen(3000);
+const app = express()
+app.use(express.static('dist'))
+const server = app.listen(3000)
 
-(async () => {
+;(async () => {
   const browser = await puppeteer.launch({
     headless: true,
     args: ['--no-sandbox'],
-  });
-  const page = await browser.newPage();
-  await page.goto('http://localhost:3000/index.html');
+  })
+  const page = await browser.newPage()
+  await page.goto('http://localhost:3000/index.html')
   await page.pdf({
     path: `${path.join(import.meta.dirname, 'dist/files/gordon-peter-wills_cv-resume.pdf')}`,
     format: 'A4',
@@ -22,7 +22,7 @@ const server = app.listen(3000);
       right: 0,
       left: 0,
     },
-  });
-  await browser.close();
-  server.close();
-})();
+  })
+  await browser.close()
+  server.close()
+})()
