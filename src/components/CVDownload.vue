@@ -7,7 +7,7 @@ import axios from 'axios'
 import CVIcon from '@/components/CVIcon.vue'
 
 function getFileUrl(name: string) {
-  return new URL('/files/' + name, import.meta.url).pathname
+  return new URL('files/' + name, import.meta.url).href
 }
 
 const data = await axios.head(getFileUrl(props.fileName))
