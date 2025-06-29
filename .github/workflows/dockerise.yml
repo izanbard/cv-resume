@@ -1,0 +1,41 @@
+name: deploy docker image
+
+on:
+  push:
+    branches: [ "main" ]
+env:
+  NODE_ENV: docker
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+          cache: 'npm'
+      - name: NPM install
+        run: npm ci
+      - name: NPM build
+        run: npm run build --if-present
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: site
+          path: 'dist/'
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
+      - name: Copy artifact to server
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.WEB_HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: 22
+          source: 'site/*'
+          target: /home/pi/cv-resume
