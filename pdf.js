@@ -12,7 +12,9 @@ const server = app.listen(3000)
     args: ['--no-sandbox'],
   })
   const page = await browser.newPage()
-  await page.goto('http://localhost:3000/index.html')
+  await page.goto('http://localhost:3000/index.html', {
+    waitUntil: 'networkidle0',
+  })
   await page.pdf({
     path: `${path.join(import.meta.dirname, 'dist/files/gordon-peter-wills_cv-resume.pdf')}`,
     format: 'A4',
