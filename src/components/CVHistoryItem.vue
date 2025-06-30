@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import CVText from '@/components/CVText.vue'
 import { onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
 import { getImageUrl } from '@/assets/helper.ts'
 
@@ -10,7 +9,7 @@ const props = defineProps<{
   title: string
   expanded?: boolean
 }>()
-const more = ref('More...')
+const more = ref(true)
 const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
 const show_more = ref(true)
 const max_height = ref(50)
@@ -23,21 +22,37 @@ onMounted(() => {
   if (props.expanded && show_more.value) {
     expand()
   }
+  addEventListener('expand', () => {
+    expand()
+  })
+  addEventListener('collapse', () => {
+    collapse()
+  })
 })
 
 function resize() {
-  show_more.value = !(content_div.value && content_div.value.scrollHeight <= max_height.value) || more.value === '...Less'
+  show_more.value = !(content_div.value && content_div.value.scrollHeight <= max_height.value) || more.value === false
 }
 
 function expand() {
   if (content_div.value) {
-    if (more.value === 'More...') {
-      more.value = '...Less'
-      content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
-    } else {
-      more.value = 'More...'
-      content_div.value.style.maxHeight = max_height.value + 'px'
-    }
+    more.value = false
+    content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
+  }
+}
+
+function collapse() {
+  if (content_div.value) {
+    more.value = true
+    content_div.value.style.maxHeight = max_height.value + 'px'
+  }
+}
+
+function expander() {
+  if (more.value === true) {
+    expand()
+  } else {
+    collapse()
   }
 }
 </script>
@@ -53,13 +68,11 @@ function expand() {
         <span class="start">{{ start }}</span> - <span class="end">{{ end }}</span>
       </div>
       <div ref="content" class="content">
-        <CVText>
-          <slot></slot>
-        </CVText>
+        <slot></slot>
       </div>
     </div>
     <div v-if="show_more" class="more">
-      <span class="more_span" @click.stop="expand()">{{ more }}</span>
+      <span class="more_span" @click.stop="expander()">{{ more ? 'More...' : '...Less' }}</span>
     </div>
   </div>
 </template>
@@ -68,9 +81,11 @@ function expand() {
 .header {
   text-wrap: nowrap;
 }
+
 .sub-header {
   margin-bottom: 5px;
 }
+
 .item-expander {
   overflow: hidden;
 }

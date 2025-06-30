@@ -27,30 +27,46 @@ onMounted(() => {
   if (props.expanded) {
     expander()
   }
+  addEventListener('expand', () => {
+    expand()
+  })
+  addEventListener('collapse', () => {
+    collapse()
+  })
 })
 
-function expander() {
+function collapse() {
   if (content_div.value) {
-    if (state.value === 'expanded') {
-      state.value = 'not-expanded'
-      content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
-      setTimeout(() => {
-        if (content_div.value) {
-          content_div.value.style.maxHeight = '0'
-        }
-      }, 100)
+    state.value = 'not-expanded'
+    content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
+    setTimeout(() => {
+      if (content_div.value) {
+        content_div.value.style.maxHeight = '0'
+      }
+    }, 100)
 
-      content_div.value.style.margin = '0'
-    } else {
-      state.value = 'expanded'
-      content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
-      content_div.value.style.margin = '5px 10px'
-      setTimeout(() => {
-        if (content_div.value) {
-          content_div.value.style.maxHeight = 'none'
-        }
-      }, 400)
-    }
+    content_div.value.style.margin = '0'
+  }
+}
+
+function expand() {
+  if (content_div.value) {
+    state.value = 'expanded'
+    content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
+    content_div.value.style.margin = '5px 10px'
+    setTimeout(() => {
+      if (content_div.value) {
+        content_div.value.style.maxHeight = 'none'
+      }
+    }, 400)
+  }
+}
+
+function expander() {
+  if (state.value === 'expanded') {
+    collapse()
+  } else {
+    expand()
   }
 }
 </script>
@@ -130,7 +146,7 @@ function expander() {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Eurostile Extended', Inter, sans-serif;
   margin-bottom: 0.4rem;

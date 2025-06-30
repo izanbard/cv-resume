@@ -10,10 +10,12 @@ import CVText from '@/components/CVText.vue'
 import CVTimeline from '@/components/CVTimeline.vue'
 import CVReferee from '@/components/CVReferee.vue'
 import CVQualification from '@/components/CVQualification.vue'
+import CVExpandAll from '@/components/CVExpandAll.vue'
 </script>
 
 <template>
   <main>
+    <CVExpandAll />
     <CVItem :expanded="true" icon="info" icon_colour="slateblue" title="Contact Details">
       <CVContacts
         email="gordy.wills@gmail.com"
@@ -500,5 +502,6 @@ main {
   @media print {
     border: 0;
   }
+  position: relative;
 }
 </style>
