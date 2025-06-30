@@ -4,11 +4,6 @@ on:
   push:
     branches: [ "main" ]
 
-#temp env var while i test the website on my server
-env:
-  NODE_ENV: pages
-#temp ends
-
 jobs:
   build:
     runs-on: ubuntu-latest
