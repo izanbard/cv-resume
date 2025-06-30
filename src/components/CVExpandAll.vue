@@ -34,7 +34,7 @@ function collapse() {
 <style scoped>
 .expand_all_wrapper {
   position: absolute;
-  right: -32px;
+  right: -35px;
   @media print {
     display: none;
   }

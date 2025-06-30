@@ -4,6 +4,11 @@ on:
   push:
     branches: [ "main" ]
 
+#temp env var while i test the website on my server
+env:
+  NODE_ENV: pages
+#temp ends
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,15 +24,6 @@ jobs:
         run: npm ci
       - name: NPM build
         run: npm run build --if-present
-#      - name: Upload artifact
-#        uses: actions/upload-pages-artifact@v3
-#        with:
-#          name: site
-#          path: 'dist/'
-#      - uses: actions/download-artifact@v4
-#        with:
-#          name: site
-#          path: site
       - name: Copy artifact to server
         uses: appleboy/scp-action@v1
         with:
