@@ -400,7 +400,7 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
           <CVText>
             During the pandemic I was responsible for establishing and managing the National Volunteer Coordination Centre on
             behalf of the Department for Culture Media and Sport. We kept a register of all significant volunteer organisations
-            and materiel donations and ensured that they were directed to the Local Council Dater Manager in most need. I also
+            and materiel donations and ensured that they were directed to the Local Council Disaster Manager in most need. I also
             supervised the response teams that were running the UK's temporary mortuary system and the admin teams setting up
             the back offices for the Nightingale Hospitals.
           </CVText>
@@ -419,7 +419,7 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
           <CVText>
             I deployed to the Philippines in response to a minor earthquake and rebuilt school and medical facilities serving
             the poorest communities in Cebu City. I ran the UK based HQ supervising response operations in: the British Virgin
-            Islands, Barbados and Turks and Caicos after Hurricanes Irma and Maria; and Sri Lanka after Cyclone Mora
+            Islands, Barbados and Turks and Caicos after Hurricanes Irma and Maria; and Sri Lanka after Cyclone Mora.
           </CVText>
           <CVText> Team Rubicon UK was a franchise of Team Rubicon USA, that franchise ended in June 2020. </CVText>
         </CVHistoryItem>

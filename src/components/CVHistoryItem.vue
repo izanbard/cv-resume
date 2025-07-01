@@ -10,7 +10,7 @@ const props = defineProps<{
   expanded?: boolean
 }>()
 const more = ref(true)
-const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
+const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('history_content')
 const show_more = ref(true)
 const max_height = ref(50)
 
@@ -31,7 +31,7 @@ onMounted(() => {
 })
 
 function resize() {
-  show_more.value = !(content_div.value && content_div.value.scrollHeight <= max_height.value) || more.value === false
+  show_more.value = !(content_div.value && content_div.value.scrollHeight <= max_height.value)
 }
 
 function expand() {
@@ -54,11 +54,12 @@ function expander() {
   } else {
     collapse()
   }
+  resize();
 }
 </script>
 
 <template>
-  <div class="item">
+  <div class="history_item">
     <div class="item-expander">
       <img :alt="title" :src="getImageUrl(icon)" class="icon" />
       <div class="header">
@@ -67,7 +68,7 @@ function expander() {
       <div class="sub-header">
         <span class="start">{{ start }}</span> - <span class="end">{{ end }}</span>
       </div>
-      <div ref="content" class="content">
+      <div ref="history_content" class="history_content">
         <slot></slot>
       </div>
     </div>
@@ -108,7 +109,7 @@ h3 {
   display: inline;
 }
 
-.item {
+.history_item {
   margin-top: 10px;
   padding-top: 5px;
 
@@ -149,7 +150,7 @@ h3 {
   background-color: hsla(160, 100%, 37%, 0.2);
 }
 
-.content {
+.history_content {
   max-height: v-bind(max_height + 'px');
   transition: max-height 0.4s linear;
   @media print {

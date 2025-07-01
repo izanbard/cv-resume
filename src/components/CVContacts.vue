@@ -10,7 +10,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="content">
+  <div class="contact">
     <div v-if="tel">
       <p>
         <CVIcon icon="call" size="small" />
@@ -39,7 +39,7 @@ defineProps<{
 </template>
 
 <style scoped>
-.content {
+.contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
