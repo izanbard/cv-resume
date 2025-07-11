@@ -83,13 +83,25 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Culture Creation">
           <CVText>
-            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement. The are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and valued business mission.
+            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement. The
+            are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and valued
+            business mission.
           </CVText>
           <CVText>
-            Working with others to establish the business vision statement and developing the mission from it is second nature to me; part of my military training and part of personality. Capturing our team values is a harder process but perhaps eben more valuable as it those values that resonate with team members. Using the business mission/vision on one axis and the values on another produces a map of our behaviours and beliefs. Discussing these things in detail and being inclusive in their generation is fantastically motivating to teams and gives us a sense of unity and pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes colleagues into friends. Part of the ongoing culture discussions are the need to adapt and change them as we mature as a team and a business.
+            Working with others to establish the business vision statement and developing the mission from it is second nature
+            to me; part of my military training and part of personality. Capturing our team values is a harder process but
+            perhaps eben more valuable as it those values that resonate with team members. Using the business mission/vision on
+            one axis and the values on another produces a map of our behaviours and beliefs. Discussing these things in detail
+            and being inclusive in their generation is fantastically motivating to teams and gives us a sense of unity and
+            pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes
+            colleagues into friends. Part of the ongoing culture discussions are the need to adapt and change them as we mature
+            as a team and a business.
           </CVText>
           <CVText>
-            It is one thing to write these things done and even to discuss them, but unless the culture is lived then our mission and values hold little value. It takes active leadership and strength of personality to normalise the openness and vulnerability of living the culture - both traits I have developed and honed over 25 years of leading high performance teams.
+            It is one thing to write these things done and even to discuss them, but unless the culture is lived then our
+            mission and values hold little value. It takes active leadership and strength of personality to normalise the
+            openness and vulnerability of living the culture - both traits I have developed and honed over 25 years of leading
+            high performance teams. I know how to make it fun.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Strategic and Operational Goal setting">
@@ -107,10 +119,17 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Product Engineering">
           <CVText>
-            I am a champion of a product approach to running a business.  As well as the technical advantages of reduced maintenance and increased engineering team productivity, the business advantages are also significant. Sales cycles are reduced, marketing activities are focused and customer expectations are managed. Good product engineering focuses on building/selling what the customer wants, prioritised by what is valuable to the business.
+            I am a champion of a product approach to running a business. As well as the technical advantages of reduced
+            maintenance and increased engineering team productivity, the business advantages are also significant. Sales cycles
+            are reduced, marketing activities are focused and customer expectations are managed. Good product engineering
+            focuses on building/selling what the customer wants, prioritised by what is valuable to the business.
           </CVText>
           <CVText>
-            Bringing all departments together to define the product keeps us all aligned while also responding to customer/user feed back, market intelligence and gathered usage data. In combination with the strategic goals of the business the product definition gives each department a mandate of what to sell, what to build and what to market.  It makes us predictable to our customers and accountable to our investors.  It gives employees at all levels on what our product is and where we are going next.
+            Bringing all departments together to define the product keeps us all aligned while also responding to customer/user
+            feed back, market intelligence and gathered usage data. In combination with the strategic goals of the business the
+            product definition gives each department a mandate of what to sell, what to build and what to market. It makes us
+            predictable to our customers and accountable to our investors. It gives employees at all levels on what our product
+            is and where we are going next.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Business Planning and Budgeting">
@@ -131,16 +150,43 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Recruitment">
           <CVText>
-            Establishing robust recruitment procedures; being inclusive and seeking diversity of thought; relying on team members to interview and select their own colleagues; are all underpinning principles of my approach to recruitment. Job adverts must reflect our values and advertise our culture - never forget that we are also being interviewed.
+            Establishing robust recruitment procedures; being inclusive and seeking diversity of thought; relying on team
+            members to interview and select their own colleagues; are all underpinning principles of my approach to
+            recruitment. Job adverts must reflect our values and advertise our culture - never forget that we are also being
+            interviewed.
           </CVText>
           <CVText>
-            In order that this does not become an overwhelming burden, selection of the right recruitment agent(s)/agency(ies) is a must.
+            In order that this does not become an overwhelming burden, I usually work with a recruitment agent(s)/agency(ies).
+            I still fell it is our teams responsibility to ensure that every applicant has a positive interaction with our
+            team.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Agile Thinking, Behaviour and Coaching">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          <CVText>
+            Agility is the ability to handle and respond to changes in situation that invalidate the plan you have made without
+            panicking and often keeping the same desired outcomes. Agility does not value work that does not move you directly
+            toward the goal especially if it is costly and is likely to be nugatory when the situation changes. Agility allows
+            you to move fast, because you can think fast and react fast and most importantly you can react in unison as a team.
+          </CVText>
+          <CVText>
+            When I first met Agile in the civilian workplace, it resonated strongly with me and my experiences. I love cutting
+            to the chase, doing the work that is needed and no more, changing behaviours to make us stronger and faster. I also
+            love how in combination with the right inclusive and engaged culture it forges storing bonds of trust in teams.
+            When coupling Agile thinking with continuous learning behaviours (natural bedfellows) that teams are better
+            prepared for uncertainty and are able to cut though the confusion.
+          </CVText>
+          <CVText>
+            Coaching Agile is about leadership. For line managers it is about teaching them to be leaders not managers - the
+            skill of setting direction without issuing instructions. For engineers it is about teaching them to be learning
+            followers, which is in fact leadership - in a truly hgh performing team every member is a leader and a follower in
+            equal measure. It is for higher managers that it is tricky, first we must teach them to relinquish control and
+            trust that teams will perfom to their best - then we need to stop them asking for reports; stop wasting time on
+            work that does not move us directly toward the goal.
+          </CVText>
+          <CVText>
+            Agile is hard to get right and requires superhuman levels of trust that needs to be paid back with engagement and
+            performance. But the payoffs for the business are vast collectively and as individuals
+          </CVText>
         </CVSection>
         <CVSection size="medium" title="Partnership and Relationship Building">
           <CVText>
