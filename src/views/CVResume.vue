@@ -204,35 +204,54 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
-        <CVSection size="medium" title="System Architecture">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+        <CVSection size="medium" title="Product Engineering">
+          Focus on User
+          repeatability
+          consistency
+          quality
         </CVSection>
-        <CVSection size="medium" title="Systems Integaration">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+        <CVSection size="medium" title="System Architecture">
+          SaaS
+          Multi tenant
+          Cloud
+          micro services
+          automation
+          data
+        </CVSection>
+        <CVSection size="medium" title="Systems Integration">
+          APIs
+          physical boundaries
+          standards
+          ESBs
+          ETLs
+          eco systems
         </CVSection>
         <CVSection size="medium" title="DevOps Patterns">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          deployment CI CD
+          k8s
+          platform
+          dev experience
+          libraries
+          standards and PR review
+          repos
         </CVSection>
         <CVSection size="medium" title="Site Reliability Engineering">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          site reliability
+          observability
         </CVSection>
         <CVSection size="medium" title="Software Engineering">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          code
+          testing
+          design
+          DBs
+          Frontend vs Backend
         </CVSection>
         <CVSection size="medium" title="Infrastructure and Networking">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          DNS
+          Cabling
+          Servers
+          Linux
+
         </CVSection>
       </CVItem>
     </CVItem>
