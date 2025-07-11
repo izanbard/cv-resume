@@ -26,8 +26,6 @@ defineProps<{
 }
 
 .list_item {
-  margin-left: 10px;
-
   &:not(:last-child) {
     margin-bottom: 10px;
   }

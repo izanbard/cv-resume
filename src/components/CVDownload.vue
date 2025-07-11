@@ -11,7 +11,7 @@ function getFileUrl(name: string) {
 }
 
 const data = await axios.head(getFileUrl(props.fileName))
-const size = data.headers ? Math.floor(data.headers['content-length'] / 1000).toFixed(0) : '???'
+const size = data.headers['content-length'] ? Math.floor(data.headers['content-length'] / 1000).toFixed(0) : '???'
 
 async function downloadPdf() {
   const response = await axios.get(getFileUrl(props.fileName), { responseType: 'blob' })

@@ -81,37 +81,80 @@ import CVTimeline from '@/components/CVTimeline.vue'
             Path, and latterly Scrum and Kanban methodologies for managing projects.
           </CVListItem>
         </CVSection>
-        <CVSection size="medium" title="Partnership and Relationship Building">
+        <CVSection size="medium" title="Culture Creation">
           <CVText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-            orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-            convallis lorem. Fusce id malesuada lorem,
+            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement. The are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and valued business mission.
+          </CVText>
+          <CVText>
+            Working with others to establish the business vision statement and developing the mission from it is second nature to me; part of my military training and part of personality. Capturing our team values is a harder process but perhaps eben more valuable as it those values that resonate with team members. Using the business mission/vision on one axis and the values on another produces a map of our behaviours and beliefs. Discussing these things in detail and being inclusive in their generation is fantastically motivating to teams and gives us a sense of unity and pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes colleagues into friends. Part of the ongoing culture discussions are the need to adapt and change them as we mature as a team and a business.
+          </CVText>
+          <CVText>
+            It is one thing to write these things done and even to discuss them, but unless the culture is lived then our mission and values hold little value. It takes active leadership and strength of personality to normalise the openness and vulnerability of living the culture - both traits I have developed and honed over 25 years of leading high performance teams.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Strategic and Operational Goal setting">
+          <CVText>
+            A team is a group of people with a unified purpose. Setting good strategic goals helps to keep teams in lockstep,
+            knowing what they have to deliver to satisfy the the business mission. Good goal setting also promote empowerment
+            by giving low level decision makers the information they m=need to make the right decision without having to seek
+            permission or approval.
+          </CVText>
+          <CVText>
+            Where strategic goals are the "what" of the business mission, operational goals are the "how" of it. Operational
+            goals give structure to approach and help to prioritise the most valuable work for the business/customer, while
+            ensuring that there is freedom of action for the outcome to be achieved in efficient and innovative ways.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Product Engineering">
+          <CVText>
+            I am a champion of a product approach to running a business.  As well as the technical advantages of reduced maintenance and increased engineering team productivity, the business advantages are also significant. Sales cycles are reduced, marketing activities are focused and customer expectations are managed. Good product engineering focuses on building/selling what the customer wants, prioritised by what is valuable to the business.
+          </CVText>
+          <CVText>
+            Bringing all departments together to define the product keeps us all aligned while also responding to customer/user feed back, market intelligence and gathered usage data. In combination with the strategic goals of the business the product definition gives each department a mandate of what to sell, what to build and what to market.  It makes us predictable to our customers and accountable to our investors.  It gives employees at all levels on what our product is and where we are going next.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Business Planning and Budgeting">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
-        </CVSection>
-        <CVSection size="medium" title="Strategic and Operational Goal setting">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          <CVText> Eisenhower tells us that plans are useless, but that planning is essential.</CVText>
+          <CVText>
+            Business Planning is hard; it is trying to predict the future based on guesses and hopes. Salesmen are ambitious,
+            investors are nervous, engineering teams are pessimistic and finance teams want fine details. I can help to
+            assimilate all these conflicting opinions and produce a plan that matches the strategic goals of the business,
+            whilst being grounded in pragmatic realism. If done correctly, budgets are the natural outcome of business
+            planning. I work with the CFO/FinCon to develop detailed engineering budgets that are informed by the business
+            plan.
+          </CVText>
+          <CVText>
+            I have regularly run departmental budgets with SALEX in excess of £10M, CAPEX in excess of £2M and OPEX in excess
+            of £5M. I know how to get value for spend ensuring my budgets are not wasted; I have the confidence to spend when
+            required, but the diligence to choose my risks based on evidence.
+          </CVText>
         </CVSection>
         <CVSection size="medium" title="Recruitment">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
-        </CVSection>
-        <CVSection size="medium" title="Culture Creation">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
-          orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
-          convallis lorem. Fusce id malesuada lorem,
+          <CVText>
+            Establishing robust recruitment procedures; being inclusive and seeking diversity of thought; relying on team members to interview and select their own colleagues; are all underpinning principles of my approach to recruitment. Job adverts must reflect our values and advertise our culture - never forget that we are also being interviewed.
+          </CVText>
+          <CVText>
+            In order that this does not become an overwhelming burden, selection of the right recruitment agent(s)/agency(ies) is a must.
+          </CVText>
         </CVSection>
         <CVSection size="medium" title="Agile Thinking, Behaviour and Coaching">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a pellentesque risus. Mauris quis turpis arcu. Proin
           orci mi, varius a nibh vitae, vestibulum maximus mi. Aliquam erat volutpat. Fusce consectetur volutpat leo, ac
           convallis lorem. Fusce id malesuada lorem,
+        </CVSection>
+        <CVSection size="medium" title="Partnership and Relationship Building">
+          <CVText>
+            No company can exist in a vacuum; choosing the right partners and suppliers is key to success. I am experienced in
+            assessing supplier capability and technical fit, whether that's for outsourcing specific projects or buying in
+            enablement software. I am also experienced in the technical aspects of creating a partner ecosystem to satisfy our
+            customer needs.
+          </CVText>
+          <CVText>
+            Once the partnerships have been made, maintaining the relationship relies on regular communication where you can
+            both give and, more importantly, receive honest feedback. Feedback about the levels of service, capability and
+            engagement. It requires trust and pragmatism, traits that I can espouse and inspire in others. I have a history of
+            being able to create robust relationships that remain solid even through uncomfortable and critical conversations.
+          </CVText>
         </CVSection>
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
@@ -490,7 +533,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             selecting an preparing recipes that are tailored to our guests needs and wants; using prime ingredients - all parts
             of the joy.
           </CVText>
-          <CVText> And if you have done it well, then the eating is excelent. </CVText>
+          <CVText> And if you have done it well, then the eating is excellent.</CVText>
         </CVHobby>
       </CVGridWrapper>
     </CVItem>

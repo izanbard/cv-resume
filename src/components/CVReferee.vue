@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import CVListItem from '@/components/CVListItem.vue'
 import { getImageUrl } from '@/assets/helper.ts'
+import CVSection from '@/components/CVSection.vue'
 
 defineProps<{
   picture: string
@@ -13,6 +14,7 @@ defineProps<{
     <div class="image">
       <img :alt="name" :src="getImageUrl(picture)" class="portrait" />
     </div>
+    <CVSection>
     <div class="details">
       <CVListItem title="Name">
         <span class="name">{{ name }}</span>
@@ -31,6 +33,7 @@ defineProps<{
         <span class="contact">Available on request.</span>
       </CVListItem>
     </div>
+    </CVSection>
   </div>
 </template>
 
