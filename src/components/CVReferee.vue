@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import CVListItem from '@/components/CVListItem.vue'
 import { getImageUrl } from '@/assets/helper.ts'
 
@@ -11,19 +11,25 @@ defineProps<{
 <template>
   <div class="card">
     <div class="image">
-      <img class="portrait" :src="getImageUrl(picture)" :alt="name" />
+      <img :alt="name" :src="getImageUrl(picture)" class="portrait" />
     </div>
     <div class="details">
-      <CVListItem title="Name"
-        ><span class="name">{{ name }}</span></CVListItem
-      >
-      <CVListItem title="Context"
-        ><span class="context"><slot name="context"></slot></span
-      ></CVListItem>
-      <CVListItem title="Description"
-        ><span class="description"><slot name="description"></slot></span
-      ></CVListItem>
-      <CVListItem title="Contact Details"><span class="contact">Available on request.</span></CVListItem>
+      <CVListItem title="Name">
+        <span class="name">{{ name }}</span>
+      </CVListItem>
+      <CVListItem title="Context">
+        <span class="context">
+          <slot name="context"></slot>
+        </span>
+      </CVListItem>
+      <CVListItem title="Description">
+        <span class="description">
+          <slot name="description"></slot>
+        </span>
+      </CVListItem>
+      <CVListItem title="Contact Details">
+        <span class="contact">Available on request.</span>
+      </CVListItem>
     </div>
   </div>
 </template>
@@ -35,20 +41,28 @@ defineProps<{
   border-radius: 50px;
   overflow: hidden;
   align-items: stretch;
+
   &:not(:last-child) {
     margin-bottom: 15px;
   }
+
   padding-right: 10px;
+  @media print {
+    break-inside: avoid;
+  }
 }
+
 .image {
   background-color: peru;
   padding: 15px 15px 15px 15px;
   align-content: center;
 }
+
 .portrait {
   width: 100px;
   border-radius: 50%;
 }
+
 .details {
   padding: 10px 0;
 }

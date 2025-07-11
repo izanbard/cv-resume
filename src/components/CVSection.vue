@@ -28,6 +28,7 @@ const text_size = computed(() => {
 <style scoped>
 .title {
   margin-bottom: 5px;
+
   &:not(:first-child) {
     margin-top: 10px;
 
@@ -41,6 +42,7 @@ h3 {
   font-family: 'Eurostile Extended', Inter, sans-serif;
   color: var(--color-heading);
 }
+
 .section {
   margin-left: 10px;
 }

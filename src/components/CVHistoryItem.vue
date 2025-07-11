@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
+import { computed, onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
 import { getImageUrl } from '@/assets/helper.ts'
 
 const props = defineProps<{
@@ -13,6 +13,9 @@ const more = ref(true)
 const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('history_content')
 const show_more = ref(true)
 const max_height = ref(50)
+const rotation = computed(() => {
+  return more.value ? 'rotate(-90deg)' : 'rotate(90deg)'
+})
 
 onMounted(() => {
   resize()
@@ -35,14 +38,14 @@ function resize() {
 }
 
 function expand() {
-  if (content_div.value) {
+  if (content_div.value && show_more.value) {
     more.value = false
     content_div.value.style.maxHeight = content_div.value.scrollHeight + 'px'
   }
 }
 
 function collapse() {
-  if (content_div.value) {
+  if (content_div.value && show_more.value) {
     more.value = true
     content_div.value.style.maxHeight = max_height.value + 'px'
   }
@@ -54,7 +57,7 @@ function expander() {
   } else {
     collapse()
   }
-  resize();
+  resize()
 }
 </script>
 
@@ -73,7 +76,7 @@ function expander() {
       </div>
     </div>
     <div v-if="show_more" class="more">
-      <span class="more_span" @click.stop="expander()">{{ more ? 'More...' : '...Less' }}</span>
+      <span class="more_span" @click.stop="expander()">{{ more ? '&nbsp;More&nbsp;' : '&nbsp;Less&nbsp;' }}</span>
     </div>
   </div>
 </template>
@@ -112,7 +115,6 @@ h3 {
 .history_item {
   margin-top: 10px;
   padding-top: 5px;
-
   clear: both;
   overflow: hidden;
   @media print {
@@ -148,6 +150,14 @@ h3 {
 
 .more_span:hover {
   background-color: hsla(160, 100%, 37%, 0.2);
+}
+
+.more_span::before,
+.more_span::after {
+  content: '\00AB';
+  display: inline-block;
+  transform: v-bind(rotation);
+  transition: transform 0.8s linear;
 }
 
 .history_content {

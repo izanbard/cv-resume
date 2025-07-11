@@ -53,6 +53,7 @@ function collapse() {
 .expand_all a {
   padding: 1px 0;
 }
+
 .tool {
   position: relative;
 }
@@ -80,6 +81,7 @@ function collapse() {
   visibility: visible;
   opacity: 0.5;
 }
+
 .tool .tooltip::after {
   content: ' ';
   position: absolute;

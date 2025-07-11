@@ -32,6 +32,11 @@ onMounted(() => {
   })
   addEventListener('collapse', () => {
     collapse()
+    if (props.expanded) {
+      setTimeout(() => {
+        expand()
+      }, 600)
+    }
   })
 })
 
@@ -124,10 +129,7 @@ function expander() {
 .item_icon {
   position: absolute;
   left: -59px;
-  padding-top: 2px;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 3px;
+  padding: 2px 7px 3px;
   background-color: v-bind(colour);
   border: var(--color-border) solid 2px;
   color: white;
@@ -139,10 +141,7 @@ function expander() {
 
 .two .item_icon {
   left: -37px;
-  padding-top: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-bottom: 0;
+  padding: 0 4px;
 }
 
 h3 {

@@ -9,7 +9,8 @@ defineProps<{
 <template>
   <div class="list_item">
     <CVText>
-      <span class="title">{{ title }}. </span><slot></slot>
+      <span class="title">{{ title }}. </span>
+      <slot></slot>
     </CVText>
   </div>
 </template>
@@ -26,6 +27,7 @@ defineProps<{
 
 .list_item {
   margin-left: 10px;
+
   &:not(:last-child) {
     margin-bottom: 10px;
   }

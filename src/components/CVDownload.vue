@@ -1,4 +1,4 @@
-<script async setup lang="ts">
+<script async lang="ts" setup>
 const props = defineProps<{
   fileName: string
   displayName: string
@@ -12,6 +12,7 @@ function getFileUrl(name: string) {
 
 const data = await axios.head(getFileUrl(props.fileName))
 const size = data.headers ? Math.floor(data.headers['content-length'] / 1000).toFixed(0) : '???'
+
 async function downloadPdf() {
   const response = await axios.get(getFileUrl(props.fileName), { responseType: 'blob' })
   const blob = new Blob([response.data], { type: 'application/pdf' })
@@ -42,10 +43,13 @@ async function downloadPdf() {
   overflow: hidden;
   height: 40px;
   width: fit-content;
+
   &:not(:last-child) {
     margin-bottom: 15px;
   }
+
   cursor: pointer;
+  text-wrap: nowrap;
 }
 
 .size,
@@ -54,16 +58,20 @@ async function downloadPdf() {
 .leader {
   padding: 13px 8px 10px 8px;
 }
+
 .leader {
   background-color: crimson;
   color: white;
 }
+
 .size {
   background-color: lightgray;
 }
+
 .name:after {
   content: ':';
 }
+
 .file {
   padding-left: 0;
 }

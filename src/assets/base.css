@@ -100,3 +100,10 @@ body {
 body.easter {
   background: var(--color-background-mute) url(/images/easter.png);
 }
+
+@media print {
+  @page {
+    size: auto;
+    margin: 10mm 0;
+  }
+}

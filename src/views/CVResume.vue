@@ -1,16 +1,18 @@
 <script lang="ts" setup>
 import CVContacts from '@/components/CVContacts.vue'
 import CVDownload from '@/components/CVDownload.vue'
+import CVExpandAll from '@/components/CVExpandAll.vue'
+import CVGridWrapper from '@/components/CVGridWrapper.vue'
 import CVHistoryItem from '@/components/CVHistoryItem.vue'
+import CVHobby from '@/components/CVHobby.vue'
 import CVItem from '@/components/CVItem.vue'
 import CVLink from '@/components/CVLink.vue'
 import CVListItem from '@/components/CVListItem.vue'
+import CVQualification from '@/components/CVQualification.vue'
+import CVReferee from '@/components/CVReferee.vue'
 import CVSection from '@/components/CVSection.vue'
 import CVText from '@/components/CVText.vue'
 import CVTimeline from '@/components/CVTimeline.vue'
-import CVReferee from '@/components/CVReferee.vue'
-import CVQualification from '@/components/CVQualification.vue'
-import CVExpandAll from '@/components/CVExpandAll.vue'
 </script>
 
 <template>
@@ -196,7 +198,7 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
           <CVText>
             As we came out of the other end though we had weathered the storm as a business. Once the crew got back in to the
             office and there were more face to face interactions the cohesion strengthened and I was able to devolve greater
-            rseponsibility and autonomy in to the team.
+            responsibility and autonomy in to the team.
           </CVText>
         </CVHistoryItem>
         <CVHistoryItem
@@ -255,8 +257,8 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
             The Northface Ventures team were part of the crew who built and sold Workplace Systems after a three year journey
             of transformation from stale software house to vibrant product-driven company. Now Northface share what we learned.
           </CVText>
-          <CVText
-            >My role was the engine room consultant. Working with engineering departments to build high performing teams
+          <CVText>
+            My role was the engine room consultant. Working with engineering departments to build high performing teams
             delivering excellent product that satisfies market requirement. I assessed the engineering departments that I
             worked with to determine where to invest effort for improvement and where to cut out wasteful practice. I delivered
             coaching for engineers and engineering managers on agile concepts and implementation methodologies including Scrum
@@ -297,7 +299,7 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
           title="Software Delivery Manager, Workplace Systems"
         >
           <CVText>
-            I was the scrummaster for 2 scrum teams while we worked out how to do scrum. Due to a change of senior management,
+            I was the scrum master for 2 scrum teams while we worked out how to do scrum. Due to a change of senior management,
             this was a time of turnaround and transformation at Workplace Systems; we moved from being a services company with
             a software offering to being product led. With that high level of change across all business functions, talent
             management was of the first importance - keeping the talent we had and attracting fresh thinkers. In addition to
@@ -400,9 +402,9 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
           <CVText>
             During the pandemic I was responsible for establishing and managing the National Volunteer Coordination Centre on
             behalf of the Department for Culture Media and Sport. We kept a register of all significant volunteer organisations
-            and materiel donations and ensured that they were directed to the Local Council Disaster Manager in most need. I also
-            supervised the response teams that were running the UK's temporary mortuary system and the admin teams setting up
-            the back offices for the Nightingale Hospitals.
+            and materiel donations and ensured that they were directed to the Local Council Disaster Manager in most need. I
+            also supervised the response teams that were running the UK's temporary mortuary system and the admin teams setting
+            up the back offices for the Nightingale Hospitals.
           </CVText>
           <CVText>
             After the initial response was over I took part in 3 COVID-19 surge testing operations. Delivering door to door PCR
@@ -421,11 +423,77 @@ import CVExpandAll from '@/components/CVExpandAll.vue'
             the poorest communities in Cebu City. I ran the UK based HQ supervising response operations in: the British Virgin
             Islands, Barbados and Turks and Caicos after Hurricanes Irma and Maria; and Sri Lanka after Cyclone Mora.
           </CVText>
-          <CVText> Team Rubicon UK was a franchise of Team Rubicon USA, that franchise ended in June 2020. </CVText>
+          <CVText> Team Rubicon UK was a franchise of Team Rubicon USA, that franchise ended in June 2020.</CVText>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
-    <CVItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests"></CVItem>
+    <CVItem icon="stadia_controller" icon_colour="mediumseagreen" title="Hobbies and Interests">
+      <CVGridWrapper :columns="4">
+        <CVHobby picture_bottom="pct.png" picture_top="adventuring.jpg" title="Adventuring">
+          <CVText>
+            I love adventuring; and I love it when that adventure is outdoors and full of discovery and beauty.
+          </CVText>
+          <CVText>
+            I have sought adventure in many forms, but where I seem to have settled is in long distance hiking. In the summer
+            of 2022, I completed ~1400 miles of the
+            <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I travelled north
+            through California and Oregon (skipping some bits that were on fire and some that were outside my skills) nd
+            finished on the southern Washington State border. It was amazing and if you have a spare couple of hours, ask me
+            about it.
+          </CVText>
+          <CVText>
+            In winter of 2024 I covered ~600 miles of the <a href="https://www.teararoa.org.nz/">Te Araroa</a> trail in New
+            Zealand. Staring in the middle of North Island heading south, crossing the strait and finishing near Nelson. This
+            was a significantly different adventure, that included some canoeing and lots of hitchhiking.
+          </CVText>
+        </CVHobby>
+        <CVHobby picture_bottom="board.jpg" picture_top="computer.webp" title="Gaming">
+          <CVText>
+            Play is fundamental to how we learn and how we form meaningful relationships with people. It keeps my mind active
+            and challenged; helping to be flexible to changing rulesets and environments.
+          </CVText>
+          <CVText>
+            My favorite style is cooperative gameplay, be that online or on a tabletop. I like to puzzle things out together,
+            whether that is joining up to tackle the cryptic crossword or building new words together in factory simulators.
+          </CVText>
+          <CVText>
+            A bit of healthy competition can also be good for the soul. It can also be good for an established team to let off
+            some steam and build those bragging rights rivalries. The shared experiences building trust and camaraderie that
+            can elevate colleagues to friends.
+          </CVText>
+        </CVHobby>
+        <CVHobby picture_bottom="observatory.jpg" picture_top="astronomy.jpg" title="Astronomy">
+          <CVText>
+            Ever since seeing Halley's Comet as a nine year old child, I have had a fascination with the cosmos. It is the
+            planets that really get me fired up, there are few things more majestic than directly observing the bands of
+            Jupiter or the rings of Saturn. Luna observing is also breathtaking with the detail of its craters ad mountain
+            scintillating on the terminator.
+          </CVText>
+          <CVText>
+            While mostly I am a naked eye observer with Google Star-map in hand, I also own an 8" Newtonian Reflector, but do
+            not get it out as much as I want to.
+          </CVText>
+          <CVText>
+            In later life I have been drawn to visiting observatories world wide including Mauna Kea, Griffiths, Sydney,
+            Reykjavik; but the best of all is the UK's own Kielder Observatory.
+          </CVText>
+        </CVHobby>
+        <CVHobby picture_bottom="cooking.jpg" picture_top="baking.jpg" title="Cooking">
+          <CVText>I love to cook, but mostly I love to eat!</CVText>
+          <CVText>
+            Inspired by the simplicity of Mediterranean cooking and the complexity of Japanese, and many other styles in
+            between; I find deep satisfaction in preparing and sharing meals. We make our own sausages, cure our own bacon and
+            smoke our own salmon.
+          </CVText>
+          <CVText>
+            Food is such a key part of life that getting it right is important. Trying new flavours or honing classic ones;
+            selecting an preparing recipes that are tailored to our guests needs and wants; using prime ingredients - all parts
+            of the joy.
+          </CVText>
+          <CVText> And if you have done it well, then the eating is excelent. </CVText>
+        </CVHobby>
+      </CVGridWrapper>
+    </CVItem>
     <CVItem icon="sports" icon_colour="peru" title="Referees">
       <CVReferee name="David Farquhar FRGS" picture="david.jpeg">
         <template #context>
