@@ -1,9 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+about: Create a report to help us spell things right
+title: 'You cannot spell you dummy'
+labels: 'spooling'
+assignees: 'OED'
 
 ---
 

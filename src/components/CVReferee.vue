@@ -15,24 +15,24 @@ defineProps<{
       <img :alt="name" :src="getImageUrl(picture)" class="portrait" />
     </div>
     <CVSection>
-    <div class="details">
-      <CVListItem title="Name">
-        <span class="name">{{ name }}</span>
-      </CVListItem>
-      <CVListItem title="Context">
-        <span class="context">
-          <slot name="context"></slot>
-        </span>
-      </CVListItem>
-      <CVListItem title="Description">
-        <span class="description">
-          <slot name="description"></slot>
-        </span>
-      </CVListItem>
-      <CVListItem title="Contact Details">
-        <span class="contact">Available on request.</span>
-      </CVListItem>
-    </div>
+      <div class="details">
+        <CVListItem title="Name">
+          <span class="name">{{ name }}</span>
+        </CVListItem>
+        <CVListItem title="Context">
+          <span class="context">
+            <slot name="context"></slot>
+          </span>
+        </CVListItem>
+        <CVListItem title="Description">
+          <span class="description">
+            <slot name="description"></slot>
+          </span>
+        </CVListItem>
+        <CVListItem title="Contact Details">
+          <span class="contact">Available on request.</span>
+        </CVListItem>
+      </div>
     </CVSection>
   </div>
 </template>

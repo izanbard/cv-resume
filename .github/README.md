@@ -1,7 +1,7 @@
 # CV/R&#x00E9;sum&#x00E9;: GORDON PETER WILLS
 
 ## Contacts:
-- email: gordy dot wills at gmail dot com"
+- email: gordy dot wills at gmail dot com
 - linked in: https://www.linkedin.com/in/gordywills/
 - tel: +44 7710 416 608
 - web: https://gordywills.com/
@@ -16,4 +16,4 @@ OR download:
 2. **Full Document:** https://gordywills.com/files/gordon-peter-wills_cv-resume.pdf
 
 ## Contributing
-Please don't.  This is my CV come on.  If you really have to, then you may put in PRs for spelling mistakes, all other things are not welcome.
+Please don't.  This is my CV come on.  If you really have to, then you may put in PRs for spelling mistakes; all other things are not welcome.

@@ -1,9 +1,9 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
+about: Suggest an idea for this project that I can ignore
+title: 'This change will never happen'
 labels: ''
-assignees: ''
+assignees: 'noone'
 
 ---
 

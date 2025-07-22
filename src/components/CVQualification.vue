@@ -10,12 +10,12 @@ defineProps<{
 
 <template>
   <CVSection>
-  <CVListItem v-if="outcome_title" :title="outcome_title">
-    <slot name="outcome"></slot>
-  </CVListItem>
-  <CVListItem v-if="aside_title" :title="aside_title">
-    <slot name="aside"></slot>
-  </CVListItem>
+    <CVListItem v-if="outcome_title" :title="outcome_title">
+      <slot name="outcome"></slot>
+    </CVListItem>
+    <CVListItem v-if="aside_title" :title="aside_title">
+      <slot name="aside"></slot>
+    </CVListItem>
   </CVSection>
 </template>
 
