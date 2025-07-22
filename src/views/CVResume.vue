@@ -205,54 +205,47 @@ import CVTimeline from '@/components/CVTimeline.vue'
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
         <CVSection size="medium" title="Product Engineering">
-          Focus on User
-          repeatability
-          consistency
-          quality
+          <CVText>
+            We gain benefits in support and maintenance when delivering homogenous product to all our users - it also
+            simplifies the sales and marketing cycles. Choosing what a single unified product looks like, what features it
+            contains an what will build next is the job of product engineering.
+          </CVText>
+          <CVText>
+            Experimentation, data gathering, feedback and analysis are the cornerstones of product engineering. I make product
+            decision based on the empirical data; bringing a team of product owners, UX engineers and software engineers
+            together with the whole business to define the product and the priorities. We eschew customer bespoke code and
+            functionality, especially if tied to a sales cycle, but instead build the ability to add extensions and plugins
+            that will work for any sub set of users.
+          </CVText>
+          <CVText> Our outcomes are focused on the userbase trying to provide: </CVText>
+          <CVListItem title="Reliability"> The product works with few bugs and is always available. </CVListItem>
+          <CVListItem title="Usability">
+            The user can operate the product to achieve their outcome with out the product being burdensome or getting in the
+            way.
+          </CVListItem>
+          <CVListItem title="Maintainability">
+            Bugs can be, and are, fixed rapidly - this is reliant on good coding standards and engineering discipline.
+          </CVListItem>
+          <CVListItem title="Extensibility">
+            New features requested by users are delivered rapidly usually as an MVP experiment to be able to gather more data.
+          </CVListItem>
+          <CVListItem title="Predictability">
+            Product engineering should give us a road map that we can publish and stick to making it clear what our users can
+            expect.
+          </CVListItem>
         </CVSection>
         <CVSection size="medium" title="System Architecture">
-          SaaS
-          Multi tenant
-          Cloud
-          micro services
-          automation
-          data
+          SaaS Multi tenant Cloud micro services automation data
         </CVSection>
         <CVSection size="medium" title="Systems Integration">
-          APIs
-          physical boundaries
-          standards
-          ESBs
-          ETLs
-          eco systems
+          APIs physical boundaries standards ESBs ETLs eco systems
         </CVSection>
         <CVSection size="medium" title="DevOps Patterns">
-          deployment CI CD
-          k8s
-          platform
-          dev experience
-          libraries
-          standards and PR review
-          repos
+          deployment CI CD k8s platform dev experience libraries standards and PR review repos
         </CVSection>
-        <CVSection size="medium" title="Site Reliability Engineering">
-          site reliability
-          observability
-        </CVSection>
-        <CVSection size="medium" title="Software Engineering">
-          code
-          testing
-          design
-          DBs
-          Frontend vs Backend
-        </CVSection>
-        <CVSection size="medium" title="Infrastructure and Networking">
-          DNS
-          Cabling
-          Servers
-          Linux
-
-        </CVSection>
+        <CVSection size="medium" title="Site Reliability Engineering"> site reliability observability </CVSection>
+        <CVSection size="medium" title="Software Engineering"> code testing design DBs Frontend vs Backend </CVSection>
+        <CVSection size="medium" title="Infrastructure and Networking"> DNS Cabling Servers Linux </CVSection>
       </CVItem>
     </CVItem>
     <CVItem icon="history" icon_colour="navy" title="Work History">

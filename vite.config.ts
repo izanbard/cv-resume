@@ -4,7 +4,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import Unocss from 'vite-plugin-vue-inspector'
-import path from 'node:path'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -13,7 +12,6 @@ export default defineConfig({
   publicDir: '../public',
   server: {
     allowedHosts: [".local.net"],
-    open: "index.html",
   },
   build: {
     outDir: '../dist',
@@ -29,8 +27,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-      "/src": path.resolve(process.cwd(), "src")
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
 })
