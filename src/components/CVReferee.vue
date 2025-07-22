@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import CVListItem from '@/components/CVListItem.vue'
-import { getImageUrl } from '@/assets/helper.ts'
+import { getImageUrl } from '@/utils/helper.ts'
 import CVSection from '@/components/CVSection.vue'
 
 defineProps<{

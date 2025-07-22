@@ -17,7 +17,7 @@ const server = app.listen(3000)
     waitUntil: 'networkidle0',
   })
   await page.pdf({
-    path: `${path.join(import.meta.dirname, 'dist/files/gordon-peter-wills_cv-resume.pdf')}`,
+    path: `${path.join(process.cwd(), 'dist/files/gordon-peter-wills_cv-resume.pdf')}`,
     format: 'A4',
     margin: {
       top: 30,

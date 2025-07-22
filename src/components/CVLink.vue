@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { getImageUrl } from '@/assets/helper.ts'
+import { getImageUrl } from '@/utils/helper.ts'
 
 defineProps<{
   title: string

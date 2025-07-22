@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref, type ShallowRef, useTemplateRef } from 'vue'
-import { getImageUrl } from '@/assets/helper.ts'
+import { getImageUrl } from '@/utils/helper.ts'
 
 const props = defineProps<{
   end: string
