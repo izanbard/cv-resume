@@ -90,7 +90,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             Working with others to establish the business vision statement and developing the mission from it is second nature
             to me; part of my military training and part of personality. Capturing our team values is a harder process but
-            perhaps eben more valuable as it those values that resonate with team members. Using the business mission/vision on
+            perhaps even more valuable as it those values that resonate with team members. Using the business mission/vision on
             one axis and the values on another produces a map of our behaviours and beliefs. Discussing these things in detail
             and being inclusive in their generation is fantastically motivating to teams and gives us a sense of unity and
             pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes
@@ -178,9 +178,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             Coaching Agile is about leadership. For line managers it is about teaching them to be leaders not managers - the
             skill of setting direction without issuing instructions. For engineers it is about teaching them to be learning
-            followers, which is in fact leadership - in a truly hgh performing team every member is a leader and a follower in
+            followers, which is in fact leadership - in a truly high performing team every member is a leader and a follower in
             equal measure. It is for higher managers that it is tricky, first we must teach them to relinquish control and
-            trust that teams will perfom to their best - then we need to stop them asking for reports; stop wasting time on
+            trust that teams will perform to their best - then we need to stop them asking for reports; stop wasting time on
             work that does not move us directly toward the goal.
           </CVText>
           <CVText>
@@ -214,11 +214,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
             Experimentation, data gathering, feedback and analysis are the cornerstones of product engineering. I make product
             decision based on the empirical data; bringing a team of product owners, UX engineers and software engineers
             together with the whole business to define the product and the priorities. We eschew customer bespoke code and
-            functionality, especially if tied to a sales cycle, but instead build the ability to add extensions and plugins
+            functionality, especially if tied to a sales cycle, but instead build the ability to add extensions and plug-ins
             that will work for any sub set of users.
           </CVText>
-          <CVText> Our outcomes are focused on the userbase trying to provide: </CVText>
-          <CVListItem title="Reliability"> The product works with few bugs and is always available. </CVListItem>
+          <CVText> Our outcomes are focused on the user base trying to provide:</CVText>
+          <CVListItem title="Reliability"> The product works with few bugs and is always available.</CVListItem>
           <CVListItem title="Usability">
             The user can operate the product to achieve their outcome with out the product being burdensome or getting in the
             way.
@@ -235,17 +235,109 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVListItem>
         </CVSection>
         <CVSection size="medium" title="System Architecture">
-          SaaS Multi tenant Cloud micro services automation data
+          <CVText>
+            I see this in layers of complexity; at the base I select the right code, tools,frameworks etc. Moving up I define
+            service functionality and how the services combine to form an application. At the top I see how application slot
+            together with 3rd party tooling and software within an operational environment to satisfy the user's pressing need.
+          </CVText>
+          <CVText>
+            Overall I work to keep things as simple as practical whilst maintaining resilience and extensibility. Through
+            separation of concerns we keep services streamlined and focused, making them easy to maintain. Extraction of
+            library functionality speeds development and makes the architecture/code easier to read and understand. Selection
+            and implementation of modern protocols and backing technologies (REST, MQTT, Kubernetes, Graph DB, etc.) ensures
+            the user gets the right data at the right time and that software engineers can develop new functionality using
+            simple building blocks.
+          </CVText>
+          <CVText>
+            Designing cloud based, micro-service applications is my bread and butter; usually SaaS, usually B2B, usually
+            multi-tenant. Designing in high levels of automation and robust communications pathways results in a platform the
+            user can trust to be accurate and timely.
+          </CVText>
         </CVSection>
         <CVSection size="medium" title="Systems Integration">
-          APIs physical boundaries standards ESBs ETLs eco systems
+          <CVText>
+            No application exists in a vacuum. Systems must integrate with one and other to achieve the users needs; sharing
+            data and telemetry and exposing a command/action interface.
+          </CVText>
+          <CVText>
+            Integration is as much about the abstraction and modelling of your application as it is about the actual transfer
+            of data. You must ensure that what you are exposing is simple enough that the far end can get the data or send the
+            command they need with out having to have knowledge of your application internals and without giving away your USP.
+            Once it is modelled you can decide on the appropriate protocols and data languages - if done right then more
+            protocols and data languages can be added, because the underlying semantics do not change.
+          </CVText>
+          <CVText>
+            In recent years I have worked on industrial automation from ERP to PLC and everything in between. Prior to that I
+            consumed medical sensor data to feed a treatment decision engine. In both cases leveraging REST, MQTT with complex
+            translation middleware. Success was bourne out by good design and great documentation (OAS, AsyncAPI, etc.).
+          </CVText>
         </CVSection>
         <CVSection size="medium" title="DevOps Patterns">
-          deployment CI CD k8s platform dev experience libraries standards and PR review repos
+          <CVText>
+            Whether the aim is CI/CD or more simple automated testing and deployment, I design DevOps behaviours in the teams
+            that speed up software engineers and increase the quality and reliability of the application.
+          </CVText>
+          <CVText>
+            Great DevOps has it foundation in an agreed set of coding and development standards. These ensure consistency
+            between the most seasoned and most raw software engineers in the team. Consistency breeds the ability to automate,
+            leaving the engineers to do the important stuff. Once the solution has been written and properly reviewed then the
+            automation kicks in to deliver that value into the application. It starts simple with automated build and test
+            based on repo branching rules and then advances in to automated artifact deployment. I often add static code
+            analysis and automated documentation to the workflows. The use of feature flags allows engineers to deploy
+            experiments easily and for UI/UX engineers to conduct A/B testing. I also champion the Infrastructure as Code (IaC)
+            pattern allowing software engineers to deploy the services they need all as part of the code change - this is
+            especially powerful when coupled with tools such as Kubernetes and Docker.
+          </CVText>
+          <CVText>
+            In advanced DevOps practice I advocate a platform team that provides the rest of the software team with the tools
+            needed to build the application. That might be an abstraction on the IaC framework; or self hosted package
+            libraries; or common service boilerplate like authentication or notifications.
+          </CVText>
         </CVSection>
-        <CVSection size="medium" title="Site Reliability Engineering"> site reliability observability </CVSection>
-        <CVSection size="medium" title="Software Engineering"> code testing design DBs Frontend vs Backend </CVSection>
-        <CVSection size="medium" title="Infrastructure and Networking"> DNS Cabling Servers Linux </CVSection>
+        <CVSection size="medium" title="Site Reliability Engineering">
+          <CVText>
+            Observability is key to knowing how the application is performing. It shows us errors before they are reported by
+            our customers and helps to minimise down time. There is a lot of work in instrumenting each service from DB to
+            frontend and everything in between, ensuring that events can be traced across service boundaries, that logs are
+            informative and at the right level of "noise". I have used both New Relic and Grafana ecosystems for this in the
+            past.
+          </CVText>
+          <CVText>
+            Recovery and restoration from an incident relies on good backups and well defined IaC. Cloud platforms are good at
+            being able to establish replacement compute and database infrastructure and with tools like Kubernetes and
+            Terraform services can also be quickly brought back to life. Data back ups are needed to rehydrate the services
+            once they are back up. Data integrity checks also ensure that the data on your system is consistent over time and
+            can be trusted.
+          </CVText>
+          <CVText>
+            Whilst the role of Site Reliability Engineer is a discipline in its own right (replaces Sys Admin), the function of
+            site reliability engineering belongs to the whole software team (in fact it is part of the DevOps practice). To
+            that end I firmly believe that all software engineers should at least understand these tools and take shifts on out
+            of hours support to maintain their own software!
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Software Engineering">
+          <CVText>
+            My first software job was as an engineer writing PHP. Since then I have written in many other languages and
+            protocols - what i know is that once you truly understand context free languages, then the difference between
+            implementation is syntax - the semantic remains the same. I have also learned that every language is good at some
+            things and bad at others, so there is not best or worst language - as with many trades it is about choosing the
+            right tools for this job. My OO design is strong and I have experience with Graph, KV, document and relational DBs.
+            My main language these days is Python with a smattering of JS/TS, but back end focused - although it has been some
+            time since I was a hands on production developer.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Infrastructure and Networking">
+          <CVText>
+            I have basic networking skills learned in the military and honed over 1 years in business. I know simple DNS and
+            DHCP and have the ability to pull together a multi-site VPN. I even have experience of cabling up entire buildings
+            including patch panels, switches and reach-back.
+          </CVText>
+          <CVText>
+            I also know my way around Linux servers with the ability to install and upgrade software - including through
+            virtualization tools like Docker Compose/Swarm.
+          </CVText>
+        </CVSection>
       </CVItem>
     </CVItem>
     <CVItem icon="history" icon_colour="navy" title="Work History">
@@ -348,7 +440,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             Team Rubicon UK sends people to disaster zones shortly after the event in order to help people survive and
             re-establish normal routines. In the aftermath of Hurricanes Irma and Maria, Team Rubicon UK sent over 100
-            volunteers to the caribbean islands to help. My role was to plan and conduct both pre and post deployment training
+            volunteers to the Caribbean islands to help. My role was to plan and conduct both pre and post deployment training
             packages to ensure volunteers were fully prepared. I was also responsible for updating and delivering an induction
             training package to the 100s of new volunteers that joined after these disasters.
           </CVText>
@@ -408,7 +500,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             managers to share the load. I also started converting the deployment process from a largely manual process to a
             scripted process that ultimately went on to be a Jenkins job - this was the start of DevOps in the company. As a
             software delivery manager, my main focus for the product was to get us in to a position to upgrade to PHP5.3
-            (that's not a typo) and to bring an experimental zend based mobile offering to fruition.
+            (that's not a typo) and to bring an experimental Zend based mobile offering to fruition.
           </CVText>
           <CVText>
             The change of senior management was far from seamless, in fact all the C-Grades were let go in a single hit. Whilst
@@ -449,13 +541,13 @@ import CVTimeline from '@/components/CVTimeline.vue'
             both sides of the role.
           </CVText>
           <CVText>
-            In command, I presided over units of upto 200 soldiers providing telephony and office services in the field and in
+            In command, I presided over units of up to 200 soldiers providing telephony and office services in the field and in
             barracks. I was a recruit training instructor for technical apprentices. I was deployed to various location
             worldwide including an exchange to the New Zealand Army.
           </CVText>
           <CVText>
             In a technical capacity I procure urgently needed operational equipment for troops in Bosnia, Kosovo, Iraq and
-            Afghanistan. I managed a global reachback communications network connecting UK military HQs with governmental
+            Afghanistan. I managed a global reach-back communications network connecting UK military HQs with governmental
             command and other NATO allies. I was appointed as the Army's competent authority on Electronic Warfare, supervising
             all Army projects, research and development and supporting our industry partners.
           </CVText>
@@ -514,7 +606,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVHistoryItem>
         <CVHistoryItem end="Jun 2020" icon="tr.png" start="Apr 2014" title="Team Rubicon UK">
           <CVText>
-            Team Rubicon UK was an international diaster response organisation that united the skills and experiences of
+            Team Rubicon UK was an international disaster response organisation that united the skills and experiences of
             military veterans with first responders to deploy emergency response teams in the UK and around the world. As a
             volunteer responder I was able to bring my full range of skills and experience to help people in the aftermath of a
             disaster.
@@ -538,23 +630,23 @@ import CVTimeline from '@/components/CVTimeline.vue'
             I have sought adventure in many forms, but where I seem to have settled is in long distance hiking. In the summer
             of 2022, I completed ~1400 miles of the
             <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I travelled north
-            through California and Oregon (skipping some bits that were on fire and some that were outside my skills) nd
+            through California and Oregon (skipping some bits that were on fire and some that were outside my skills) and
             finished on the southern Washington State border. It was amazing and if you have a spare couple of hours, ask me
             about it.
           </CVText>
           <CVText>
             In winter of 2024 I covered ~600 miles of the <a href="https://www.teararoa.org.nz/">Te Araroa</a> trail in New
             Zealand. Staring in the middle of North Island heading south, crossing the strait and finishing near Nelson. This
-            was a significantly different adventure, that included some canoeing and lots of hitchhiking.
+            was a significantly different adventure, that included some canoeing and lots of hitch-hiking.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="board.jpg" picture_top="computer.webp" title="Gaming">
           <CVText>
             Play is fundamental to how we learn and how we form meaningful relationships with people. It keeps my mind active
-            and challenged; helping to be flexible to changing rulesets and environments.
+            and challenged; helping to be flexible to changing rule-sets and environments.
           </CVText>
           <CVText>
-            My favorite style is cooperative gameplay, be that online or on a tabletop. I like to puzzle things out together,
+            My favourite style is cooperative gameplay, be that online or on a tabletop. I like to puzzle things out together,
             whether that is joining up to tackle the cryptic crossword or building new words together in factory simulators.
           </CVText>
           <CVText>
