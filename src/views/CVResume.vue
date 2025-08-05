@@ -29,14 +29,15 @@ import CVTimeline from '@/components/CVTimeline.vue'
     <CVItem icon="article" icon_colour="darkolivegreen" title="Introduction">
       <CVText>I lead teams that get hard things done.</CVText>
       <CVText>
-        While I briefly ventured into TV production, technology has always been central to my career, from my time as an
+        Technology has always been central to my career, from my time as an
         officer in the Royal Signals to my roles as a software engineer and engineering leader. However, it's not the
         technology itself that drives me; it's the satisfaction of guiding teams of humans to to accomplish challenging feats
         that no individual though they could do.
+        Skills I rounded out not only in software engineering, but also in a few years of TV production and volunteer disaster responder training along the way.
       </CVText>
       <CVText>
         My foundational experience in the Army instilled in me a deep appreciation for commitment, loyalty, integrity, and
-        professionalism, values I actively seek in others. For over 25 years, I've focused on cultivating business cultures
+        professionalism - values I actively seek in others. For over 25 years, I've focused on cultivating business cultures
         where people feel a sense of safety and belonging. This involves building a platform of trust, fostering individual
         growth in skills and confidence, and creating cohesive teams that enjoy working and playing together.
       </CVText>
@@ -57,7 +58,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
         <CVSection size="medium" title="Leadership">
           <CVListItem title="Agile">
             From Scrummaster of a single team to leading an engineering department of 5 Scrum teams, I have the experience to
-            manage the processes that back up Agile. Focusing on quality, I work to empower the front line decision makers to
+            manage the processes that back up Agile. Focusing on quality, I work to empower the front-line decision makers to
             do the right thing in a dynamic situation and ensure we deliver value. I then work to ensure that these decisions
             are backed across all business functions. I have worked with C-grade executives, sales and marketing teams and with
             professional services teams to help them understand how to be more Agile and how to get the most from working with
@@ -66,7 +67,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVListItem title="Coaching">
             Line management can all too easily become a transactional interaction of setting tasks and approving leave; I coach
             my direct reports and others to facilitate better engagement and empowerment ultimately driving productivity and
-            personal effectiveness. I use active listening methods to pursue an agenda of autonomy, mastery and purpose for
+            personal effectiveness. I use active listening to pursue an agenda of autonomy, mastery and purpose for
             those that I am coaching and seek to balance directive instruction with collaboration.
           </CVListItem>
           <CVListItem title="The Servant">
@@ -83,32 +84,32 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Culture Creation">
           <CVText>
-            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement. The
+            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement. These
             are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and valued
             business mission.
           </CVText>
           <CVText>
             Working with others to establish the business vision statement and developing the mission from it is second nature
-            to me; part of my military training and part of personality. Capturing our team values is a harder process but
-            perhaps even more valuable as it those values that resonate with team members. Using the business mission/vision on
-            one axis and the values on another produces a map of our behaviours and beliefs. Discussing these things in detail
-            and being inclusive in their generation is fantastically motivating to teams and gives us a sense of unity and
+            to me; part of my military training and part of my personality. Capturing our team values is a harder process but
+            perhaps even more valuable as it is those values that resonate with team members. Using the business mission/vision on
+            one axis and these values on another produces a map of our behaviours and beliefs. Discussing these in detail
+            and being included in their generation is fantastically motivating to teams and gives us a sense of unity and
             pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes
-            colleagues into friends. Part of the ongoing culture discussions are the need to adapt and change them as we mature
+            colleagues into friends. Part of the ongoing culture development is need to adapt and change them as we mature
             as a team and a business.
           </CVText>
           <CVText>
-            It is one thing to write these things done and even to discuss them, but unless the culture is lived then our
+            It is one thing to write these things down and even to discuss them, but unless the culture is lived then our
             mission and values hold little value. It takes active leadership and strength of personality to normalise the
             openness and vulnerability of living the culture - both traits I have developed and honed over 25 years of leading
-            high performance teams. I know how to make it fun.
+            high performance teams. And moreover, I know how to make it fun.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Strategic and Operational Goal setting">
           <CVText>
             A team is a group of people with a unified purpose. Setting good strategic goals helps to keep teams in lockstep,
-            knowing what they have to deliver to satisfy the the business mission. Good goal setting also promote empowerment
-            by giving low level decision makers the information they m=need to make the right decision without having to seek
+            knowing what they have to deliver to satisfy the the business mission. Good goal-setting also promotes empowerment
+            by giving low level decision makers the information they need to make the right decision without having to seek
             permission or approval.
           </CVText>
           <CVText>
@@ -119,7 +120,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Product Engineering">
           <CVText>
-            I am a champion of a product approach to running a business. As well as the technical advantages of reduced
+            I am a champion of a product focused business approach. As well as the technical advantages of reduced
             maintenance and increased engineering team productivity, the business advantages are also significant. Sales cycles
             are reduced, marketing activities are focused and customer expectations are managed. Good product engineering
             focuses on building/selling what the customer wants, prioritised by what is valuable to the business.
@@ -128,7 +129,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             Bringing all departments together to define the product keeps us all aligned while also responding to customer/user
             feed back, market intelligence and gathered usage data. In combination with the strategic goals of the business the
             product definition gives each department a mandate of what to sell, what to build and what to market. It makes us
-            predictable to our customers and accountable to our investors. It gives employees at all levels on what our product
+            predictable to our customers and accountable to our investors. It gives employees at all levels clarity on what our product
             is and where we are going next.
           </CVText>
         </CVSection>
@@ -139,12 +140,12 @@ import CVTimeline from '@/components/CVTimeline.vue'
             investors are nervous, engineering teams are pessimistic and finance teams want fine details. I can help to
             assimilate all these conflicting opinions and produce a plan that matches the strategic goals of the business,
             whilst being grounded in pragmatic realism. If done correctly, budgets are the natural outcome of business
-            planning. I work with the CFO/FinCon to develop detailed engineering budgets that are informed by the business
+            planning. I work with the finance function to develop detailed engineering budgets that are informed by the business
             plan.
           </CVText>
           <CVText>
             I have regularly run departmental budgets with SALEX in excess of £10M, CAPEX in excess of £2M and OPEX in excess
-            of £5M. I know how to get value for spend ensuring my budgets are not wasted; I have the confidence to spend when
+            of £5M. I know how to get value for spend, ensuring money is not wasted and budgets are met; I have the confidence to spend when
             required, but the diligence to choose my risks based on evidence.
           </CVText>
         </CVSection>
@@ -156,8 +157,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
             interviewed.
           </CVText>
           <CVText>
-            In order that this does not become an overwhelming burden, I usually work with a recruitment agent(s)/agency(ies).
-            I still fell it is our teams responsibility to ensure that every applicant has a positive interaction with our
+            In order that this does not become an overwhelming burden, I usually work with a recruitment agents.
+            I still feel it is our teams responsibility to ensure that every applicant has a positive interaction with our
             team.
           </CVText>
         </CVSection>
@@ -171,8 +172,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             When I first met Agile in the civilian workplace, it resonated strongly with me and my experiences. I love cutting
             to the chase, doing the work that is needed and no more, changing behaviours to make us stronger and faster. I also
-            love how in combination with the right inclusive and engaged culture it forges storing bonds of trust in teams.
-            When coupling Agile thinking with continuous learning behaviours (natural bedfellows) that teams are better
+            love how in combination with the right inclusive and engaged culture it forges strong bonds of trust in teams.
+            When coupled with continuous learning behaviours (natural bedfellows) then teams are better
             prepared for uncertainty and are able to cut though the confusion.
           </CVText>
           <CVText>
@@ -196,7 +197,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             customer needs.
           </CVText>
           <CVText>
-            Once the partnerships have been made, maintaining the relationship relies on regular communication where you can
+            Once partnerships have been made, maintaining the relationship relies on regular communication where you can
             both give and, more importantly, receive honest feedback. Feedback about the levels of service, capability and
             engagement. It requires trust and pragmatism, traits that I can espouse and inspire in others. I have a history of
             being able to create robust relationships that remain solid even through uncomfortable and critical conversations.
@@ -208,19 +209,19 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             We gain benefits in support and maintenance when delivering homogenous product to all our users - it also
             simplifies the sales and marketing cycles. Choosing what a single unified product looks like, what features it
-            contains an what will build next is the job of product engineering.
+            contains and what will be built next is the job of product engineering.
           </CVText>
           <CVText>
             Experimentation, data gathering, feedback and analysis are the cornerstones of product engineering. I make product
             decision based on the empirical data; bringing a team of product owners, UX engineers and software engineers
             together with the whole business to define the product and the priorities. We eschew customer bespoke code and
             functionality, especially if tied to a sales cycle, but instead build the ability to add extensions and plug-ins
-            that will work for any sub set of users.
+            that will work for any sub-set of users.
           </CVText>
           <CVText> Our outcomes are focused on the user base trying to provide:</CVText>
           <CVListItem title="Reliability"> The product works with few bugs and is always available.</CVListItem>
           <CVListItem title="Usability">
-            The user can operate the product to achieve their outcome with out the product being burdensome or getting in the
+            The user can operate the product to achieve their outcome without the product being burdensome or getting in the
             way.
           </CVListItem>
           <CVListItem title="Maintainability">
@@ -230,14 +231,14 @@ import CVTimeline from '@/components/CVTimeline.vue'
             New features requested by users are delivered rapidly usually as an MVP experiment to be able to gather more data.
           </CVListItem>
           <CVListItem title="Predictability">
-            Product engineering should give us a road map that we can publish and stick to making it clear what our users can
+            Product engineering should give us a roadmap that we can publish and stick to making it clear what our users can
             expect.
           </CVListItem>
         </CVSection>
         <CVSection size="medium" title="System Architecture">
           <CVText>
-            I see this in layers of complexity; at the base I select the right code, tools,frameworks etc. Moving up I define
-            service functionality and how the services combine to form an application. At the top I see how application slot
+            I see this in layers of complexity; at the base I select the right code, tools, frameworks etc. Moving up I define
+            service functionality and how the services combine to form an application. At the top I see how applications slot
             together with 3rd party tooling and software within an operational environment to satisfy the user's pressing need.
           </CVText>
           <CVText>
@@ -262,14 +263,14 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             Integration is as much about the abstraction and modelling of your application as it is about the actual transfer
             of data. You must ensure that what you are exposing is simple enough that the far end can get the data or send the
-            command they need with out having to have knowledge of your application internals and without giving away your USP.
+            command they need without needing knowledge of your application internals and without giving away your USP.
             Once it is modelled you can decide on the appropriate protocols and data languages - if done right then more
             protocols and data languages can be added, because the underlying semantics do not change.
           </CVText>
           <CVText>
             In recent years I have worked on industrial automation from ERP to PLC and everything in between. Prior to that I
             consumed medical sensor data to feed a treatment decision engine. In both cases leveraging REST, MQTT with complex
-            translation middleware. Success was bourne out by good design and great documentation (OAS, AsyncAPI, etc.).
+            translation middleware. Success was borne out by good design and great documentation (OAS, AsyncAPI, etc.).
           </CVText>
         </CVSection>
         <CVSection size="medium" title="DevOps Patterns">
@@ -282,7 +283,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             between the most seasoned and most raw software engineers in the team. Consistency breeds the ability to automate,
             leaving the engineers to do the important stuff. Once the solution has been written and properly reviewed then the
             automation kicks in to deliver that value into the application. It starts simple with automated build and test
-            based on repo branching rules and then advances in to automated artifact deployment. I often add static code
+            based on repo branching rules and then advances into automated artifact deployment. I often add static code
             analysis and automated documentation to the workflows. The use of feature flags allows engineers to deploy
             experiments easily and for UI/UX engineers to conduct A/B testing. I also champion the Infrastructure as Code (IaC)
             pattern allowing software engineers to deploy the services they need all as part of the code change - this is
@@ -290,7 +291,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             In advanced DevOps practice I advocate a platform team that provides the rest of the software team with the tools
-            needed to build the application. That might be an abstraction on the IaC framework; or self hosted package
+            needed to build the application. That might be an abstraction on the IaC framework; or self-hosted package
             libraries; or common service boilerplate like authentication or notifications.
           </CVText>
         </CVSection>
@@ -304,8 +305,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             Recovery and restoration from an incident relies on good backups and well defined IaC. Cloud platforms are good at
-            being able to establish replacement compute and database infrastructure and with tools like Kubernetes and
-            Terraform services can also be quickly brought back to life. Data back ups are needed to rehydrate the services
+            being able to establish replacement compute and database infrastructure, and with tools like Kubernetes and
+            Terraform services can also be quickly brought back to life. Data back-ups are needed to rehydrate the services
             once they are back up. Data integrity checks also ensure that the data on your system is consistent over time and
             can be trusted.
           </CVText>
@@ -313,23 +314,23 @@ import CVTimeline from '@/components/CVTimeline.vue'
             Whilst the role of Site Reliability Engineer is a discipline in its own right (replaces Sys Admin), the function of
             site reliability engineering belongs to the whole software team (in fact it is part of the DevOps practice). To
             that end I firmly believe that all software engineers should at least understand these tools and take shifts on out
-            of hours support to maintain their own software!
+            of hours support to maintain their own software.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Software Engineering">
           <CVText>
             My first software job was as an engineer writing PHP. Since then I have written in many other languages and
-            protocols - what i know is that once you truly understand context free languages, then the difference between
+            protocols - what I know is that once you truly understand context free languages, then the difference between
             implementation is syntax - the semantic remains the same. I have also learned that every language is good at some
-            things and bad at others, so there is not best or worst language - as with many trades it is about choosing the
+            things and bad at others, so there is no best or worst language - as with many trades it is about choosing the
             right tools for this job. My OO design is strong and I have experience with Graph, KV, document and relational DBs.
-            My main language these days is Python with a smattering of JS/TS, but back end focused - although it has been some
+            My main language these days is Python with a smattering of JS/TS, but back-end focused - although it has been some
             time since I was a hands on production developer.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Infrastructure and Networking">
           <CVText>
-            I have basic networking skills learned in the military and honed over 1 years in business. I know simple DNS and
+            I have basic networking skills learned in the military and honed over 15 years in business. I know simple DNS and
             DHCP and have the ability to pull together a multi-site VPN. I even have experience of cabling up entire buildings
             including patch panels, switches and reach-back.
           </CVText>
