@@ -29,11 +29,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
     <CVItem icon="article" icon_colour="darkolivegreen" title="Introduction">
       <CVText>I lead teams that get hard things done.</CVText>
       <CVText>
-        Technology has always been central to my career, from my time as an
-        officer in the Royal Signals to my roles as a software engineer and engineering leader. However, it's not the
-        technology itself that drives me; it's the satisfaction of guiding teams of humans to to accomplish challenging feats
-        that no individual though they could do.
-        Skills I rounded out not only in software engineering, but also in a few years of TV production and volunteer disaster responder training along the way.
+        Technology has always been central to my career, from my time as an officer in the Royal Signals to my roles as a
+        software engineer and engineering leader. However, it's not the technology itself that drives me; it's the satisfaction
+        of guiding teams of humans to to accomplish challenging feats that no individual though they could do. Skills I rounded
+        out not only in software engineering, but also in a few years of TV production and volunteer disaster responder
+        training along the way.
       </CVText>
       <CVText>
         My foundational experience in the Army instilled in me a deep appreciation for commitment, loyalty, integrity, and
@@ -67,8 +67,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVListItem title="Coaching">
             Line management can all too easily become a transactional interaction of setting tasks and approving leave; I coach
             my direct reports and others to facilitate better engagement and empowerment ultimately driving productivity and
-            personal effectiveness. I use active listening to pursue an agenda of autonomy, mastery and purpose for
-            those that I am coaching and seek to balance directive instruction with collaboration.
+            personal effectiveness. I use active listening to pursue an agenda of autonomy, mastery and purpose for those that
+            I am coaching and seek to balance directive instruction with collaboration.
           </CVListItem>
           <CVListItem title="The Servant">
             Servant leadership is fundamental to an Agile mindset and to great coaching. My wide range of experiences in the
@@ -84,19 +84,19 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Culture Creation">
           <CVText>
-            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement. These
-            are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and valued
-            business mission.
+            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement.
+            These are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and
+            valued business mission.
           </CVText>
           <CVText>
             Working with others to establish the business vision statement and developing the mission from it is second nature
             to me; part of my military training and part of my personality. Capturing our team values is a harder process but
-            perhaps even more valuable as it is those values that resonate with team members. Using the business mission/vision on
-            one axis and these values on another produces a map of our behaviours and beliefs. Discussing these in detail
+            perhaps even more valuable as it is those values that resonate with team members. Using the business mission/vision
+            on one axis and these values on another produces a map of our behaviours and beliefs. Discussing these in detail
             and being included in their generation is fantastically motivating to teams and gives us a sense of unity and
             pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes
-            colleagues into friends. Part of the ongoing culture development is need to adapt and change them as we mature
-            as a team and a business.
+            colleagues into friends. Part of the ongoing culture development is need to adapt and change them as we mature as a
+            team and a business.
           </CVText>
           <CVText>
             It is one thing to write these things down and even to discuss them, but unless the culture is lived then our
@@ -120,17 +120,17 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
         <CVSection size="medium" title="Product Engineering">
           <CVText>
-            I am a champion of a product focused business approach. As well as the technical advantages of reduced
-            maintenance and increased engineering team productivity, the business advantages are also significant. Sales cycles
-            are reduced, marketing activities are focused and customer expectations are managed. Good product engineering
-            focuses on building/selling what the customer wants, prioritised by what is valuable to the business.
+            I am a champion of a product focused business approach. As well as the technical advantages of reduced maintenance
+            and increased engineering team productivity, the business advantages are also significant. Sales cycles are
+            reduced, marketing activities are focused and customer expectations are managed. Good product engineering focuses
+            on building/selling what the customer wants, prioritised by what is valuable to the business.
           </CVText>
           <CVText>
             Bringing all departments together to define the product keeps us all aligned while also responding to customer/user
             feed back, market intelligence and gathered usage data. In combination with the strategic goals of the business the
             product definition gives each department a mandate of what to sell, what to build and what to market. It makes us
-            predictable to our customers and accountable to our investors. It gives employees at all levels clarity on what our product
-            is and where we are going next.
+            predictable to our customers and accountable to our investors. It gives employees at all levels clarity on what our
+            product is and where we are going next.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Business Planning and Budgeting">
@@ -140,13 +140,13 @@ import CVTimeline from '@/components/CVTimeline.vue'
             investors are nervous, engineering teams are pessimistic and finance teams want fine details. I can help to
             assimilate all these conflicting opinions and produce a plan that matches the strategic goals of the business,
             whilst being grounded in pragmatic realism. If done correctly, budgets are the natural outcome of business
-            planning. I work with the finance function to develop detailed engineering budgets that are informed by the business
-            plan.
+            planning. I work with the finance function to develop detailed engineering budgets that are informed by the
+            business plan.
           </CVText>
           <CVText>
             I have regularly run departmental budgets with SALEX in excess of £10M, CAPEX in excess of £2M and OPEX in excess
-            of £5M. I know how to get value for spend, ensuring money is not wasted and budgets are met; I have the confidence to spend when
-            required, but the diligence to choose my risks based on evidence.
+            of £5M. I know how to get value for spend, ensuring money is not wasted and budgets are met; I have the confidence
+            to spend when required, but the diligence to choose my risks based on evidence.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Recruitment">
@@ -157,9 +157,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
             interviewed.
           </CVText>
           <CVText>
-            In order that this does not become an overwhelming burden, I usually work with a recruitment agents.
-            I still feel it is our teams responsibility to ensure that every applicant has a positive interaction with our
-            team.
+            In order that this does not become an overwhelming burden, I usually work with a recruitment agents. I still feel
+            it is our teams responsibility to ensure that every applicant has a positive interaction with our team.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Agile Thinking, Behaviour and Coaching">
@@ -172,9 +171,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             When I first met Agile in the civilian workplace, it resonated strongly with me and my experiences. I love cutting
             to the chase, doing the work that is needed and no more, changing behaviours to make us stronger and faster. I also
-            love how in combination with the right inclusive and engaged culture it forges strong bonds of trust in teams.
-            When coupled with continuous learning behaviours (natural bedfellows) then teams are better
-            prepared for uncertainty and are able to cut though the confusion.
+            love how in combination with the right inclusive and engaged culture it forges strong bonds of trust in teams. When
+            coupled with continuous learning behaviours (natural bedfellows) then teams are better prepared for uncertainty and
+            are able to cut though the confusion.
           </CVText>
           <CVText>
             Coaching Agile is about leadership. For line managers it is about teaching them to be leaders not managers - the
@@ -197,8 +196,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
             customer needs.
           </CVText>
           <CVText>
-            Once partnerships have been made, maintaining the relationship relies on regular communication where you can
-            both give and, more importantly, receive honest feedback. Feedback about the levels of service, capability and
+            Once partnerships have been made, maintaining the relationship relies on regular communication where you can both
+            give and, more importantly, receive honest feedback. Feedback about the levels of service, capability and
             engagement. It requires trust and pragmatism, traits that I can espouse and inspire in others. I have a history of
             being able to create robust relationships that remain solid even through uncomfortable and critical conversations.
           </CVText>
@@ -263,9 +262,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             Integration is as much about the abstraction and modelling of your application as it is about the actual transfer
             of data. You must ensure that what you are exposing is simple enough that the far end can get the data or send the
-            command they need without needing knowledge of your application internals and without giving away your USP.
-            Once it is modelled you can decide on the appropriate protocols and data languages - if done right then more
-            protocols and data languages can be added, because the underlying semantics do not change.
+            command they need without needing knowledge of your application internals and without giving away your USP. Once it
+            is modelled you can decide on the appropriate protocols and data languages - if done right then more protocols and
+            data languages can be added, because the underlying semantics do not change.
           </CVText>
           <CVText>
             In recent years I have worked on industrial automation from ERP to PLC and everything in between. Prior to that I
@@ -348,13 +347,12 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVSection size="large" title="Details">
         <CVHistoryItem :expanded="true" end="Dec 2024" icon="igs.png" start="Nov 2022" title="Head of Integration, IGS Ltd">
           <CVText>
-            Having selected and trained my replacement team manager, I took the
-            opportunity to focus on the technical aspects of how IGS products fit in to the wider customer environment.
-            Specifically how the product interoperates with the remainder of our customers' business and their factory. The key
-            was to understand the customer perspective allowing them to use our product to solve their business problems
-            without exposing to (or burdening them with) our internal business logic. The technical solution is a combination of
-            working with well established factory management software, exposing a well designed set of software APIs and
-            clearly defining the hardware touchpoints.
+            Having selected and trained my replacement team manager, I took the opportunity to focus on the technical aspects
+            of how IGS products fit in to the wider customer environment. Specifically how the product interoperates with the
+            remainder of our customers' business and their factory. The key was to understand the customer perspective allowing
+            them to use our product to solve their business problems without exposing to (or burdening them with) our internal
+            business logic. The technical solution is a combination of working with well established factory management
+            software, exposing a well designed set of software APIs and clearly defining the hardware touchpoints.
           </CVText>
           <CVText>
             Whilst initially this was a theoretical exercise, once I had established a framework, I created a prototype
@@ -371,15 +369,15 @@ import CVTimeline from '@/components/CVTimeline.vue'
         <CVHistoryItem :expanded="true" end="Nov 2022" icon="igs.png" start="Oct 2019" title="Head of Software, IGS Ltd">
           <CVText>
             After having built the core of the team, I was asked to take on the team management role. Alongside a few of the
-            Northface Ventures team who had also come on board, this was a great opportunity to build a shared culture of success,
-            excitement and commitment.
+            Northface Ventures team who had also come on board, this was a great opportunity to build a shared culture of
+            success, excitement and commitment.
           </CVText>
           <CVText>
             My role expanded to include the development of process and unity in the team. I was still responsible for
             recruitment and for the business aspects of running the department, but now also the line management of the
             individuals; our working agreements and practices; the quality and productivity of our output. Despite the
-            lockdowns of 2020-2022 we grew the team from 12 to over 40 and produced software that was fit for purpose and
-            ran all of the companies experimental products.
+            lockdowns of 2020-2022 we grew the team from 12 to over 40 and produced software that was fit for purpose and ran
+            all of the companies experimental products.
           </CVText>
           <CVText>
             The lockdowns however were hard. We were still early in the development of our cultural norms - I don't think we
@@ -430,11 +428,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
             pharmaceutical industry.
           </CVText>
           <CVText>
-            My role as Head of Software Engineering was to manage a team of 20+ engineers, testers, DevOps engineers and product
-            owners in delivery of the digital health applications. As well as owning the architecture and development process,
-            I coded solutions and was heavily involved in the tooling, integration and deployment mechanisms for the team. I also
-            worked with my data engineering and systems medicine peers to ensure a smooth flow of data and requirements
-            throughout the business model.
+            My role as Head of Software Engineering was to manage a team of 20+ engineers, testers, DevOps engineers and
+            product owners in delivery of the digital health applications. As well as owning the architecture and development
+            process, I coded solutions and was heavily involved in the tooling, integration and deployment mechanisms for the
+            team. I also worked with my data engineering and systems medicine peers to ensure a smooth flow of data and
+            requirements throughout the business model.
           </CVText>
         </CVHistoryItem>
         <CVHistoryItem end="Mar 2018" icon="tr.png" start="Oct 2017" title="Chief Instructor, Team Rubicon UK">
@@ -449,7 +447,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
         <CVHistoryItem end="Jul 2018" icon="nfv.png" start="Sep 2016" title="Agile Coach/Engineer, Northface Ventures">
           <CVText>
             The Northface Ventures team were part of the crew who built and sold Workplace Systems after a three year journey
-            of transformation from stale software house to vibrant product-driven company. After that success we decided to share what we had learned.
+            of transformation from stale software house to vibrant product-driven company. After that success we decided to
+            share what we had learned.
           </CVText>
           <CVText>
             My role was the engine room consultant. Working with engineering departments to build high performing teams
@@ -477,8 +476,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
             allowed the scrum teams to set higher standards for code review and accelerated the refactor programme.
           </CVText>
           <CVText>
-            During this time I also worked with the wider business to help the professional services department to convert to using
-            agile project management. I also spent 2 months in Sydney working with our Australian office, primarily to
+            During this time I also worked with the wider business to help the professional services department to convert to
+            using agile project management. I also spent 2 months in Sydney working with our Australian office, primarily to
             integrate an engineering team based there in to our global team, but also working with business management, sales
             and services teams to foster our core culture and embrace Agile thinking. In the later months of this role, as the
             company was being sold to a US firm, I spent several weeks in Detroit sharing best practice and standards from the
@@ -628,17 +627,16 @@ import CVTimeline from '@/components/CVTimeline.vue'
             I love adventuring; and I love it when that adventure is outdoors and full of discovery and beauty.
           </CVText>
           <CVText>
-            I have sought adventure in many forms, most recently in long distance hiking. In the summer
-            of 2022, I completed ~1400 miles of the
-            <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I hiked north
-            through California and Oregon (skipping some bits that were on fire) and
-            finished on the southern Washington State border. It was amazing and if you have a spare couple of hours, ask me
-            about it.
+            I have sought adventure in many forms, most recently in long distance hiking. In the summer of 2022, I completed
+            ~1400 miles of the
+            <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I hiked north through
+            California and Oregon (skipping some bits that were on fire) and finished on the southern Washington State border.
+            It was amazing and if you have a spare couple of hours, ask me about it.
           </CVText>
           <CVText>
             In winter of 2024 I covered ~600 miles of the <a href="https://www.teararoa.org.nz/">Te Araroa</a> trail in New
-            Zealand. Starting in the middle of North Island heading south, crossing the Cook Strait and finishing near Nelson. This
-            was a significantly different adventure, that included some canoeing and lots of hitch-hiking.
+            Zealand. Starting in the middle of North Island heading south, crossing the Cook Strait and finishing near Nelson.
+            This was a significantly different adventure, that included some canoeing and lots of hitch-hiking.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="board.jpg" picture_top="computer.webp" title="Gaming">
@@ -651,9 +649,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
             whether that is joining up to tackle the cryptic crossword or building new worlds together in factory simulators.
           </CVText>
           <CVText>
-            A bit of healthy competition can also be good for the soul, and can help an established team to let off
-            some steam and build those bragging rights rivalries. The shared experiences can build trust and camaraderie that
-            can elevate colleagues to friends.
+            A bit of healthy competition can also be good for the soul, and can help an established team to let off some steam
+            and build those bragging rights rivalries. The shared experiences can build trust and camaraderie that can elevate
+            colleagues to friends.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="observatory.jpg" picture_top="astronomy.jpg" title="Astronomy">
@@ -681,8 +679,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             Food is such a key part of life that getting it right is important. Trying new flavours or honing classic ones;
-            selecting and preparing recipes that are tailored to guests needs and wants; using prime ingredients - all parts
-            of the joy.
+            selecting and preparing recipes that are tailored to guests needs and wants; using prime ingredients - all parts of
+            the joy.
           </CVText>
           <CVText> And if you have done it well, then the eating is excellent.</CVText>
         </CVHobby>
@@ -730,7 +728,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           link="https://open.spotify.com/episode/0USJGs46wBwuGN9O4XOCZa?si=4TAOJXdiSn6VKBEzvd4krg"
           title="How Aye Built This"
         >
-          Liam Wilson and I talk all things vertical farming, software engineering, data science an loads more. How Aye Built
+          Liam Wilson and I talk all things vertical farming, software engineering, data science and loads more. How Aye Built
           This is about people in the Scottish technology sector and what they are building.
         </CVLink>
         <CVLink icon="vimeo.png" link="https://vimeo.com/572166371#t=22m18s" title="Edinburgh Science Festival">
