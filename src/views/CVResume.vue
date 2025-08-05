@@ -348,11 +348,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVSection size="large" title="Details">
         <CVHistoryItem :expanded="true" end="Dec 2024" icon="igs.png" start="Nov 2022" title="Head of Integration, IGS Ltd">
           <CVText>
-            Having selected and trained my replacement team manager, she took on the role of Head of Software. I took the
+            Having selected and trained my replacement team manager, I took the
             opportunity to focus on the technical aspects of how IGS products fit in to the wider customer environment.
-            Specifically how the product interoperates with the remainder of our customers business and their factory. The key
+            Specifically how the product interoperates with the remainder of our customers' business and their factory. The key
             was to understand the customer perspective allowing them to use our product to solve their business problems
-            without exposing (or burdening them with) our internal business logic. The technical solutions is a combination of
+            without exposing to (or burdening them with) our internal business logic. The technical solution is a combination of
             working with well established factory management software, exposing a well designed set of software APIs and
             clearly defining the hardware touchpoints.
           </CVText>
@@ -371,27 +371,27 @@ import CVTimeline from '@/components/CVTimeline.vue'
         <CVHistoryItem :expanded="true" end="Nov 2022" icon="igs.png" start="Oct 2019" title="Head of Software, IGS Ltd">
           <CVText>
             After having built the core of the team, I was asked to take on the team management role. Alongside a few of the
-            Northface Ventures team who had also come on board this was a great opportunity to build a culture of success,
-            excitement and commitment with them.
+            Northface Ventures team who had also come on board, this was a great opportunity to build a shared culture of success,
+            excitement and commitment.
           </CVText>
           <CVText>
             My role expanded to include the development of process and unity in the team. I was still responsible for
             recruitment and for the business aspects of running the department, but now also the line management of the
             individuals; our working agreements and practices; the quality and productivity of our output. Despite the
             lockdowns of 2020-2022 we grew the team from 12 to over 40 and produced software that was fit for purpose and
-            running all of the companies experimental products.
+            ran all of the companies experimental products.
           </CVText>
           <CVText>
             The lockdowns however were hard. We were still early in the development of our cultural norms - I don't think we
-            had established enough trust in the brand new team to be able to become suddenly a remote team (not sure we ever
-            did). We certainly had not developed the relationships across the other department that we needed to seamlessly
+            had established enough trust in the brand new team to be able to suddenly become a remote team (not sure we ever
+            did). We certainly had not developed the relationships across the other departments that we needed to seamlessly
             flow software, hardware and data in to a single slick product. During this period it took all my strength of
             character to keep the team together and deliver solutions; and a lot of patience as we had to rework those
             solutions regularly.
           </CVText>
           <CVText>
-            As we came out of the other end though we had weathered the storm as a business. Once the crew got back in to the
-            office and there were more face to face interactions the cohesion strengthened and I was able to devolve greater
+            However, we came out of the other end and weathered the storm as a business. Once the crew got back in to the
+            office and there were more face to face interactions, the cohesion strengthened and I was able to devolve greater
             responsibility and autonomy in to the team.
           </CVText>
         </CVHistoryItem>
@@ -408,8 +408,8 @@ import CVTimeline from '@/components/CVTimeline.vue'
             light frequencies are used by the LEDs.
           </CVText>
           <CVText>
-            My role was to build a software team and culture ready to take on complex requirements. The Farm Management
-            Software must manage all aspects of scheduling, coordination and planning to control multiple independent recipes
+            My role was to build a software team and culture ready to take on complex requirements. The farm management
+            software must manage all aspects of scheduling, coordination and planning to control multiple independent recipes
             running in the same machine to different timelines.
           </CVText>
           <CVText>
@@ -424,16 +424,16 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVHistoryItem>
         <CVHistoryItem end="Jul 2019" icon="sensyne.png" start="Jul 2018" title="Head of Software Engineering, Sensyne Health">
           <CVText>
-            Sensyne Health is a health tech business that provides Digital health apps to the NHS in support of specific
-            clinical conditions. Whilst helping individuals get better health care, we are ethically sourcing data across a
-            patient population which we then analyse to improve patient population care and support new drug discovery in the
+            Sensyne Health is a health tech business that provides digital health apps to the NHS in support of specific
+            clinical conditions. Whilst helping individuals get better healthcare, we were ethically sourcing data across a
+            patient population which we then analysed to improve patient population care and support new drug discovery in the
             pharmaceutical industry.
           </CVText>
           <CVText>
-            My role as Head of Software Engineering is to manage a team of 20+ engineers, testers, DevOps engineers and product
+            My role as Head of Software Engineering was to manage a team of 20+ engineers, testers, DevOps engineers and product
             owners in delivery of the digital health applications. As well as owning the architecture and development process,
-            I code solutions and am heavily involved in the tooling, integration and deployment mechanisms for the team. I also
-            work with my data engineering and systems medicine peers to ensure a smooth flow of data and requirements
+            I coded solutions and was heavily involved in the tooling, integration and deployment mechanisms for the team. I also
+            worked with my data engineering and systems medicine peers to ensure a smooth flow of data and requirements
             throughout the business model.
           </CVText>
         </CVHistoryItem>
@@ -449,14 +449,14 @@ import CVTimeline from '@/components/CVTimeline.vue'
         <CVHistoryItem end="Jul 2018" icon="nfv.png" start="Sep 2016" title="Agile Coach/Engineer, Northface Ventures">
           <CVText>
             The Northface Ventures team were part of the crew who built and sold Workplace Systems after a three year journey
-            of transformation from stale software house to vibrant product-driven company. Now Northface share what we learned.
+            of transformation from stale software house to vibrant product-driven company. After that success we decided to share what we had learned.
           </CVText>
           <CVText>
             My role was the engine room consultant. Working with engineering departments to build high performing teams
             delivering excellent product that satisfies market requirement. I assessed the engineering departments that I
             worked with to determine where to invest effort for improvement and where to cut out wasteful practice. I delivered
             coaching for engineers and engineering managers on agile concepts and implementation methodologies including Scrum
-            and Kanban. Helping to implement modern engineering practices streamlining end to end delivery and foster a
+            and Kanban. Helping to implement modern engineering practices streamlining end-to-end delivery and foster a
             corporate culture of working together to deliver product.
           </CVText>
         </CVHistoryItem>
@@ -477,11 +477,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
             allowed the scrum teams to set higher standards for code review and accelerated the refactor programme.
           </CVText>
           <CVText>
-            During this time I also worked with wider business to help the professional services department to convert to using
+            During this time I also worked with the wider business to help the professional services department to convert to using
             agile project management. I also spent 2 months in Sydney working with our Australian office, primarily to
             integrate an engineering team based there in to our global team, but also working with business management, sales
             and services teams to foster our core culture and embrace Agile thinking. In the later months of this role, as the
-            company was being sold to a US firm, I spent several weeks in the US sharing best practice and standards from the
+            company was being sold to a US firm, I spent several weeks in Detroit sharing best practice and standards from the
             UK engineering team with a larger US team - ensuring common procedures and methodologies and helping them develop
             their nascent adoption of Scrum.
           </CVText>
@@ -501,7 +501,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             managers to share the load. I also started converting the deployment process from a largely manual process to a
             scripted process that ultimately went on to be a Jenkins job - this was the start of DevOps in the company. As a
             software delivery manager, my main focus for the product was to get us in to a position to upgrade to PHP5.3
-            (that's not a typo) and to bring an experimental Zend based mobile offering to fruition.
+            (that's not a typo) and to bring an experimental Zend-based mobile offering to fruition.
           </CVText>
           <CVText>
             The change of senior management was far from seamless, in fact all the C-Grades were let go in a single hit. Whilst
@@ -543,11 +543,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             In command, I presided over units of up to 200 soldiers providing telephony and office services in the field and in
-            barracks. I was a recruit training instructor for technical apprentices. I was deployed to various location
+            barracks. I was a recruit training instructor for technical apprentices. I was deployed to various locations
             worldwide including an exchange to the New Zealand Army.
           </CVText>
           <CVText>
-            In a technical capacity I procure urgently needed operational equipment for troops in Bosnia, Kosovo, Iraq and
+            In a technical capacity I procured urgently needed operational equipment for troops in Bosnia, Kosovo, Iraq and
             Afghanistan. I managed a global reach-back communications network connecting UK military HQs with governmental
             command and other NATO allies. I was appointed as the Army's competent authority on Electronic Warfare, supervising
             all Army projects, research and development and supporting our industry partners.
@@ -628,16 +628,16 @@ import CVTimeline from '@/components/CVTimeline.vue'
             I love adventuring; and I love it when that adventure is outdoors and full of discovery and beauty.
           </CVText>
           <CVText>
-            I have sought adventure in many forms, but where I seem to have settled is in long distance hiking. In the summer
+            I have sought adventure in many forms, most recently in long distance hiking. In the summer
             of 2022, I completed ~1400 miles of the
-            <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I travelled north
-            through California and Oregon (skipping some bits that were on fire and some that were outside my skills) and
+            <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I hiked north
+            through California and Oregon (skipping some bits that were on fire) and
             finished on the southern Washington State border. It was amazing and if you have a spare couple of hours, ask me
             about it.
           </CVText>
           <CVText>
             In winter of 2024 I covered ~600 miles of the <a href="https://www.teararoa.org.nz/">Te Araroa</a> trail in New
-            Zealand. Staring in the middle of North Island heading south, crossing the strait and finishing near Nelson. This
+            Zealand. Starting in the middle of North Island heading south, crossing the Cook Strait and finishing near Nelson. This
             was a significantly different adventure, that included some canoeing and lots of hitch-hiking.
           </CVText>
         </CVHobby>
@@ -648,11 +648,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             My favourite style is cooperative gameplay, be that online or on a tabletop. I like to puzzle things out together,
-            whether that is joining up to tackle the cryptic crossword or building new words together in factory simulators.
+            whether that is joining up to tackle the cryptic crossword or building new worlds together in factory simulators.
           </CVText>
           <CVText>
-            A bit of healthy competition can also be good for the soul. It can also be good for an established team to let off
-            some steam and build those bragging rights rivalries. The shared experiences building trust and camaraderie that
+            A bit of healthy competition can also be good for the soul, and can help an established team to let off
+            some steam and build those bragging rights rivalries. The shared experiences can build trust and camaraderie that
             can elevate colleagues to friends.
           </CVText>
         </CVHobby>
@@ -660,7 +660,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             Ever since seeing Halley's Comet as a nine year old child, I have had a fascination with the cosmos. It is the
             planets that really get me fired up, there are few things more majestic than directly observing the bands of
-            Jupiter or the rings of Saturn. Luna observing is also breathtaking with the detail of its craters ad mountain
+            Jupiter or the rings of Saturn. Luna observing is also breathtaking with the detail of its craters and mountains
             scintillating on the terminator.
           </CVText>
           <CVText>
@@ -669,7 +669,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             In later life I have been drawn to visiting observatories world wide including Mauna Kea, Griffiths, Sydney,
-            Reykjavik; but the best of all is the UK's own Kielder Observatory.
+            Reykjavik, Edinburgh and my favourite the UK's own Kielder Observatory.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="cooking.jpg" picture_top="baking.jpg" title="Cooking">
@@ -681,7 +681,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
           </CVText>
           <CVText>
             Food is such a key part of life that getting it right is important. Trying new flavours or honing classic ones;
-            selecting an preparing recipes that are tailored to our guests needs and wants; using prime ingredients - all parts
+            selecting and preparing recipes that are tailored to guests needs and wants; using prime ingredients - all parts
             of the joy.
           </CVText>
           <CVText> And if you have done it well, then the eating is excellent.</CVText>
