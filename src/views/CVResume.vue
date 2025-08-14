@@ -347,6 +347,11 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVSection size="large" title="Details">
         <CVHistoryItem :expanded="true" end="Dec 2024" icon="igs.png" start="Nov 2022" title="Head of Integration, IGS Ltd">
           <CVText>
+            Intelligent Growth Solutions are a start up at the cutting edge of Vertical Farming technology; automating many of
+            the processes; using low voltage systems to make them more energy efficient; ensuring only the most beneficial
+            light frequencies are used by the LEDs.
+          </CVText>
+          <CVText>
             Having selected and trained my replacement team manager, I took the opportunity to focus on the technical aspects
             of how IGS products fit in to the wider customer environment. Specifically how the product interoperates with the
             remainder of our customers' business and their factory. The key was to understand the customer perspective allowing
@@ -400,11 +405,6 @@ import CVTimeline from '@/components/CVTimeline.vue'
           start="Jul 2019"
           title="Software Team Architect, IGS Ltd"
         >
-          <CVText>
-            Intelligent Growth Solutions are a start up at the cutting edge of Vertical Farming technology; automating many of
-            the processes; using low voltage systems to make them more energy efficient; ensuring only the most beneficial
-            light frequencies are used by the LEDs.
-          </CVText>
           <CVText>
             My role was to build a software team and culture ready to take on complex requirements. The farm management
             software must manage all aspects of scheduling, coordination and planning to control multiple independent recipes
