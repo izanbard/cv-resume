@@ -10,7 +10,7 @@ const props = defineProps<{
   city: string
 }>()
 
-const city_url = computed(()=>{
+const city_url = computed(() => {
   return encodeURIComponent(props.city)
 })
 </script>

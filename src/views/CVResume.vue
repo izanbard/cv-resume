@@ -32,171 +32,92 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVText>
         Technology has always been central to my career, from my time as an officer in the Royal Signals to my roles as a
         software engineer and engineering leader. I am a hands on architect and solution designer guiding teams of humans to
-        accomplish challenging feats that no individual thought they could do.  I have led teams of 5 and grown teams to over
+        accomplish challenging feats that no individual thought they could do. I have led teams of 5 and grown teams to over
         200; I have delivered complex software solutions in Workforce Management, Healthtech, Agritech and defence,
         contributing significant operational improvements and customer satisfaction.
       </CVText>
       <CVText>
         My foundational experience in the Army instilled in me a deep appreciation for commitment, loyalty, integrity, and
-        professionalism - values I actively seek in others. For over 25 years, I've focused on cultivating cultures
-        where people feel a sense of safety and belonging. This involves building a platform of trust, fostering individual
-        growth in skills and confidence, and creating cohesive teams that enjoy working and playing together.
+        professionalism - values I actively seek in others. For over 25 years, I've focused on cultivating cultures where
+        people feel a sense of safety and belonging. This involves building a platform of trust, fostering individual growth in
+        skills and confidence, and creating cohesive teams that enjoy working and playing together.
       </CVText>
       <CVText>
         As a lifelong learner, or perhaps "nerd adjacent", I love new things. I'm passionate about exploring new ideas across
         all fields, though primarily technology. We learn more things pushing boundaries than staying safely inside them. A key
-        goal of mine, in any organisation, is to foster a learning-oriented mindset across all business functions.  Using an
+        goal of mine, in any organisation, is to foster a learning-oriented mindset across all business functions. Using an
         experimental approach, in technology and leadership, has led me to insights about myself and how to lead technology
         businesses effectively.
       </CVText>
     </CVItem>
     <CVItem icon="person_celebrate" icon_colour="darkgoldenrod" title="Skills">
       <CVItem icon="mindfulness" icon_colour="cornflowerblue" level="two" title="Business Skills">
-        <CVSection size="medium" title="Leadership">
-          <CVListItem title="Agile">
-            From Scrummaster of a single team to leading an engineering department of 5 Scrum teams, I have the experience to
-            manage the processes that back up Agile. Focusing on quality, I work to empower the front-line decision makers to
-            do the right thing in a dynamic situation and ensure we deliver value. I then work to ensure that these decisions
-            are backed across all business functions. I have worked with C-grade executives, sales and marketing teams and with
-            professional services teams to help them understand how to be more Agile and how to get the most from working with
-            an Agile engine room.
-          </CVListItem>
-          <CVListItem title="Coaching">
-            Line management can all too easily become a transactional interaction of setting tasks and approving leave; I coach
-            my direct reports and others to facilitate better engagement and empowerment ultimately driving productivity and
-            personal effectiveness. I use active listening to pursue an agenda of autonomy, mastery and purpose for those that
-            I am coaching and seek to balance directive instruction with collaboration.
-          </CVListItem>
-          <CVListItem title="The Servant">
-            Servant leadership is fundamental to an Agile mindset and to great coaching. My wide range of experiences in the
-            military, TV, software development and charity volunteering have given me the confidence to trust front line
-            decision makers and the understanding to be able to facilitate the conditions for them to succeed. These behaviours
-            are key to an engaged workforce and a sustainable productive environment.
-          </CVListItem>
-          <CVListItem title="Project Management">
-            From military procurement through documentary film making to software delivery, I have project management
-            experience in many different contexts. I am familiar with PRINCE2, Gantt Chart, Balanced Scorecard, ITIL, Critical
-            Path, and latterly Scrum and Kanban methodologies for managing projects.
-          </CVListItem>
+        <CVSection size="medium" title="Leadership and Agile Management">
+          <CVText>
+            Guided engineering departments of up to 200+ people, from single Scrum teams to multiple teams. Championed Agile
+            methodologies (Scrum, Kanban) to optimize delivery and empower frontline decision-makers. Experienced in formal
+            project management frameworks, including PRINCE2, ITIL, and Critical Path, applied across defense, documentary
+            film, and software contexts.
+          </CVText>
         </CVSection>
-        <CVSection size="medium" title="Culture Creation">
+        <CVSection size="medium" title="Culture Creation and Engagement">
           <CVText>
-            Genuine inclusivity is formed around common values, common experiences and meaningful interpersonal engagement.
-            These are the hallmarks of a high performance culture, a culture that gets stronger when built on a valuable and
-            valued business mission.
+            Expert in developing high-performance cultures built on shared values and a compelling business mission. Led the
+            establishment of vision statements and team values to foster unity, psychological safety, and meaningful
+            interpersonal engagement.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Coaching and Mentorship">
           <CVText>
-            Working with others to establish the business vision statement and developing the mission from it is second nature
-            to me; part of my military training and part of my personality. Capturing our team values is a harder process but
-            perhaps even more valuable as it is those values that resonate with team members. Using the business mission/vision
-            on one axis and these values on another produces a map of our behaviours and beliefs. Discussing these in detail
-            and being included in their generation is fantastically motivating to teams and gives us a sense of unity and
-            pride. This also drives engagement and breaks down interpersonal barriers. If done right then it also makes
-            colleagues into friends. Part of the ongoing culture development is need to adapt and change them as we mature as a
-            team and a business.
+            Cultivate a culture of autonomy, mastery, and purpose through active coaching and servant leadership. Focus on
+            empowering individuals, fostering engagement, and driving both personal and team productivity.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Leading by Example">
           <CVText>
-            It is one thing to write these things down and even to discuss them, but unless the culture is lived then our
-            mission and values hold little value. It takes active leadership and strength of personality to normalise the
-            openness and vulnerability of living the culture - both traits I have developed and honed over 25 years of leading
-            high performance teams. And moreover, I know how to make it fun.
+            Actively live and model core values to normalize openness and vulnerability, cultivating a sustainable, productive,
+            and fun environment.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Strategic and Operational Goal setting">
           <CVText>
-            A team is a group of people with a unified purpose. Setting good strategic goals helps to keep teams in lockstep,
-            knowing what they have to deliver to satisfy the the business mission. Good goal-setting also promotes empowerment
-            by giving low level decision makers the information they need to make the right decision without having to seek
-            permission or approval.
-          </CVText>
-          <CVText>
-            Where strategic goals are the "what" of the business mission, operational goals are the "how" of it. Operational
-            goals give structure to approach and help to prioritise the most valuable work for the business/customer, while
-            ensuring that there is freedom of action for the outcome to be achieved in efficient and innovative ways.
+            Drive team purpose and alignment by defining clear strategic and operational goals. Empower low-level
+            decision-makers with the information they need to act with autonomy, ensuring efficiency and innovation while
+            staying aligned with the business mission.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Product Engineering">
           <CVText>
-            I am a champion of a product focused business approach. As well as the technical advantages of reduced maintenance
-            and increased engineering team productivity, the business advantages are also significant. Sales cycles are
-            reduced, marketing activities are focused and customer expectations are managed. Good product engineering focuses
-            on building/selling what the customer wants, prioritised by what is valuable to the business.
-          </CVText>
-          <CVText>
-            Bringing all departments together to define the product keeps us all aligned while also responding to customer/user
-            feed back, market intelligence and gathered usage data. In combination with the strategic goals of the business the
-            product definition gives each department a mandate of what to sell, what to build and what to market. It makes us
-            predictable to our customers and accountable to our investors. It gives employees at all levels clarity on what our
-            product is and where we are going next.
+            Championed a product-focused business approach to improve technical performance and drive significant business
+            advantages. Aligned cross-functional departments (sales, marketing, engineering) around product definitions to
+            reduce sales cycles, focus activities, and manage customer expectations.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Business Planning and Budgeting">
-          <CVText> Eisenhower tells us that plans are useless, but that planning is essential.</CVText>
           <CVText>
-            Business Planning is hard; it is trying to predict the future based on guesses and hopes. Salesmen are ambitious,
-            investors are nervous, engineering teams are pessimistic and finance teams want fine details. I can help to
-            assimilate all these conflicting opinions and produce a plan that matches the strategic goals of the business,
-            whilst being grounded in pragmatic realism. If done correctly, budgets are the natural outcome of business
-            planning. I work with the finance function to develop detailed engineering budgets that are informed by the
-            business plan.
+            Assimilate conflicting opinions from stakeholders (sales, finance, engineering) to create pragmatic business plans
+            aligned with strategic goals. Regularly managed departmental budgets with SALEX in excess of £10M, CAPEX of £2M,
+            and OPEX of £5M.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Financial Diligence">
           <CVText>
-            I have regularly run departmental budgets with SALEX in excess of £10M, CAPEX in excess of £2M and OPEX in excess
-            of £5M. I know how to get value for spend, ensuring money is not wasted and budgets are met; I have the confidence
-            to spend when required, but the diligence to choose my risks based on evidence.
+            Ensure fiscal responsibility by meeting budgets and maximizing value for money while making evidence-based spending
+            decisions.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Recruitment">
           <CVText>
-            Establishing robust recruitment procedures; being inclusive and seeking diversity of thought; relying on team
-            members to interview and select their own colleagues; are all underpinning principles of my approach to
-            recruitment. Job adverts must reflect our values and advertise our culture - never forget that we are also being
-            interviewed.
-          </CVText>
-          <CVText>
-            In order that this does not become an overwhelming burden, I usually work with a recruitment agents. I still feel
-            it is our teams responsibility to ensure that every applicant has a positive interaction with our team.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Agile Thinking, Behaviour and Coaching">
-          <CVText>
-            Agility is the ability to handle and respond to changes in situation that invalidate the plan you have made without
-            panicking and often keeping the same desired outcomes. Agility does not value work that does not move you directly
-            toward the goal especially if it is costly and is likely to be nugatory when the situation changes. Agility allows
-            you to move fast, because you can think fast and react fast and most importantly you can react in unison as a team.
-          </CVText>
-          <CVText>
-            When I first met Agile in the civilian workplace, it resonated strongly with me and my experiences. I love cutting
-            to the chase, doing the work that is needed and no more, changing behaviours to make us stronger and faster. I also
-            love how in combination with the right inclusive and engaged culture it forges strong bonds of trust in teams. When
-            coupled with continuous learning behaviours (natural bedfellows) then teams are better prepared for uncertainty and
-            are able to cut though the confusion.
-          </CVText>
-          <CVText>
-            Coaching Agile is about leadership. For line managers it is about teaching them to be leaders not managers - the
-            skill of setting direction without issuing instructions. For engineers it is about teaching them to be learning
-            followers, which is in fact leadership - in a truly high performing team every member is a leader and a follower in
-            equal measure. It is for higher managers that it is tricky, first we must teach them to relinquish control and
-            trust that teams will perform to their best - then we need to stop them asking for reports; stop wasting time on
-            work that does not move us directly toward the goal.
-          </CVText>
-          <CVText>
-            Agile is hard to get right and requires superhuman levels of trust that needs to be paid back with engagement and
-            performance. But the payoffs for the business are vast collectively and as individuals
+            Established and managed robust, inclusive recruitment procedures focused on seeking diversity of thought. Empowered
+            teams to interview and select their own colleagues, ensuring a positive applicant experience and reinforcing our
+            culture.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Partnership and Relationship Building">
           <CVText>
-            No company can exist in a vacuum; choosing the right partners and suppliers is key to success. I am experienced in
-            assessing supplier capability and technical fit, whether that's for outsourcing specific projects or buying in
-            enablement software. I am also experienced in the technical aspects of creating a partner ecosystem to satisfy our
-            customer needs.
-          </CVText>
-          <CVText>
-            Once partnerships have been made, maintaining the relationship relies on regular communication where you can both
-            give and, more importantly, receive honest feedback. Feedback about the levels of service, capability and
-            engagement. It requires trust and pragmatism, traits that I can espouse and inspire in others. I have a history of
-            being able to create robust relationships that remain solid even through uncomfortable and critical conversations.
+            Skilled in assessing supplier capability and technical fit to establish key partnerships and create partner
+            ecosystems. Cultivate robust, long-term relationships built on trust, clear communication, and the ability to
+            navigate critical conversations with pragmatism.
           </CVText>
         </CVSection>
       </CVItem>
