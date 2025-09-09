@@ -123,124 +123,89 @@ import CVTimeline from '@/components/CVTimeline.vue'
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
         <CVSection size="medium" title="Product Engineering & Strategy">
-          <CVText>
-            Champion a product-focused approach that simplifies sales and marketing cycles and reduces maintenance costs.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Data-Driven Decisions">
-          <CVText>
+          <CVListItem title="Prodcut Focus">
+            Champion a product-focused approach that simplifies maintenance complexity and version management.
+          </CVListItem>
+          <CVListItem title="Data-Driven Decisions">
             Make product decisions based on empirical data from experimentation, feedback, and analysis.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Collaboration">
-          <CVText>
+          </CVListItem>
+          <CVListItem title="User-Centric Outcomes">
+            Drive development focused on key user outcomes: Reliability, Usability, Maintainability, Extensibility, and
+            Predictability.
+          </CVListItem>
+          <CVListItem title="Collaboration">
             Align product owners, UX, and software engineers with business goals to define product roadmaps and priorities.
-          </CVText>
+          </CVListItem>
         </CVSection>
-        <CVSection size="medium" title="User-Centric Outcomes">
-          <CVText>
-            Drive development focused on key user outcomes: <strong>Reliability, Usability, Maintainability, Extensibility,</strong> and <strong>Predictability</strong>.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="System Architecture">
-          <CVText>
+        <CVSection size="medium" title="Software Architect">
+          <CVListItem title="System Architecture">
             Design simple, resilient, and extensible systems using a layered approach from code selection to macro-level
             application integration.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Core Technologies">
-          <CVText>
-            Specialize in designing cloud-based, multi-tenant SaaS applications, with hands-on experience in
-            <strong>microservices, REST, MQTT, Kubernetes,</strong> and <strong>Graph DB</strong>.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Efficiency">
-          <CVText>
-            Emphasize separation of concerns and library extraction to create streamlined, maintainable services and accelerate
-            development.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Automation">
-          <CVText>
+          </CVListItem>
+          <CVListItem title="Core Technologies">
+            Specialize in designing cloud-based, multi-tenant SaaS applications, with hands-on experience in microservices,
+            REST, MQTT, Kubernetes, and Graph DB.
+          </CVListItem>
+          <CVListItem title="Automation">
             Focus on designing high levels of automation and robust communication pathways to build trusted, timely platforms.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Systems Integration">
-          <CVText>
+          </CVListItem>
+          <CVListItem title="Systems Integration">
             Architect and implement systems that share data and telemetry, and expose simple, effective command interfaces.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Cross-Industry Experience">
-          <CVText>
+          </CVListItem>
+          <CVListItem title="Cross-Industry Experience">
             Expertise in industrial automation (from ERP to PLC), as well as consuming medical sensor data for treatment
             decision engines.
-          </CVText>
+          </CVListItem>
         </CVSection>
-        <CVSection size="medium" title="Standards">
-          <CVText>
-            Leverage modern protocols and standards like <strong>REST, MQTT, OAS,</strong> and <strong>AsyncAPI</strong> to
-            ensure interoperability and maintainability.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="DevOps & CI/CD">
-          <CVText>
+        <CVSection size="medium" title="Technical Leadership">
+          <CVListItem title="Code Efficiency">
+            Emphasize separation of concerns and library extraction to create streamlined, maintainable services and accelerate
+            development.
+          </CVListItem>
+          <CVListItem title="Standards">
+            Leverage modern protocols and standards like REST, MQTT, OAS, and AsyncAPI to ensure interoperability and
+            maintainability.
+          </CVListItem>
+          <CVListItem title="DevOps & CI/CD">
             Design and implement DevOps practices that increase software quality, reliability, and engineering velocity.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Automation Focus">
-          <CVText>
+          </CVListItem>
+          <CVListItem title="Automation Focus">
             Advocate for and implement automated build, test, and deployment pipelines based on repository branching rules.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Advanced Practices">
-          <CVText>
-            Champion <strong>Infrastructure as Code (IaC)</strong>, static code analysis, feature flags, and the creation of
-            platform teams to support development.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Site Reliability Engineering (SRE)">
-          <CVText> Apply SRE principles to ensure system reliability and minimize downtime. </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Observability & Monitoring">
-          <CVText>
-            Expert in implementing observability stacks (<strong>New Relic, Grafana</strong>) to proactively identify issues
-            and trace events across service boundaries.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Incident Response">
-          <CVText>
-            Establish recovery and restoration procedures using <strong>IaC, Kubernetes,</strong> and
-            <strong>Terraform</strong>, ensuring data integrity and rapid service restoration.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Team Ownership">
-          <CVText>
+          </CVListItem>
+          <CVListItem title="Team Ownership">
             Instill a culture where all software engineers understand and take ownership of their code's reliability and
             support.
-          </CVText>
+          </CVListItem>
         </CVSection>
-        <CVSection size="medium" title="Software Engineering">
-          <CVText>
+        <CVSection size="medium" title="Site Reliability Engineering (SRE)">
+          <CVListItem title="Observability & Monitoring">
+            Expert in implementing observability stacks (New Relic, Grafana) to proactively identify issues and trace events
+            across service boundaries.
+          </CVListItem>
+          <CVListItem title="Incident Response">
+            Establish recovery and restoration procedures using IaC, Kubernetes, and Terraform, ensuring data integrity and
+            rapid service restoration.
+          </CVListItem>
+          <CVListItem title="Infrastructure & Networking">
+            Proficient in basic networking principles including DNS, DHCP, and multi-site VPNs.
+          </CVListItem>
+          <CVListItem title="Advanced Practices">
+            Champion Infrastructure as Code (IaC), static code analysis, feature flags, and the creation of platform teams to
+            support development.
+          </CVListItem>
+        </CVSection>
+        <CVSection size="medium" title="Hands on Software Engineering">
+          <CVListItem title="Code Writing">
             Experienced back-end software engineer with a strong understanding of context-free languages and object-oriented
             design.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Languages & Databases">
-          <CVText>
-            Proficient in <strong>Python</strong> and <strong>JavaScript/TypeScript</strong>, with hands-on experience with
-            <strong>Graph, KV, document,</strong> and <strong>relational databases</strong>.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Infrastructure & Networking">
-          <CVText>
-            Proficient in basic networking principles including <strong>DNS, DHCP,</strong> and
-            <strong>multi-site VPNs</strong>.
-          </CVText>
-        </CVSection>
-        <CVSection size="medium" title="Systems Administration">
-          <CVText>
-            Skilled in Linux server administration and software deployment via <strong>Docker Compose/Swarm</strong>.
-          </CVText>
+          </CVListItem>
+          <CVListItem title="Languages & Databases">
+            Proficient in Python and JavaScript/TypeScript, with hands-on experience with Graph, KV, document, and relational
+            databases.
+          </CVListItem>
+          <CVListItem title="Systems Administration">
+            Skilled in Linux server administration and software deployment via Docker Compose/Swarm.
+          </CVListItem>
         </CVSection>
       </CVItem>
     </CVItem>
