@@ -123,7 +123,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
         <CVSection size="medium" title="Product Engineering & Strategy">
-          <CVListItem title="Prodcut Focus">
+          <CVListItem title="Product Focus">
             Champion a product-focused approach that simplifies maintenance complexity and version management.
           </CVListItem>
           <CVListItem title="Data-Driven Decisions">
