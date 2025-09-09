@@ -122,138 +122,124 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </CVSection>
       </CVItem>
       <CVItem icon="data_object" icon_colour="saddlebrown" level="two" title="Technical Skills">
-        <CVSection size="medium" title="Product Engineering">
+        <CVSection size="medium" title="Product Engineering & Strategy">
           <CVText>
-            We gain benefits in support and maintenance when delivering homogenous product to all our users - it also
-            simplifies the sales and marketing cycles. Choosing what a single unified product looks like, what features it
-            contains and what will be built next is the job of product engineering.
+            Champion a product-focused approach that simplifies sales and marketing cycles and reduces maintenance costs.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Data-Driven Decisions">
           <CVText>
-            Experimentation, data gathering, feedback and analysis are the cornerstones of product engineering. I make product
-            decision based on the empirical data; bringing a team of product owners, UX engineers and software engineers
-            together with the whole business to define the product and the priorities. We eschew customer bespoke code and
-            functionality, especially if tied to a sales cycle, but instead build the ability to add extensions and plug-ins
-            that will work for any sub-set of users.
+            Make product decisions based on empirical data from experimentation, feedback, and analysis.
           </CVText>
-          <CVText> Our outcomes are focused on the user base trying to provide:</CVText>
-          <CVListItem title="Reliability"> The product works with few bugs and is always available.</CVListItem>
-          <CVListItem title="Usability">
-            The user can operate the product to achieve their outcome without the product being burdensome or getting in the
-            way.
-          </CVListItem>
-          <CVListItem title="Maintainability">
-            Bugs can be, and are, fixed rapidly - this is reliant on good coding standards and engineering discipline.
-          </CVListItem>
-          <CVListItem title="Extensibility">
-            New features requested by users are delivered rapidly usually as an MVP experiment to be able to gather more data.
-          </CVListItem>
-          <CVListItem title="Predictability">
-            Product engineering should give us a roadmap that we can publish and stick to making it clear what our users can
-            expect.
-          </CVListItem>
+        </CVSection>
+        <CVSection size="medium" title="Collaboration">
+          <CVText>
+            Align product owners, UX, and software engineers with business goals to define product roadmaps and priorities.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="User-Centric Outcomes">
+          <CVText>
+            Drive development focused on key user outcomes: <strong>Reliability, Usability, Maintainability, Extensibility,</strong> and <strong>Predictability</strong>.
+          </CVText>
         </CVSection>
         <CVSection size="medium" title="System Architecture">
           <CVText>
-            I see this in layers of complexity; at the base I select the right code, tools, frameworks etc. Moving up I define
-            service functionality and how the services combine to form an application. At the top I see how applications slot
-            together with 3rd party tooling and software within an operational environment to satisfy the user's pressing need.
+            Design simple, resilient, and extensible systems using a layered approach from code selection to macro-level
+            application integration.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Core Technologies">
           <CVText>
-            Overall I work to keep things as simple as practical whilst maintaining resilience and extensibility. Through
-            separation of concerns we keep services streamlined and focused, making them easy to maintain. Extraction of
-            library functionality speeds development and makes the architecture/code easier to read and understand. Selection
-            and implementation of modern protocols and backing technologies (REST, MQTT, Kubernetes, Graph DB, etc.) ensures
-            the user gets the right data at the right time and that software engineers can develop new functionality using
-            simple building blocks.
+            Specialize in designing cloud-based, multi-tenant SaaS applications, with hands-on experience in
+            <strong>microservices, REST, MQTT, Kubernetes,</strong> and <strong>Graph DB</strong>.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Efficiency">
           <CVText>
-            Designing cloud based, micro-service applications is my bread and butter; usually SaaS, usually B2B, usually
-            multi-tenant. Designing in high levels of automation and robust communications pathways results in a platform the
-            user can trust to be accurate and timely.
+            Emphasize separation of concerns and library extraction to create streamlined, maintainable services and accelerate
+            development.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Automation">
+          <CVText>
+            Focus on designing high levels of automation and robust communication pathways to build trusted, timely platforms.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Systems Integration">
           <CVText>
-            No application exists in a vacuum. Systems must integrate with one and other to achieve the users needs; sharing
-            data and telemetry and exposing a command/action interface.
-          </CVText>
-          <CVText>
-            Integration is as much about the abstraction and modelling of your application as it is about the actual transfer
-            of data. You must ensure that what you are exposing is simple enough that the far end can get the data or send the
-            command they need without needing knowledge of your application internals and without giving away your USP. Once it
-            is modelled you can decide on the appropriate protocols and data languages - if done right then more protocols and
-            data languages can be added, because the underlying semantics do not change.
-          </CVText>
-          <CVText>
-            In recent years I have worked on industrial automation from ERP to PLC and everything in between. Prior to that I
-            consumed medical sensor data to feed a treatment decision engine. In both cases leveraging REST, MQTT with complex
-            translation middleware. Success was borne out by good design and great documentation (OAS, AsyncAPI, etc.).
+            Architect and implement systems that share data and telemetry, and expose simple, effective command interfaces.
           </CVText>
         </CVSection>
-        <CVSection size="medium" title="DevOps Patterns">
+        <CVSection size="medium" title="Cross-Industry Experience">
           <CVText>
-            Whether the aim is CI/CD or more simple automated testing and deployment, I design DevOps behaviours in the teams
-            that speed up software engineers and increase the quality and reliability of the application.
-          </CVText>
-          <CVText>
-            Great DevOps has it foundation in an agreed set of coding and development standards. These ensure consistency
-            between the most seasoned and most raw software engineers in the team. Consistency breeds the ability to automate,
-            leaving the engineers to do the important stuff. Once the solution has been written and properly reviewed then the
-            automation kicks in to deliver that value into the application. It starts simple with automated build and test
-            based on repo branching rules and then advances into automated artifact deployment. I often add static code
-            analysis and automated documentation to the workflows. The use of feature flags allows engineers to deploy
-            experiments easily and for UI/UX engineers to conduct A/B testing. I also champion the Infrastructure as Code (IaC)
-            pattern allowing software engineers to deploy the services they need all as part of the code change - this is
-            especially powerful when coupled with tools such as Kubernetes and Docker.
-          </CVText>
-          <CVText>
-            In advanced DevOps practice I advocate a platform team that provides the rest of the software team with the tools
-            needed to build the application. That might be an abstraction on the IaC framework; or self-hosted package
-            libraries; or common service boilerplate like authentication or notifications.
+            Expertise in industrial automation (from ERP to PLC), as well as consuming medical sensor data for treatment
+            decision engines.
           </CVText>
         </CVSection>
-        <CVSection size="medium" title="Site Reliability Engineering">
+        <CVSection size="medium" title="Standards">
           <CVText>
-            Observability is key to knowing how the application is performing. It shows us errors before they are reported by
-            our customers and helps to minimise down time. There is a lot of work in instrumenting each service from DB to
-            frontend and everything in between, ensuring that events can be traced across service boundaries, that logs are
-            informative and at the right level of "noise". I have used both New Relic and Grafana ecosystems for this in the
-            past.
+            Leverage modern protocols and standards like <strong>REST, MQTT, OAS,</strong> and <strong>AsyncAPI</strong> to
+            ensure interoperability and maintainability.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="DevOps & CI/CD">
           <CVText>
-            Recovery and restoration from an incident relies on good backups and well defined IaC. Cloud platforms are good at
-            being able to establish replacement compute and database infrastructure, and with tools like Kubernetes and
-            Terraform services can also be quickly brought back to life. Data back-ups are needed to rehydrate the services
-            once they are back up. Data integrity checks also ensure that the data on your system is consistent over time and
-            can be trusted.
+            Design and implement DevOps practices that increase software quality, reliability, and engineering velocity.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Automation Focus">
           <CVText>
-            Whilst the role of Site Reliability Engineer is a discipline in its own right (replaces Sys Admin), the function of
-            site reliability engineering belongs to the whole software team (in fact it is part of the DevOps practice). To
-            that end I firmly believe that all software engineers should at least understand these tools and take shifts on out
-            of hours support to maintain their own software.
+            Advocate for and implement automated build, test, and deployment pipelines based on repository branching rules.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Advanced Practices">
+          <CVText>
+            Champion <strong>Infrastructure as Code (IaC)</strong>, static code analysis, feature flags, and the creation of
+            platform teams to support development.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Site Reliability Engineering (SRE)">
+          <CVText> Apply SRE principles to ensure system reliability and minimize downtime. </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Observability & Monitoring">
+          <CVText>
+            Expert in implementing observability stacks (<strong>New Relic, Grafana</strong>) to proactively identify issues
+            and trace events across service boundaries.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Incident Response">
+          <CVText>
+            Establish recovery and restoration procedures using <strong>IaC, Kubernetes,</strong> and
+            <strong>Terraform</strong>, ensuring data integrity and rapid service restoration.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Team Ownership">
+          <CVText>
+            Instill a culture where all software engineers understand and take ownership of their code's reliability and
+            support.
           </CVText>
         </CVSection>
         <CVSection size="medium" title="Software Engineering">
           <CVText>
-            My first software job was as an engineer writing PHP. Since then I have written in many other languages and
-            protocols - what I know is that once you truly understand context free languages, then the difference between
-            implementation is syntax - the semantic remains the same. I have also learned that every language is good at some
-            things and bad at others, so there is no best or worst language - as with many trades it is about choosing the
-            right tools for this job. My OO design is strong and I have experience with Graph, KV, document and relational DBs.
-            My main language these days is Python with a smattering of JS/TS, but back-end focused - although it has been some
-            time since I was a hands on production developer.
+            Experienced back-end software engineer with a strong understanding of context-free languages and object-oriented
+            design.
           </CVText>
         </CVSection>
-        <CVSection size="medium" title="Infrastructure and Networking">
+        <CVSection size="medium" title="Languages & Databases">
           <CVText>
-            I have basic networking skills learned in the military and honed over 15 years in business. I know simple DNS and
-            DHCP and have the ability to pull together a multi-site VPN. I even have experience of cabling up entire buildings
-            including patch panels, switches and reach-back.
+            Proficient in <strong>Python</strong> and <strong>JavaScript/TypeScript</strong>, with hands-on experience with
+            <strong>Graph, KV, document,</strong> and <strong>relational databases</strong>.
           </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Infrastructure & Networking">
           <CVText>
-            I also know my way around Linux servers with the ability to install and upgrade software - including through
-            virtualization tools like Docker Compose/Swarm.
+            Proficient in basic networking principles including <strong>DNS, DHCP,</strong> and
+            <strong>multi-site VPNs</strong>.
+          </CVText>
+        </CVSection>
+        <CVSection size="medium" title="Systems Administration">
+          <CVText>
+            Skilled in Linux server administration and software deployment via <strong>Docker Compose/Swarm</strong>.
           </CVText>
         </CVSection>
       </CVItem>
