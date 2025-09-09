@@ -1,12 +1,18 @@
 <script lang="ts" setup>
 import CVIcon from '@/components/CVIcon.vue'
+import { computed } from 'vue'
 
-defineProps<{
+const props = defineProps<{
   tel: string
   email: string
   web: string
   ledIn: string
+  city: string
 }>()
+
+const city_url = computed(()=>{
+  return encodeURIComponent(props.city)
+})
 </script>
 
 <template>
@@ -33,6 +39,12 @@ defineProps<{
       <p>
         <CVIcon icon="person" size="small" />
         : <a :href="ledIn" target="_blank">{{ ledIn }}</a>
+      </p>
+    </div>
+    <div v-if="city">
+      <p>
+        <CVIcon icon="location_city" size="small" />
+        : <a :href="'https://www.google.com/maps/search/?api=1&query=' + city_url" target="_blank">{{ city }}</a>
       </p>
     </div>
   </div>

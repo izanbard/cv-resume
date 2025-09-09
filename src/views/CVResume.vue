@@ -24,33 +24,30 @@ import CVTimeline from '@/components/CVTimeline.vue'
         led-in="https://www.linkedin.com/in/gordywills/"
         tel="+44 7710 416 608"
         web="https://gordywills.com/"
+        city="Bicester, UK"
       />
     </CVItem>
     <CVItem icon="article" icon_colour="darkolivegreen" title="Introduction">
       <CVText>I lead teams that get hard things done.</CVText>
       <CVText>
         Technology has always been central to my career, from my time as an officer in the Royal Signals to my roles as a
-        software engineer and engineering leader. However, it's not the technology itself that drives me; it's the satisfaction
-        of guiding teams of humans to to accomplish challenging feats that no individual though they could do. Skills I rounded
-        out not only in software engineering, but also in a few years of TV production and volunteer disaster responder
-        training along the way.
+        software engineer and engineering leader. I am a hands on architect and solution designer guiding teams of humans to
+        accomplish challenging feats that no individual thought they could do.  I have led teams of 5 and grown teams to over
+        200; I have delivered complex software solutions in Workforce Management, Healthtech, Agritech and defence,
+        contributing significant operational improvements and customer satisfaction.
       </CVText>
       <CVText>
         My foundational experience in the Army instilled in me a deep appreciation for commitment, loyalty, integrity, and
-        professionalism - values I actively seek in others. For over 25 years, I've focused on cultivating business cultures
+        professionalism - values I actively seek in others. For over 25 years, I've focused on cultivating cultures
         where people feel a sense of safety and belonging. This involves building a platform of trust, fostering individual
         growth in skills and confidence, and creating cohesive teams that enjoy working and playing together.
       </CVText>
       <CVText>
         As a lifelong learner, or perhaps "nerd adjacent", I love new things. I'm passionate about exploring new ideas across
         all fields, though primarily technology. We learn more things pushing boundaries than staying safely inside them. A key
-        goal of mine, in any organisation, is to foster a learning-oriented mindset across all business functions. Over 25
-        years I have had my share of failed experiments, but these have led me to insights about myself and how to lead
-        technology businesses effectively.
-      </CVText>
-      <CVText>
-        I am also a human, I enjoy long distance hiking, tackling a crossword and engaging with cerebral computer games. My
-        wonderful partner inspires me everyday.
+        goal of mine, in any organisation, is to foster a learning-oriented mindset across all business functions.  Using an
+        experimental approach, in technology and leadership, has led me to insights about myself and how to lead technology
+        businesses effectively.
       </CVText>
     </CVItem>
     <CVItem icon="person_celebrate" icon_colour="darkgoldenrod" title="Skills">
