@@ -420,6 +420,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
             command and other NATO allies. I was appointed as the Army's competent authority on Electronic Warfare, supervising
             all Army projects, research and development and supporting our industry partners.
           </CVText>
+          <CVText>
+            In this role I held Developed Vetting (DV) security clearance, although this has now lapsed.
+          </CVText>
         </CVHistoryItem>
       </CVSection>
     </CVItem>

@@ -2,20 +2,53 @@
 import { onMounted } from 'vue'
 import CVResume from '@/views/CVResume.vue'
 
+const icon_list: string[] = [
+    'article',
+    'call',
+    'data_object',
+    'file_save',
+    'history',
+    'info',
+    'link',
+    'location_city',
+    'mail',
+    'mindfulness',
+    'person',
+    'person_celebrate',
+    'school',
+    'sports',
+    'stadia_controller',
+    'volunteer_activism',
+  ]
+
+const title: string = "Gordon Peter Wills - CV/Resume prepared on 23 June 2025"
+
+const keyword: string = "easter"
+
 onMounted(() => {
-  let keyhistory: string = ''
+  let key_history: string = ''
 
   window.addEventListener('keyup', function (ev) {
-    keyhistory += ev.key
-    if (keyhistory.endsWith('easter')) {
+    key_history += ev.key
+    if (key_history.endsWith(keyword)) {
       document.body.classList.add('easter')
     } else {
       document.body.classList.remove('easter')
     }
-    if (keyhistory.length > 6) {
-      keyhistory = keyhistory.slice(-6)
+    if (key_history.length > keyword.length+1) {
+      key_history = key_history.slice(-(keyword.length+1))
     }
   })
+
+  const google_icons_link: HTMLLinkElement = document.createElement('link')
+  google_icons_link.setAttribute('rel', 'stylesheet')
+  const href: string =
+    'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=' +
+    icon_list.sort().join(',') +
+    '&display=block'
+  google_icons_link.setAttribute('href', href)
+  document.head.appendChild(google_icons_link)
+  document.head.title = title
 })
 </script>
 
