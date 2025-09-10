@@ -2,14 +2,15 @@
 import CVText from '@/components/CVText.vue'
 
 defineProps<{
-  title: string
+  title?: string
 }>()
 </script>
 
 <template>
   <div class="list_item">
     <CVText>
-      <span class="title">{{ title }}. </span>
+      <span class="bullet"></span>
+      <span v-if="title" class="title">{{ title }}. </span>
       <slot></slot>
     </CVText>
   </div>
@@ -20,7 +21,7 @@ defineProps<{
   font-weight: bolder;
 }
 
-.title::before {
+.bullet::before {
   content: '\2022';
   padding-right: 6px;
 }

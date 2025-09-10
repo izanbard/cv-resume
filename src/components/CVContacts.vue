@@ -3,15 +3,15 @@ import CVIcon from '@/components/CVIcon.vue'
 import { computed } from 'vue'
 
 const props = defineProps<{
-  tel: string
-  email: string
-  web: string
-  ledIn: string
-  city: string
+  tel?: string
+  email?: string
+  web?: string
+  ledIn?: string
+  city?: string
 }>()
 
 const city_url = computed(() => {
-  return encodeURIComponent(props.city)
+  return props.city != null ? encodeURIComponent(props.city) : null
 })
 </script>
 

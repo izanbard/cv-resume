@@ -216,56 +216,44 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVSection size="large" title="Details">
         <CVHistoryItem :expanded="true" end="Dec 2024" icon="igs.png" start="Nov 2022" title="Head of Integration, IGS Ltd">
           <CVText>
-            Intelligent Growth Solutions are a start up at the cutting edge of Vertical Farming technology; automating many of
-            the processes; using low voltage systems to make them more energy efficient; ensuring only the most beneficial
-            light frequencies are used by the LEDs.
+            IGS Ltd is a supplier of fully automated indoor farming equipment for food production at industrial scale.
           </CVText>
-          <CVText>
-            Having selected and trained my replacement team manager, I took the opportunity to focus on the technical aspects
-            of how IGS products fit in to the wider customer environment. Specifically how the product interoperates with the
-            remainder of our customers' business and their factory. The key was to understand the customer perspective allowing
-            them to use our product to solve their business problems without exposing to (or burdening them with) our internal
-            business logic. The technical solution is a combination of working with well established factory management
-            software, exposing a well designed set of software APIs and clearly defining the hardware touchpoints.
-          </CVText>
-          <CVText>
-            Whilst initially this was a theoretical exercise, once I had established a framework, I created a prototype
-            co-ordinator to prove the designed process and touch points. I was able to use this prototype to validate
-            assumptions with clients and ultimately to present requirements to our customer's technology partners when
-            designing the full factory. I was also able to learn BPMN which was both exciting and a really useful communication
-            tool.
-          </CVText>
-          <CVText>
-            Latterly this role was focused on partner and supplier selection and management, balanced with building internal
-            relationships to keep hardware and software in line with each other and the overall product vision.
-          </CVText>
+          <CVListItem>
+            Designed and led the technical strategy for integrating IGS products into customer environments, ensuring seamless
+            interoperability with factory management software.
+          </CVListItem>
+          <CVListItem>
+            Created a prototype coordinator to validate design assumptions and define requirements for both clients and
+            technology partners.
+          </CVListItem>
+          <CVListItem>
+            Established a framework for client-centric integration, leveraging software APIs and clearly defined hardware
+            touchpoints.
+          </CVListItem>
+          <CVListItem>
+            Managed partner and supplier relationships, aligning them with the product vision and internal hardware/software
+            teams.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem :expanded="true" end="Nov 2022" icon="igs.png" start="Oct 2019" title="Head of Software, IGS Ltd">
-          <CVText>
-            After having built the core of the team, I was asked to take on the team management role. Alongside a few of the
-            Northface Ventures team who had also come on board, this was a great opportunity to build a shared culture of
-            success, excitement and commitment.
-          </CVText>
-          <CVText>
-            My role expanded to include the development of process and unity in the team. I was still responsible for
-            recruitment and for the business aspects of running the department, but now also the line management of the
-            individuals; our working agreements and practices; the quality and productivity of our output. Despite the
-            lockdowns of 2020-2022 we grew the team from 12 to over 40 and produced software that was fit for purpose and ran
-            all of the companies experimental products.
-          </CVText>
-          <CVText>
-            The lockdowns however were hard. We were still early in the development of our cultural norms - I don't think we
-            had established enough trust in the brand new team to be able to suddenly become a remote team (not sure we ever
-            did). We certainly had not developed the relationships across the other departments that we needed to seamlessly
-            flow software, hardware and data in to a single slick product. During this period it took all my strength of
-            character to keep the team together and deliver solutions; and a lot of patience as we had to rework those
-            solutions regularly.
-          </CVText>
-          <CVText>
-            However, we came out of the other end and weathered the storm as a business. Once the crew got back in to the
-            office and there were more face to face interactions, the cohesion strengthened and I was able to devolve greater
-            responsibility and autonomy in to the team.
-          </CVText>
+          <CVListItem>
+            Grew the software engineering team from 12 to over 40 during the challenging 2020-2022 lockdown period.
+          </CVListItem>
+          <CVListItem>
+            Designed IGS core software product as multitenant SaaS software running multiple IGS indoor farms globally.
+          </CVListItem>
+          <CVListItem>
+            Oversaw all aspects of department management, including recruitment, budget, line management, and the development
+            of working agreements and cultural practices.
+          </CVListItem>
+          <CVListItem>
+            Successfully delivered all software for the company's experimental products, ensuring high quality and
+            fit-for-purpose functionality.
+          </CVListItem>
+          <CVListItem>
+            Navigated the complexities of remote and hybrid work, strengthening team cohesion and devolving greater autonomy as
+            the business matured.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem
           :expanded="true"
@@ -274,59 +262,63 @@ import CVTimeline from '@/components/CVTimeline.vue'
           start="Jul 2019"
           title="Software Team Architect, IGS Ltd"
         >
-          <CVText>
-            My role was to build a software team and culture ready to take on complex requirements. The farm management
-            software must manage all aspects of scheduling, coordination and planning to control multiple independent recipes
-            running in the same machine to different timelines.
-          </CVText>
-          <CVText>
-            During this period we were still very much in startup mode (I was employee number 11). To that end whilst my focus
-            was on designing and recruiting a software team, I also had to create the recruiting and remuneration policies for
-            the whole company. In designing the software team I worked with the still forming executive team, the board of
-            investors and the founders; contributing to the business plan, creating departmental budgets and goals, and working
-            out the headcount and structure of the organisation. I aided the Product Management team in understanding what the
-            real product would be, setting some boundaries early on and helping define product requirements in both hardware
-            and software.
-          </CVText>
+          <CVListItem>
+            Hired as employee #11 to build the initial software team and establish a culture to handle complex farm management
+            software requirements.
+          </CVListItem>
+          <CVListItem>
+            Designed the software team's structure and contributed to overall company business planning, departmental
+            budgeting, and hiring policies.
+          </CVListItem>
+          <CVListItem>
+            Aided the product management team in defining product requirements and setting early-stage boundaries for both
+            hardware and software.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem end="Jul 2019" icon="sensyne.png" start="Jul 2018" title="Head of Software Engineering, Sensyne Health">
-          <CVText>
-            Sensyne Health is a health tech business that provides digital health apps to the NHS in support of specific
-            clinical conditions. Whilst helping individuals get better healthcare, we were ethically sourcing data across a
-            patient population which we then analysed to improve patient population care and support new drug discovery in the
-            pharmaceutical industry.
-          </CVText>
-          <CVText>
-            My role as Head of Software Engineering was to manage a team of 20+ engineers, testers, DevOps engineers and
-            product owners in delivery of the digital health applications. As well as owning the architecture and development
-            process, I coded solutions and was heavily involved in the tooling, integration and deployment mechanisms for the
-            team. I also worked with my data engineering and systems medicine peers to ensure a smooth flow of data and
-            requirements throughout the business model.
-          </CVText>
+          <CVListItem>
+            Led and managed a team of 20+ software engineers, testers, DevOps engineers, and product owners in the delivery of
+            digital health applications for the NHS.
+          </CVListItem>
+          <CVListItem>
+            Oversaw the entire software development lifecycle, from architecture and tooling to integration and deployment.
+          </CVListItem>
+          <CVListItem>
+            Streamlined data and requirements flow by collaborating with data engineering and systems medicine teams to support
+            patient population analysis and drug discovery.
+          </CVListItem>
+          <CVListItem>
+            Contributed hands-on coding to projects while maintaining a focus on improving team processes and quality.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem end="Mar 2018" icon="tr.png" start="Oct 2017" title="Chief Instructor, Team Rubicon UK">
-          <CVText>
-            Team Rubicon UK sends people to disaster zones shortly after the event in order to help people survive and
-            re-establish normal routines. In the aftermath of Hurricanes Irma and Maria, Team Rubicon UK sent over 100
-            volunteers to the Caribbean islands to help. My role was to plan and conduct both pre and post deployment training
-            packages to ensure volunteers were fully prepared. I was also responsible for updating and delivering an induction
-            training package to the 100s of new volunteers that joined after these disasters.
-          </CVText>
+          <CVListItem>
+            Led and planned pre- and post-deployment training for over 100 volunteers assisting in the wake of Hurricanes Irma
+            and Maria.
+          </CVListItem>
+          <CVListItem>
+            Developed and delivered induction training packages to hundreds of new volunteers, ensuring they were fully
+            prepared to respond to disaster zones.
+          </CVListItem>
+          <CVListItem>
+            Ensured volunteers were equipped with critical skills to aid in disaster survival and re-establishment of normal
+            routines.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem end="Jul 2018" icon="nfv.png" start="Sep 2016" title="Agile Coach/Engineer, Northface Ventures">
-          <CVText>
-            The Northface Ventures team were part of the crew who built and sold Workplace Systems after a three year journey
-            of transformation from stale software house to vibrant product-driven company. After that success we decided to
-            share what we had learned.
-          </CVText>
-          <CVText>
-            My role was the engine room consultant. Working with engineering departments to build high performing teams
-            delivering excellent product that satisfies market requirement. I assessed the engineering departments that I
-            worked with to determine where to invest effort for improvement and where to cut out wasteful practice. I delivered
-            coaching for engineers and engineering managers on agile concepts and implementation methodologies including Scrum
-            and Kanban. Helping to implement modern engineering practices streamlining end-to-end delivery and foster a
-            corporate culture of working together to deliver product.
-          </CVText>
+          <CVListItem>
+            Provided consultancy to engineering departments, transforming them into high-performing, product-driven teams.
+          </CVListItem>
+          <CVListItem>
+            Assessed workflows and processes to identify areas for improvement and eliminate wasteful practices.
+          </CVListItem>
+          <CVListItem>
+            Coached engineers and engineering managers on Agile concepts, including Scrum and Kanban methodologies.
+          </CVListItem>
+          <CVListItem>
+            Implemented modern engineering practices and fostered a collaborative culture to streamline end-to-end product
+            delivery.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem
           end="Aug 2016"
@@ -334,25 +326,25 @@ import CVTimeline from '@/components/CVTimeline.vue'
           start="Apr 2014"
           title="Prod Development Manager, Workplace Systems"
         >
-          <CVText>
-            I led a team of 30+ software and QA engineers to deliver the flagship enterprise level application from Workplace
-            Systems. This role coincided with a period of rapid growth after having repositioned ourselves in the market.
-            Having started to implement Scrum in my previous role in the company, this role required that we scale that scrum
-            effort, ultimately creating 5 scrum teams. Further, with a focus on quality, I also implemented a Scrumban team
-            solely focused on customer tickets and performance. I also built on the kernel of a DevOps team to integrate
-            infrastructure and engineering much more closely and adding more and more automation into build and deployment.
-            Architecturally we moved the product to PHP5.6 (no easy feat) backed with a MySql move from 5.0 to 5.6. This
-            allowed the scrum teams to set higher standards for code review and accelerated the refactor programme.
-          </CVText>
-          <CVText>
-            During this time I also worked with the wider business to help the professional services department to convert to
-            using agile project management. I also spent 2 months in Sydney working with our Australian office, primarily to
-            integrate an engineering team based there in to our global team, but also working with business management, sales
-            and services teams to foster our core culture and embrace Agile thinking. In the later months of this role, as the
-            company was being sold to a US firm, I spent several weeks in Detroit sharing best practice and standards from the
-            UK engineering team with a larger US team - ensuring common procedures and methodologies and helping them develop
-            their nascent adoption of Scrum.
-          </CVText>
+          <CVListItem>
+            Led and managed a team of 30+ software and QA engineers to deliver the flagship enterprise application.
+          </CVListItem>
+          <CVListItem>
+            Scaled Agile practices across the department, creating five Scrum teams and implementing a dedicated Scrumban team
+            for customer support and performance.
+          </CVListItem>
+          <CVListItem>
+            Initiated and grew a DevOps team, integrating infrastructure with engineering and automating build and deployment
+            processes.
+          </CVListItem>
+          <CVListItem>
+            Architecturally led the upgrade of the product to PHP 7.0 and MySQL 5.6, enabling higher coding standards and
+            accelerating refactoring efforts and improving overall performance.
+          </CVListItem>
+          <CVListItem>
+            Collaborated with international teams in Sydney and Detroit to standardize practices, foster a shared culture, and
+            assist in the adoption of Scrum.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem
           end="Apr 2014"
@@ -360,69 +352,85 @@ import CVTimeline from '@/components/CVTimeline.vue'
           start="Mar 2013"
           title="Software Delivery Manager, Workplace Systems"
         >
-          <CVText>
-            I was the scrum master for 2 scrum teams while we worked out how to do scrum. Due to a change of senior management,
-            this was a time of turnaround and transformation at Workplace Systems; we moved from being a services company with
-            a software offering to being product led. With that high level of change across all business functions, talent
-            management was of the first importance - keeping the talent we had and attracting fresh thinkers. In addition to
-            delivering user stories and being the sole deployment engineer, I set up a recruitment programme and trained new
-            managers to share the load. I also started converting the deployment process from a largely manual process to a
-            scripted process that ultimately went on to be a Jenkins job - this was the start of DevOps in the company. As a
-            software delivery manager, my main focus for the product was to get us in to a position to upgrade to PHP5.3
-            (that's not a typo) and to bring an experimental Zend-based mobile offering to fruition.
-          </CVText>
-          <CVText>
-            The change of senior management was far from seamless, in fact all the C-Grades were let go in a single hit. Whilst
-            the board chair stepped into the position of CEO, we were with out a CTO for 3 months. Being the senior tech
-            leader, it fell to me to work with the new CEO to reassure our client base and our own employees; keeping the ship
-            moving. I assisted with the appointment of our new CTO and helped with his initial integration with the team and
-            business.
-          </CVText>
+          <CVListItem>
+            Led two Scrum teams as Scrum Master during a company-wide transformation from a services to a product-led
+            organization.
+          </CVListItem>
+          <CVListItem>
+            Developed and led a recruitment program to attract new talent and address a significant talent drain.
+          </CVListItem>
+          <CVListItem>
+            Spearheaded the company’s first DevOps initiative by converting manual deployment processes into scripted,
+            automated procedures.
+          </CVListItem>
+          <CVListItem>
+            Led the product's major upgrade to PHP 5.3 and brought a new Zend-based mobile offering to fruition.
+          </CVListItem>
+          <CVListItem>
+            Acted as the senior tech leader during a 3-month CTO vacancy, ensuring business continuity and assisting the CEO
+            with client and employee reassurance.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem end="Mar 2013" icon="workplace.png" start="Sep 2011" title="PHP Software Engineer, Workplace Systems">
-          <CVText>
-            As a PHP engineer my role was to enhance and maintain a procedural code base with a mix of PHP4 and PHP5 standards
-            and over 500k lines in over 100k files. In addition to squashing bugs and delivering features, I spent a lot of
-            time refactoring code to simplify it and make it ready for further refactor to OO at a later date. I also started
-            to gather knowledge of our deployment processes from several remote workers (including in Australia) and
-            consolidating our version control and ticketing systems.
-          </CVText>
-        </CVHistoryItem>
-        <CVHistoryItem end="Oct 2011" icon="tv.png" start="Mar 2008" title="Assistant Producer/Location Mgr, Film and TV">
-          <CVText>
-            I worked mostly in documentary making and comedy shows. The short contract nature of the work, meant building teams
-            very quickly to be able to deliver high quality from day 1. I worked for many production companies including Tiger
-            Aspect and TwoFour. These roles were a great shake out after the military and allowed me to see the world from many
-            different perspectives.
-          </CVText>
+          <CVListItem>
+            Maintained and enhanced a large, procedural codebase of over 500k lines of PHP and 100k files.
+          </CVListItem>
+          <CVListItem>
+            Reduced technical debt by refactoring code to simplify its structure and prepare it for later object-oriented
+            conversion.
+          </CVListItem>
+          <CVListItem>
+            Consolidated version control and ticketing systems and standardized deployment processes across distributed teams.
+          </CVListItem>
         </CVHistoryItem>
         <CVHistoryItem end="Sep 2011" icon="php.png" start="Mar 2008" title="Self Employed Web Developer">
-          <CVText>
-            Taking small contracts between working in the TV industry I built simple browser apps from scratch and
-            enhanced/fixed complex and well established brand websites. This included work for Oxford Outcomes on academically
-            rigorous survey applications and website work for smartlogic.com, shirtworks.co.uk and anchorvans.co.uk.
-          </CVText>
+          <CVListItem>
+            Developed custom browser applications and maintained/enhanced complex brand websites for a range of clients,
+            including Oxford Outcomes, smartlogic.com, and shirtworks.co.uk.
+          </CVListItem>
+          <CVListItem>
+            Delivered front-end and back-end solutions, from greenfield projects to the maintenance of established systems.
+          </CVListItem>
+          <CVListItem>
+            Gained experience in client management, requirements gathering, and delivering solutions under contract-based
+            deadlines.
+          </CVListItem>
         </CVHistoryItem>
-        <CVHistoryItem end="Mar 2008" icon="army.png" start="Aug 1998" title="British Army Officer">
-          <CVText>
-            Royal Signals Officers are the army's technical leaders, both commanding highly capable technical soldiers and
-            shaping technology policy and procurement. Throughout my career as a Royal Signals Officer I completed duties in
-            both sides of the role.
-          </CVText>
-          <CVText>
-            In command, I presided over units of up to 200 soldiers providing telephony and office services in the field and in
-            barracks. I was a recruit training instructor for technical apprentices. I was deployed to various locations
-            worldwide including an exchange to the New Zealand Army.
-          </CVText>
-          <CVText>
-            In a technical capacity I procured urgently needed operational equipment for troops in Bosnia, Kosovo, Iraq and
-            Afghanistan. I managed a global reach-back communications network connecting UK military HQs with governmental
-            command and other NATO allies. I was appointed as the Army's competent authority on Electronic Warfare, supervising
-            all Army projects, research and development and supporting our industry partners.
-          </CVText>
-          <CVText>
-            In this role I held Developed Vetting (DV) security clearance, although this has now lapsed.
-          </CVText>
+        <CVHistoryItem
+          end="Oct 2011"
+          icon="tv.png"
+          start="Mar 2008"
+          title="Freelance Assistant Producer/Location Mgr, Film and TV"
+        >
+          <CVListItem>
+            Employed in documentary and comedy productions, including for companies like Tiger Aspect and TwoFour.
+          </CVListItem>
+          <CVListItem>
+            Cultivated the ability to rapidly build and manage high-performing teams to ensure high-quality delivery from
+            project inception.
+          </CVListItem>
+          <CVListItem>
+            Experienced fast-paced, contract-based environment, with a strong focus on immediate results and tight deadlines.
+          </CVListItem>
+        </CVHistoryItem>
+        <CVHistoryItem end="Mar 2008" icon="army.png" start="Aug 1998" title="British Army Officer, Royal Signals">
+          <CVListItem title="Command & Leadership">
+            Commanded units of up to 200 soldiers, providing critical communications and IT services in various global
+            locations.
+          </CVListItem>
+          <CVListItem title="Training & Development">
+            Served as a recruit training instructor for technical apprentices, mentoring personnel and developing technical
+            skills.
+          </CVListItem>
+          <CVListItem title="Technical & Procurement">
+            Managed a global communications network and procured urgently needed operational equipment for deployments in
+            Bosnia, Kosovo, Iraq, and Afghanistan.
+          </CVListItem>
+          <CVListItem title="Specialized Expertise">
+            Appointed as the Army's competent authority for Electronic Warfare, overseeing all projects, research, and industry
+            partnerships.
+          </CVListItem>
+          <CVListItem title="Security Clearance"> Held Developed Vetting (DV) security clearance (now lapsed). </CVListItem>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
@@ -460,35 +468,25 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVSection>
         <CVHistoryItem end="Present" icon="react-logo.png" start="Apr 2020" title="REACT Disaster Response">
           <CVText>
-            REACT started as an operation of Team Rubicon UK in response to the COVID-19 pandemic. It has since become is own
-            organisation focusing on domestic and international response, but also delving in to international development in
-            the areas of preparedness and water safety.
-          </CVText>
-          <CVText>
-            During the pandemic I was responsible for establishing and managing the National Volunteer Coordination Centre on
-            behalf of the Department for Culture Media and Sport. We kept a register of all significant volunteer organisations
-            and materiel donations and ensured that they were directed to the Local Council Disaster Manager in most need. I
-            also supervised the response teams that were running the UK's temporary mortuary system and the admin teams setting
-            up the back offices for the Nightingale Hospitals.
-          </CVText>
-          <CVText>
-            After the initial response was over I took part in 3 COVID-19 surge testing operations. Delivering door to door PCR
-            testing kits in vulnerable neighbourhoods in Birmingham, High Wycombe and Solihull.
+            As a volunteer with REACT Disaster Response since April 2020, I have played a key role in both domestic and
+            international operations. During the initial COVID-19 pandemic response, I was responsible for establishing and
+            managing the National Volunteer Coordination Centre. In this role, I oversaw the registry of all major volunteer
+            organizations and material donations, ensuring they were directed to local council disaster managers where they
+            were most needed. I also supervised response teams that operated the UK's temporary mortuary system and established
+            back offices for the Nightingale Hospitals. After the initial crisis, I participated in three COVID-19 surge
+            testing operations, delivering door-to-door PCR kits in vulnerable neighborhoods across the West Midlands.
           </CVText>
         </CVHistoryItem>
         <CVHistoryItem end="Jun 2020" icon="tr.png" start="Apr 2014" title="Team Rubicon UK">
           <CVText>
-            Team Rubicon UK was an international disaster response organisation that united the skills and experiences of
-            military veterans with first responders to deploy emergency response teams in the UK and around the world. As a
-            volunteer responder I was able to bring my full range of skills and experience to help people in the aftermath of a
-            disaster.
+            As a volunteer responder for Team Rubicon UK from April 2014 to June 2020, I leveraged my full range of skills and
+            experience to assist communities in the aftermath of disasters. My work encompassed both on-the-ground deployments
+            and remote operational management. I deployed to the Philippines in response to an earthquake, where I led efforts
+            to rebuild schools and medical facilities for impoverished communities in Cebu City. Later, from our UK-based HQ, I
+            managed and supervised response operations following Hurricanes Irma and Maria, coordinating teams in the British
+            Virgin Islands, Barbados, and Turks and Caicos. My experience extended to overseeing operations in Sri Lanka after
+            Cyclone Mora.
           </CVText>
-          <CVText>
-            I deployed to the Philippines in response to a minor earthquake and rebuilt school and medical facilities serving
-            the poorest communities in Cebu City. I ran the UK based HQ supervising response operations in: the British Virgin
-            Islands, Barbados and Turks and Caicos after Hurricanes Irma and Maria; and Sri Lanka after Cyclone Mora.
-          </CVText>
-          <CVText> Team Rubicon UK was a franchise of Team Rubicon USA, that franchise ended in June 2020.</CVText>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
@@ -496,65 +494,48 @@ import CVTimeline from '@/components/CVTimeline.vue'
       <CVGridWrapper :columns="4">
         <CVHobby picture_bottom="pct.png" picture_top="adventuring.jpg" title="Adventuring">
           <CVText>
-            I love adventuring; and I love it when that adventure is outdoors and full of discovery and beauty.
+            My passion for adventure and the outdoors has led me to tackle some of the world's most challenging long-distance
+            hiking trails. I've completed approximately 1,400 miles of the Pacific Crest Trail in the United States, from the
+            Mexican border through California and Oregon, and 600 miles of the Te Araroa trail in New Zealand.
           </CVText>
           <CVText>
-            I have sought adventure in many forms, most recently in long distance hiking. In the summer of 2022, I completed
-            ~1400 miles of the
-            <a href="https://www.pcta.org/">Pacific Crest Trail</a>. Setting off from the Mexican border I hiked north through
-            California and Oregon (skipping some bits that were on fire) and finished on the southern Washington State border.
-            It was amazing and if you have a spare couple of hours, ask me about it.
-          </CVText>
-          <CVText>
-            In winter of 2024 I covered ~600 miles of the <a href="https://www.teararoa.org.nz/">Te Araroa</a> trail in New
-            Zealand. Starting in the middle of North Island heading south, crossing the Cook Strait and finishing near Nelson.
-            This was a significantly different adventure, that included some canoeing and lots of hitch-hiking.
+            These journeys, filled with discovery and adaptation, have further sharpened my resilience and problem-solving
+            skills. My ability to thrive in complex and dynamic situations, navigating both planned and unforeseen challenges,
+            is directly transferable to a professional environment.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="board.jpg" picture_top="computer.webp" title="Gaming">
           <CVText>
-            Play is fundamental to how we learn and how we form meaningful relationships with people. It keeps my mind active
-            and challenged; helping to be flexible to changing rule-sets and environments.
+            I am an avid gamer, drawn to the strategic and problem-solving aspects of both tabletop and online cooperative
+            gameplay. This hobby hones my ability to think flexibly and adapt to new rules and environments, while reinforcing
+            the importance of collaboration and a shared purpose.
           </CVText>
           <CVText>
-            My favourite style is cooperative gameplay, be that online or on a tabletop. I like to puzzle things out together,
-            whether that is joining up to tackle the cryptic crossword or building new worlds together in factory simulators.
-          </CVText>
-          <CVText>
-            A bit of healthy competition can also be good for the soul, and can help an established team to let off some steam
-            and build those bragging rights rivalries. The shared experiences can build trust and camaraderie that can elevate
-            colleagues to friends.
+            I also appreciate how a bit of friendly competition can build camaraderie and strengthen team bonds. This interest
+            in shared experiences and trust-building is something I value both in my personal life and in a professional
+            setting, where it can help elevate colleagues to friends and create a more cohesive and productive team.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="observatory.jpg" picture_top="astronomy.jpg" title="Astronomy">
           <CVText>
-            Ever since seeing Halley's Comet as a nine year old child, I have had a fascination with the cosmos. It is the
-            planets that really get me fired up, there are few things more majestic than directly observing the bands of
-            Jupiter or the rings of Saturn. Luna observing is also breathtaking with the detail of its craters and mountains
-            scintillating on the terminator.
+            My fascination with the cosmos began as a child and has continued throughout my life. I have a keen interest in
+            planetary and lunar observation both with the naked eye and with my 8" Newtonian Reflector. I particularly love the
+            majestic bands and moons of Jupiter and the stunning detail of the lunar surface.
           </CVText>
           <CVText>
-            While mostly I am a naked eye observer with Google Star-map in hand, I also own an 8" Newtonian Reflector, but do
-            not get it out as much as I want to.
-          </CVText>
-          <CVText>
-            In later life I have been drawn to visiting observatories world wide including Mauna Kea, Griffiths, Sydney,
-            Reykjavik, Edinburgh and my favourite the UK's own Kielder Observatory.
+            This hobby, which has also led me to visit observatories worldwide, including Mauna Kea, Griffiths, Sydney,
+            Reykjavik, Edinburgh and my favourite the UK's own Kielder Observatory, cultivates my natural curiosity and
+            attention to detail.
           </CVText>
         </CVHobby>
         <CVHobby picture_bottom="cooking.jpg" picture_top="baking.jpg" title="Cooking">
           <CVText>I love to cook, but mostly I love to eat!</CVText>
           <CVText>
-            Inspired by the simplicity of Mediterranean cooking and the complexity of Japanese, and many other styles in
-            between; I find deep satisfaction in preparing and sharing meals. We make our own sausages, cure our own bacon and
-            smoke our own salmon.
-          </CVText>
-          <CVText>
-            Food is such a key part of life that getting it right is important. Trying new flavours or honing classic ones;
-            selecting and preparing recipes that are tailored to guests needs and wants; using prime ingredients - all parts of
-            the joy.
-          </CVText>
-          <CVText> And if you have done it well, then the eating is excellent.</CVText>
+            I'm an enthusiastic cook, inspired by bold flavours and the beautiful aromas of herbs and spices. I find deep
+            satisfaction in preparing and sharing meals with others, it brings the process to life creating connections and
+            forging bonds. Making my own sausages, curing bacon, and smoking salmon, requires attention to
+            detail, and discipline to produce a high-quality results.
+          </CVText >
         </CVHobby>
       </CVGridWrapper>
     </CVItem>

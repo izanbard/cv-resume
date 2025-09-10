@@ -3,27 +3,27 @@ import { onMounted } from 'vue'
 import CVResume from '@/views/CVResume.vue'
 
 const icon_list: string[] = [
-    'article',
-    'call',
-    'data_object',
-    'file_save',
-    'history',
-    'info',
-    'link',
-    'location_city',
-    'mail',
-    'mindfulness',
-    'person',
-    'person_celebrate',
-    'school',
-    'sports',
-    'stadia_controller',
-    'volunteer_activism',
-  ]
+  'article',
+  'call',
+  'data_object',
+  'file_save',
+  'history',
+  'info',
+  'link',
+  'location_city',
+  'mail',
+  'mindfulness',
+  'person',
+  'person_celebrate',
+  'school',
+  'sports',
+  'stadia_controller',
+  'volunteer_activism',
+]
 
-const title: string = "Gordon Peter Wills - CV/Resume prepared on 23 June 2025"
+const title: string = 'Gordon Peter Wills - CV/Resume prepared on 23 June 2025'
 
-const keyword: string = "easter"
+const keyword: string = 'easter'
 
 onMounted(() => {
   let key_history: string = ''
@@ -35,8 +35,8 @@ onMounted(() => {
     } else {
       document.body.classList.remove('easter')
     }
-    if (key_history.length > keyword.length+1) {
-      key_history = key_history.slice(-(keyword.length+1))
+    if (key_history.length > keyword.length + 1) {
+      key_history = key_history.slice(-(keyword.length + 1))
     }
   })
 
