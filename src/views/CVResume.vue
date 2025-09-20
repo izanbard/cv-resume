@@ -533,9 +533,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
           <CVText>
             I'm an enthusiastic cook, inspired by bold flavours and the beautiful aromas of herbs and spices. I find deep
             satisfaction in preparing and sharing meals with others, it brings the process to life creating connections and
-            forging bonds. Making my own sausages, curing bacon, and smoking salmon, requires attention to
-            detail, and discipline to produce a high-quality results.
-          </CVText >
+            forging bonds. Making my own sausages, curing bacon, and smoking salmon, requires attention to detail, and
+            discipline to produce a high-quality results.
+          </CVText>
         </CVHobby>
       </CVGridWrapper>
     </CVItem>
@@ -551,7 +551,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </template>
       </CVReferee>
       <CVReferee name="Dr Vinca Russell" picture="vinca.jpeg">
-        <template #context> Product Manager and peer at Intelligent Growth Solutions</template>
+        <template #context>Product Manager and peer at Intelligent Growth Solutions</template>
         <template #description>
           Vinca is an innovative and highly competent product manager with a background in science, mathematical modelling, and
           the maritime industry. Happiest when challenged by work, she loves to find out what makes people tick to get the most
@@ -559,10 +559,19 @@ import CVTimeline from '@/components/CVTimeline.vue'
         </template>
       </CVReferee>
       <CVReferee name="Greg Stevens" picture="greg.jpeg">
-        <template #context> Architect and peer at Intelligent Growth Solutions</template>
+        <template #context>Architect and peer at Intelligent Growth Solutions</template>
         <template #description>
           Greg has been a software engineer for 14 years, creating solutions in medtech and agritech. He is passionate about
           leading teams that deliver systems that work even when other things are failing.
+        </template>
+      </CVReferee>
+      <CVReferee name="Dr Steven Hamblin PhD" picture="steven.jpeg">
+        <template #context>Friend and CTO at Sensyne Health</template>
+        <template #description>
+          Steven is an entrepreneur and C-suite executive that brings to bear his high expertise in Artificial Intelligence and
+          Machine Learning to run, supervise and invest in HealthTech startups and SMEs. His focus is on improved outcomes in
+          clinical settings by de-burdening medics and informing patients using fast and accurate AI to automate analysis and
+          reporting.
         </template>
       </CVReferee>
     </CVItem>
