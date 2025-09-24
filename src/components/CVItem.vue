@@ -24,7 +24,7 @@ const state: Ref<string, string> = ref('not-expanded')
 const content_div: Readonly<ShallowRef<HTMLElement | null>> = useTemplateRef('content')
 
 onMounted(() => {
-  if (props.expanded) {
+  if (props.expanded || location.hash.toLowerCase() === '#' + props.title.toLowerCase().replace(' ', '_')) {
     expander()
   }
   addEventListener('expand', () => {
