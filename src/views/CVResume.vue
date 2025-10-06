@@ -214,6 +214,9 @@ import CVTimeline from '@/components/CVTimeline.vue'
         <CVTimeline />
       </CVSection>
       <CVSection size="large" title="Details">
+        <CVHistoryItem title="Te Araroa Trail" end="Mar 2025" icon="ta.webp" start="Dec 2024">
+          <CVText> Career break hiking the Tea Araroa Trail.</CVText>
+        </CVHistoryItem>
         <CVHistoryItem :expanded="true" end="Dec 2024" icon="igs.png" start="Nov 2022" title="Head of Integration, IGS Ltd">
           <CVText>
             IGS Ltd is a supplier of fully automated indoor farming equipment for food production at industrial scale.
@@ -235,7 +238,10 @@ import CVTimeline from '@/components/CVTimeline.vue'
             teams.
           </CVListItem>
         </CVHistoryItem>
-        <CVHistoryItem :expanded="true" end="Nov 2022" icon="igs.png" start="Oct 2019" title="Head of Software, IGS Ltd">
+        <CVHistoryItem title="Pacific Crest Trail" end="Oct 2022" icon="pct.png" start="Apr 2022">
+          <CVText> 6-Month sabbatical to hike the Pacific Crest Trail.</CVText>
+        </CVHistoryItem>
+        <CVHistoryItem :expanded="true" end="Apr 2022" icon="igs.png" start="Oct 2019" title="Head of Software, IGS Ltd">
           <CVListItem>
             Grew the software engineering team from 12 to over 40 during the challenging 2020-2022 lockdown period.
           </CVListItem>
@@ -430,7 +436,7 @@ import CVTimeline from '@/components/CVTimeline.vue'
             Appointed as the Army's competent authority for Electronic Warfare, overseeing all projects, research, and industry
             partnerships.
           </CVListItem>
-          <CVListItem title="Security Clearance"> Held Developed Vetting (DV) security clearance (now lapsed). </CVListItem>
+          <CVListItem title="Security Clearance"> Held Developed Vetting (DV) security clearance (now lapsed).</CVListItem>
         </CVHistoryItem>
       </CVSection>
     </CVItem>
